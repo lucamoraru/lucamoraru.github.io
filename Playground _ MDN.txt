@@ -1,0 +1,1874 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://developer.mozilla.org/en-US/play
+Subject: Playground | MDN
+Date: Tue, 4 Nov 2025 11:20:09 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----"
+
+
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/html
+Content-ID: <frame-83569F8FADF5E3D4964BA5C485F7BA28@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/en-US/play
+
+<!DOCTYPE html><html lang="en-US" data-theme="light dark" data-renderer="SpaPlay"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+          
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Playground | MDN</title>
+          
+          
+          <link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-global.7d58ee2ce6a1b83a.css" fetchpriority="high"><link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-playground.1f1ef7cbe95b622b.css" fetchpriority="high"><link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-page-layout.e9b295138adbd4bc.css" fetchpriority="high"><link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-a11y-menu.5796ee87cb69f93f.css" fetchpriority="high"><link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-navigation.013b4a4ed330892a.css" fetchpriority="high"><link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-logo.aea5ff6edf1b9cfb.css" fetchpriority="high"><link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-menu.c41c14be9597dcd9.css" fetchpriority="high"><link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-breadcrumbs-bar.02910e49bb8b2372.css" fetchpriority="high"><link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-breadcrumbs.d06ce8d09f42feb8.css" fetchpriority="high"><link rel="stylesheet" href="https://developer.mozilla.org/static/client/styles-footer.a2850e459e2d290b.css" fetchpriority="high">
+          <link rel="preload" href="https://developer.mozilla.org/static/client/jetbrains-mono-latin.119994ed445212c7.woff2" as="font" type="font/woff2" crossorigin="anonymous" fetchpriority="low"><link rel="preload" href="https://developer.mozilla.org/static/client/inter-latin.9a3b1bc220d426ef.woff2" as="font" type="font/woff2" crossorigin="anonymous" fetchpriority="low">
+          
+          
+    <link rel="icon" sizes="32x32" href="https://developer.mozilla.org/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://developer.mozilla.org/favicon.svg">
+   <meta name="description" content="The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."><meta name="og:url" content="https://developer.mozilla.org/en-US/play"><meta name="og:title" content="Playground | MDN"><meta name="og:locale" content="en_US"><meta name="og:description" content="The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."><meta name="og:image" content="https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png"><meta name="og:image:type" content="image/png"><meta name="og:image:height" content="1080"><meta name="og:image:width" content="1920"><meta name="og:image:alt" content="The MDN Web Docs logo, featuring a blue accent color, displayed on a solid black background."><meta name="og:site_name" content="MDN Web Docs"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:creator" content="MozDevNet">
+          <link rel="canonical" href="https://developer.mozilla.org/en-US/play">
+          <link rel="apple-touch-icon" href="https://developer.mozilla.org/apple-touch-icon.png">
+          <link rel="manifest" href="https://developer.mozilla.org/manifest.json">
+          <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/opensearch.xml" title="MDN Web Docs">
+          <link rel="alternate" type="application/rss+xml" title="MDN Blog RSS Feed" href="https://developer.mozilla.org/en-US/blog/rss.xml">
+        </head>
+        
+      <body class="page-layout">
+        <ul class="a11y-menu">
+      <li><a href="https://developer.mozilla.org/en-US/play#content">Skip to main content</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/play#search">Skip to search</a></li>
+    </ul>
+        <div class="page-layout__banner" data-scheme="">
+          <mdn-placement-top><template shadowmode="open"><!---->
+      <div class="fallback">
+        <p class="fallback__copy">
+          Learn front-end development with high quality, interactive courses
+          from
+          <a href="https://scrimba.com/learn/frontend?via=mdn" target="_blank" rel="noreferrer" data-glean-id="banner_scrimba_click">
+            Scrimba
+          </a>
+        </p>
+      </div>
+    </template></mdn-placement-top>
+        </div>
+        <header class="page-layout__header">
+          
+      <nav class="navigation" data-scheme="" data-open="false">
+        <div class="navigation__logo">
+      <a href="https://developer.mozilla.org/en-US/" class="logo">
+        <svg class="logo__image" width="83" height="24" viewBox="0 0 83 24" role="img">
+          <title>MDN</title>
+          <path class="logo__letter" d="M9.4 0 2.81 21.17H.12L6.69 0H9.4Zm2.38 0v21.17H9.4V0h2.4Zm9.27 0-6.56 21.17H11.8L18.36 0h2.69Zm2.39 0v21.17h-2.4V0h2.4Z"></path>
+          <path class="logo__text" d="M45.55 16.83h-3.93v-1.27h.87v-3.63c0-.85-.16-1.45-.48-1.82a1.65 1.65 0 0 0-1.3-.52c-.74 0-1.3.25-1.66.78a2.98 2.98 0 0 0-.58 1.58v3.59h1.38v1.26h-3.93v-1.26h.87v-3.6c0-.88-.16-1.48-.48-1.83a1.7 1.7 0 0 0-1.29-.52 1.93 1.93 0 0 0-1.65.75 2.85 2.85 0 0 0-.58 1.6v3.62h1.59v1.27h-4.64v-1.27h1.37V9.75h-1.4V8.46h3.08v1.47c.28-.48.62-.87 1.08-1.2a3 3 0 0 1 1.68-.45c.67 0 1.22.16 1.73.48.5.32.85.8 1.03 1.47.25-.57.62-1.03 1.13-1.4.5-.37 1.1-.55 1.81-.55.8 0 1.5.25 2.05.75.55.51.85 1.3.85 2.35v4.18h1.4v1.27Zm9.77 0H52.3v-1.66c-.27.51-.66.95-1.13 1.29-.56.4-1.23.59-1.9.55-1.11 0-2-.37-2.67-1.12a4.41 4.41 0 0 1-1-3.06c0-1.15.3-2.2.93-3.15.6-.94 1.58-1.43 2.94-1.43 1.36 0 2.25.5 2.83 1.5V5.22h-2V3.93h3.63v11.63h1.38v1.27Zm-3.06-3.86v-1.02a2.28 2.28 0 0 0-.73-1.67 2.4 2.4 0 0 0-1.66-.65 2.18 2.18 0 0 0-1.88.9 3.63 3.63 0 0 0-.65 2.2c0 .95.23 1.68.7 2.19.45.5 1.03.76 1.7.76.73 0 1.33-.3 1.79-.88.48-.6.71-1.21.73-1.83Zm14.14 3.86h-4.43v-1.27h1.37v-3.63c0-.85-.16-1.45-.5-1.82a1.68 1.68 0 0 0-1.31-.52c-.71 0-1.29.23-1.7.69a2.52 2.52 0 0 0-.67 1.6v3.66h1.38v1.26H56.1v-1.26h1.38v-5.8h-1.42V8.47h3.12V9.9c.6-1.06 1.57-1.6 2.92-1.6.83 0 1.54.26 2.12.77.57.5.85 1.28.85 2.34v4.19h1.38v1.24h-.05Z"></path>
+          <path class="logo__cursor" d="M67.71 21.98H83V24H67.71v-2.02Z"></path>
+        </svg>
+      </a>
+    </div>
+        <div class="navigation__search" data-view="mobile">
+          <mdn-search-button><template shadowmode="open"><!--lit-part PwhADO+m7/M=--><!--lit-node 0--><button class="mdn-search-button" title="Search the site" data-glean-id="quick-search-open: menu">
+      <!--lit-part ijtgkDNyZhc=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg><!--/lit-part-->
+    </button><!--/lit-part--></template></mdn-search-button>
+        </div>
+        <button class="navigation__button" type="button" aria-expanded="false" aria-controls="navigation__popup" aria-label="Toggle navigation"></button>
+        <div class="navigation__popup" id="navigation__popup">
+          <div class="navigation__menu">
+      <nav class="menu">
+        <div class="menu__tab" data-section="html">
+            <mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+                  <button class="menu__tab-button" type="button" slot="button" aria-expanded="false" aria-controls="uid_yl2d45xsie">
+                    <span class="menu__tab-label">HTML</span>
+                  </button>
+                  <div class="menu__panel" slot="dropdown" id="uid_yl2d45xsie">
+                    <p class="menu__panel-title">
+                      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" data-glean-id="menu_click_menu: html -&gt; /en-US/docs/Web/HTML">HTML: Markup language</a>
+                    </p>
+                    <div class="menu__panel-content">
+                      <dl>
+                              <dt>HTML reference</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Reference/Elements">Elements</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Reference/Global_attributes">Global attributes</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Reference/Attributes">Attributes</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference" aria-label="See all HTML references" title="See all HTML references" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Reference">See allâ€¦</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>HTML guides</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Guides/Responsive_images">Responsive images</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Guides/Cheatsheet">HTML cheatsheet</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Guides/Date_and_time_formats">Date &amp; time formats</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Guides" aria-label="See all HTML guides" title="See all HTML guides" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Guides">See allâ€¦</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>Markup languages</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/SVG" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/SVG">SVG</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/MathML" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/MathML">MathML</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/XML" data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/XML">XML</a>
+                              </li>
+                        </ul></dd>
+                            </dl>
+                    </div>
+                  </div>
+                </mdn-dropdown>
+          </div><div class="menu__tab" data-section="css">
+            <mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+                  <button class="menu__tab-button" type="button" slot="button" aria-expanded="false" aria-controls="uid_soyik8haoro">
+                    <span class="menu__tab-label">CSS</span>
+                  </button>
+                  <div class="menu__panel" slot="dropdown" id="uid_soyik8haoro">
+                    <p class="menu__panel-title">
+                      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" data-glean-id="menu_click_menu: css -&gt; /en-US/docs/Web/CSS">CSS: Styling language</a>
+                    </p>
+                    <div class="menu__panel-content">
+                      <dl>
+                              <dt>CSS reference</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Properties" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Properties">Properties</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/CSS_selectors">Selectors</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_syntax/At-rule" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/CSS_syntax/At-rule">At-rules</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_values_and_units" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/CSS_values_and_units">Values &amp; units</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" aria-label="See all CSS references" title="See all CSS references" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Reference">See allâ€¦</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>CSS guides</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model">Box model</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations">Animations</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox">Flexbox</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/CSS_colors">Colors</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides" aria-label="See all CSS guides" title="See all CSS guides" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Guides">See allâ€¦</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>Layout cookbook</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts">Column layouts</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element">Centering an element</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/How_to/Layout_cookbook/Card">Card component</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook" data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/How_to/Layout_cookbook">See allâ€¦</a>
+                              </li>
+                        </ul></dd>
+                            </dl>
+                    </div>
+                  </div>
+                </mdn-dropdown>
+          </div><div class="menu__tab" data-section="javascript">
+            <mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+                  <button class="menu__tab-button" type="button" slot="button" aria-expanded="false" aria-controls="uid_fzzult94bm">
+                    <span class="menu__tab-label" data-type="long">JavaScript</span><span class="menu__tab-label" data-type="short">JS</span>
+                  </button>
+                  <div class="menu__panel" slot="dropdown" id="uid_fzzult94bm">
+                    <p class="menu__panel-title">
+                      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" data-glean-id="menu_click_menu: javascript -&gt; /en-US/docs/Web/JavaScript">JavaScript: Scripting language</a>
+                    </p>
+                    <div class="menu__panel-content">
+                      <dl>
+                              <dt>JS reference</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Reference/Global_Objects">Standard built-in objects</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Reference/Operators">Expressions &amp; operators</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Reference/Statements">Statements &amp; declarations</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Reference/Functions">Functions</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" aria-label="See all JavaScript references" title="See all JavaScript references" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Reference">See allâ€¦</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>JS guides</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling">Control flow &amp; error handing</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">Loops and iteration</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Guide/Working_with_objects">Working with objects</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Guide/Using_classes">Using classes</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" aria-label="See all JavaScript guides" title="See all JavaScript guides" data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Guide">See allâ€¦</a>
+                              </li>
+                        </ul></dd>
+                            </dl>
+                    </div>
+                  </div>
+                </mdn-dropdown>
+          </div><div class="menu__tab" data-section="webapis">
+            <mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+                  <button class="menu__tab-button" type="button" slot="button" aria-expanded="false" aria-controls="uid_yj7u3pmst9">
+                    <span class="menu__tab-label">Web APIs</span>
+                  </button>
+                  <div class="menu__panel" slot="dropdown" id="uid_yj7u3pmst9">
+                    <p class="menu__panel-title">
+                      <a href="https://developer.mozilla.org/en-US/docs/Web/API" data-glean-id="menu_click_menu: webapis -&gt; /en-US/docs/Web/API">Web APIs: Programming interfaces</a>
+                    </p>
+                    <div class="menu__panel-content">
+                      <dl>
+                              <dt>Web API reference</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/File_System_API">File system API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Fetch_API">Fetch API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Geolocation_API">Geolocation API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/HTML_DOM_API">HTML DOM API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Push_API">Push API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Service_Worker_API">Service worker API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API" aria-label="See all Web API guides" title="See all Web API guides" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API">See allâ€¦</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>Web API guides</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API">Using the Web animation API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Fetch_API/Using_Fetch">Using the Fetch API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/History_API/Working_with_the_History_API">Working with the History API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Using the Web speech API</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers" data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using web workers</a>
+                              </li>
+                        </ul></dd>
+                            </dl>
+                    </div>
+                  </div>
+                </mdn-dropdown>
+          </div><div class="menu__tab" data-section="all">
+            <mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+                  <button class="menu__tab-button" type="button" slot="button" aria-expanded="false" aria-controls="uid_g61ikvxungi">
+                    <span class="menu__tab-label">All</span>
+                  </button>
+                  <div class="menu__panel" slot="dropdown" id="uid_g61ikvxungi">
+                    <p class="menu__panel-title">
+                      <a href="https://developer.mozilla.org/en-US/docs/Web" data-glean-id="menu_click_menu: all -&gt; /en-US/docs/Web">All web technology</a>
+                    </p>
+                    <div class="menu__panel-content">
+                      <dl>
+                              <dt>Technologies</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Accessibility">Accessibility</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/HTTP">HTTP</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/URI" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/URI">URI</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Mozilla/Add-ons/WebExtensions">Web extensions</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/WebAssembly" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/WebAssembly">WebAssembly</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/WebDriver" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/WebDriver">WebDriver</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web" aria-label="See all web technology references" title="See all web technology references" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web">See allâ€¦</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>Topics</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/Media" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Media">Media</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/API/Performance">Performance</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/Privacy" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Privacy">Privacy</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/Security" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Security">Security</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Progressive_web_apps">Progressive web apps</a>
+                              </li>
+                        </ul></dd>
+                            </dl>
+                    </div>
+                  </div>
+                </mdn-dropdown>
+          </div><div class="menu__tab" data-section="learn">
+            <mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+                  <button class="menu__tab-button" type="button" slot="button" aria-expanded="false" aria-controls="uid_xvpbro6l0o">
+                    <span class="menu__tab-label">Learn</span>
+                  </button>
+                  <div class="menu__panel" slot="dropdown" id="uid_xvpbro6l0o">
+                    <p class="menu__panel-title">
+                      <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" data-glean-id="menu_click_menu: learn -&gt; /en-US/docs/Learn_web_development">Learn web development</a>
+                    </p>
+                    <div class="menu__panel-content">
+                      <dl>
+                              <dt>Frontend developer course</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started" data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Getting_started">Getting started modules</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core" data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core">Core modules</a>
+                              </li><li>
+                                <a class="" href="https://developer.mozilla.org/en-US/curriculum/" data-glean-id="menu_click_submenu: learn -&gt; /en-US/curriculum/">MDN Curriculum</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>Learn HTML</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content" data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core/Structuring_content">Structuring content with HTML module</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>Learn CSS</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics" data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core/Styling_basics">CSS styling basics module</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout" data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core/CSS_layout">CSS layout module</a>
+                              </li>
+                        </ul></dd>
+                            </dl><dl>
+                              <dt>Learn JavaScript</dt>
+                              <dd><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting" data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core/Scripting">Dynamic scripting with JavaScript module</a>
+                              </li>
+                        </ul></dd>
+                            </dl>
+                    </div>
+                  </div>
+                </mdn-dropdown>
+          </div><div class="menu__tab" data-section="tools">
+            <mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+                  <button class="menu__tab-button" type="button" slot="button" aria-expanded="false" aria-controls="uid_enm0lvohtz8">
+                    <span class="menu__tab-label">Tools</span>
+                  </button>
+                  <div class="menu__panel" slot="dropdown" id="uid_enm0lvohtz8">
+                    <p class="menu__panel-title">
+                      Discover our tools
+                    </p>
+                    <div class="menu__panel-content">
+                      <ul>
+                          <li>
+                                <a class="menu__panel-icon" data-icon="circle-play" href="https://developer.mozilla.org/en-US/play" data-glean-id="menu_click_submenu: tools -&gt; /en-US/play">Playground</a>
+                              </li><li>
+                                <a class="menu__panel-icon" data-icon="shield-check" href="https://developer.mozilla.org/en-US/observatory" data-glean-id="menu_click_submenu: tools -&gt; /en-US/observatory">HTTP Observatory</a>
+                              </li>
+                        </ul><ul>
+                          <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator" data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator">Border-image generator</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator" data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator">Border-radius generator</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator" data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator">Box-shadow generator</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter" data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/CSS_colors/Color_format_converter">Color format converter</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer" data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/CSS_colors/Color_mixer">Color mixer</a>
+                              </li><li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator" data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/CSS_shapes/Shape_generator">Shape generator</a>
+                              </li>
+                        </ul>
+                    </div>
+                  </div>
+                </mdn-dropdown>
+          </div><div class="menu__tab" data-section="about">
+            <mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+                  <button class="menu__tab-button" type="button" slot="button" aria-expanded="false" aria-controls="uid_zjra4wzmn2">
+                    <span class="menu__tab-label">About</span>
+                  </button>
+                  <div class="menu__panel" slot="dropdown" id="uid_zjra4wzmn2">
+                    <p class="menu__panel-title">
+                      Get to know MDN better
+                    </p>
+                    <div class="menu__panel-content">
+                      <ul>
+                          <li>
+                                <a class="menu__panel-icon" data-icon="mdn-m" href="https://developer.mozilla.org/en-US/about" data-glean-id="menu_click_submenu: about -&gt; /en-US/about">About MDN</a>
+                              </li><li>
+                                <a class="menu__panel-icon" data-icon="chart-no-axes-combined" href="https://developer.mozilla.org/en-US/advertising" data-glean-id="menu_click_submenu: about -&gt; /en-US/advertising">Advertise with us</a>
+                              </li>
+                        </ul><ul>
+                          <li>
+                                <a class="menu__panel-icon" data-icon="users" href="https://developer.mozilla.org/en-US/community" data-glean-id="menu_click_submenu: about -&gt; /en-US/community">Community</a>
+                              </li><li>
+                                <a class="menu__panel-icon" data-icon="github" href="https://github.com/mdn" data-glean-id="menu_click_submenu: about -&gt; https://github.com/mdn">MDN on GitHub</a>
+                              </li>
+                        </ul>
+                    </div>
+                  </div>
+                </mdn-dropdown>
+          </div><div class="menu__tab" data-section="blog">
+            <a class="menu__tab-link" href="https://developer.mozilla.org/en-US/blog/" data-glean-id="menu_click_link: top-level -&gt; /en-US/blog/">Blog</a>
+          </div>
+      </nav>
+    </div>
+          <div class="navigation__search" data-view="desktop">
+            <mdn-search-button><template shadowmode="open"><!--lit-part PwhADO+m7/M=--><!--lit-node 0--><button class="mdn-search-button" title="Search the site" data-glean-id="quick-search-open: menu">
+      <!--lit-part ijtgkDNyZhc=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg><!--/lit-part-->
+    </button><!--/lit-part--></template></mdn-search-button>
+          </div>
+          <mdn-user-menu locale="en-US"><template shadowmode="open"><!---->
+                <mdn-button class="user-menu__login" variant="plain" href="https://developer.mozilla.org/users/fxa/login/authenticate/?next=%2Fen-US%2Fplay"><template shadowmode="open"><!---->
+        <a class="button" part="button" href="https://developer.mozilla.org/users/fxa/login/authenticate/?next=%2Fen-US%2Fplay" aria-labelledby="label-9f92xbb4o26" data-variant="plain">
+          <!--?lit$441818497$--><!----><span class="icon" part="icon"><!--?lit$441818497$--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m10 17 5-5-5-5m5 5H3m12-9h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path></svg></span><!----><!---->
+    <span class="label" part="label" id="label-9f92xbb4o26"><!--?lit$441818497$--><slot></slot></span>
+  <!---->
+        </a>
+      </template>
+                  <!--?lit$441818497$-->Log in
+                </mdn-button>
+              </template></mdn-user-menu>
+        </div>
+      </nav>
+      <mdn-search-modal id="search"><template shadowmode="open"><!---->
+      <dialog closedby="any">
+        <form method="get" action="https://developer.mozilla.org/en-US/search">
+          <input type="search" name="q" autocomplete="off" autofocus="" placeholder="Search" aria-label="Search">
+        </form>
+        <mdn-button class="close" variant="plain" icon-only=""><template shadowmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-vz41i8yndyf" data-variant="plain">
+          <!--?lit$441818497$--><!----><span class="icon" part="icon"><!--?lit$441818497$--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></svg></span><!----><!---->
+    
+  <!---->
+        </button>
+      </template><!--?lit$441818497$-->Exit search</mdn-button>
+        <!--?lit$441818497$-->
+        <ul>
+          <!--?lit$441818497$-->
+          <!--?lit$441818497$-->
+        </ul>
+      </dialog>
+    </template></mdn-search-modal>
+     
+      <div class="breadcrumbs-bar" data-scheme="">
+         
+      <ol class="breadcrumbs" vocab="https://schema.org/" typeof="BreadcrumbList">
+        
+            <li property="itemListElement" typeof="ListItem">
+              <a href="https://developer.mozilla.org/en-US/play" property="item" typeof="WebPage"><span property="name">Playground</span></a>
+              <meta property="position" content="1">
+            </li>
+          
+      </ol>
+    
+        
+        <mdn-color-theme><template shadowmode="open"><!--lit-part jjbrVed3TRM=--><div class="color-theme">
+      <!--lit-node 1--><mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+        <!--lit-node 2--><button part="button" slot="button" class="color-theme__button" data-mode="light dark" type="button" aria-label="Switch color theme" aria-expanded="false" aria-controls="color-theme__dropdown">
+          <span><!--lit-part-->Theme<!--/lit-part--></span>
+        </button>
+        <div slot="dropdown" class="color-theme__dropdown" id="color-theme__dropdown">
+          <ul class="color-theme__list">
+            <!--lit-part--><!--lit-part oXzlp8XhpzI=--><li>
+                  <!--lit-node 1--><button class="color-theme__option" data-mode="light dark" data-current="" type="button">
+                    <!--lit-part-->OS default<!--/lit-part-->
+                  </button>
+                </li><!--/lit-part--><!--lit-part oXzlp8XhpzI=--><li>
+                  <!--lit-node 1--><button class="color-theme__option" data-mode="light" type="button">
+                    <!--lit-part-->Light<!--/lit-part-->
+                  </button>
+                </li><!--/lit-part--><!--lit-part oXzlp8XhpzI=--><li>
+                  <!--lit-node 1--><button class="color-theme__option" data-mode="dark" type="button">
+                    <!--lit-part-->Dark<!--/lit-part-->
+                  </button>
+                </li><!--/lit-part--><!--/lit-part-->
+          </ul>
+        </div>
+      </mdn-dropdown>
+    </div><!--/lit-part--></template></mdn-color-theme>
+        <mdn-language-switcher locale="en-US" native="English (US)" translations="[{&quot;locale&quot;:&quot;en-US&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;English (US)&quot;},{&quot;locale&quot;:&quot;es&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;EspaÃ±ol&quot;},{&quot;locale&quot;:&quot;fr&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;FranÃ§ais&quot;},{&quot;locale&quot;:&quot;ja&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;æ—¥æœ¬èª&quot;},{&quot;locale&quot;:&quot;ko&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;í•œêµ­ì–´&quot;},{&quot;locale&quot;:&quot;pt-BR&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;PortuguÃªs (do&nbsp;Brasil)&quot;},{&quot;locale&quot;:&quot;ru&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;Ğ ÑƒÑÑĞºĞ¸Ğ¹&quot;},{&quot;locale&quot;:&quot;zh-CN&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;ä¸­æ–‡ (ç®€ä½“)&quot;},{&quot;locale&quot;:&quot;zh-TW&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;æ­£é«”ä¸­æ–‡ (ç¹é«”)&quot;},{&quot;locale&quot;:&quot;de&quot;,&quot;title&quot;:&quot;Playground | MDN&quot;,&quot;native&quot;:&quot;Deutsch&quot;}]" url="/en-US/play"><template shadowmode="open"><!--lit-part chc5lPcfcrc=--><div class="language-switcher">
+      <!--lit-node 1--><mdn-dropdown loaded=""><template shadowmode="open"><!--lit-part NrjKVwpqTpA=-->
+      <!--lit-node 0--><slot name="button"></slot>
+      <!--lit-node 1-->
+    <!--/lit-part--></template>
+        <button part="button" slot="button" class="language-switcher__button" type="button" aria-labelledby="current-locale" aria-expanded="false" aria-controls="language-switcher__dropdown">
+          <span id="current-locale"><!--lit-part-->English (US)<!--/lit-part--></span>
+        </button>
+        <div slot="dropdown" class="language-switcher__dropdown" id="language-switcher__dropdown">
+          <div class="language_switcher__remember">
+            <!--lit-node 7--><mdn-switch><template shadowmode="open"><!--lit-part 5r9QLJvcF6A=--> <label class="switch">
+      <!--lit-node 1--><input class="switch__input" type="checkbox">
+      <slot></slot>
+    </label><!--/lit-part--></template><!--lit-part-->Remember language<!--/lit-part--></mdn-switch>
+            <!--lit-node 9--><mdn-button variant="plain" icon-only="" href="https://github.com/orgs/mdn/discussions/739" target="_blank" title="Enable this setting to always switch to the current language when available. (Click to learn more.)"><template shadowmode="open"><!--lit-part uJUpfbi3Sk0=-->
+        <!--lit-node 0--><a class="button" href="https://github.com/orgs/mdn/discussions/739" target="_blank" aria-labelledby="label-8ccg7d682b8" data-variant="plain" part="button">
+          <!--lit-part--><!--lit-part bRP2a5ux/uw=--><span class="icon" part="icon"><!--lit-part quQU0uIDm5U=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4m0-4h.01"></path></svg><!--/lit-part--></span><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0-->
+  <!--/lit-part--><!--/lit-part-->
+        </a>
+      <!--/lit-part--></template><!--lit-part-->Learn more<!--/lit-part--></mdn-button>
+          </div>
+          <ul class="language-switcher__list">
+            <!--lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" href="https://developer.mozilla.org/de/play"><!--lit-part-->Deutsch<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" data-current="" href="https://developer.mozilla.org/en-US/play"><!--lit-part-->English (US)<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" href="https://developer.mozilla.org/es/play"><!--lit-part-->EspaÃ±ol<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" href="https://developer.mozilla.org/fr/play"><!--lit-part-->FranÃ§ais<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" href="https://developer.mozilla.org/ja/play"><!--lit-part-->æ—¥æœ¬èª<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" href="https://developer.mozilla.org/ko/play"><!--lit-part-->í•œêµ­ì–´<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" href="https://developer.mozilla.org/pt-BR/play"><!--lit-part-->PortuguÃªs (do&nbsp;Brasil)<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" href="https://developer.mozilla.org/ru/play"><!--lit-part-->Ğ ÑƒÑÑĞºĞ¸Ğ¹<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" href="https://developer.mozilla.org/zh-CN/play"><!--lit-part-->ä¸­æ–‡ (ç®€ä½“)<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--lit-part FGon1f+Z4tQ=-->
+          <li>
+            <!--lit-node 1--><a class="language-switcher__option" href="https://developer.mozilla.org/zh-TW/play"><!--lit-part-->æ­£é«”ä¸­æ–‡ (ç¹é«”)<!--/lit-part--></a>
+          </li>
+        <!--/lit-part--><!--/lit-part-->
+          </ul>
+        </div>
+      </mdn-dropdown>
+    </div><!--/lit-part--></template></mdn-language-switcher>
+      </div>
+    
+        </header>
+        <div class="page-layout__main">
+        <main id="content" class="playground">
+          <mdn-playground><template shadowmode="open"><!--lit-part 5TpwGvlSEN8=-->
+      <div class="wrapper">
+        <!--lit-node 1--><mdn-play-controller lit$580167595$0="" run-on-start="" run-on-change=""><template shadowmode="open"><!--lit-part D2YaFGbD+Xc=-->
+      <!--lit-node 0--><slot></slot>
+    <!--/lit-part--></template>
+          <section>
+            <aside>
+              <h1><!--lit-part-->Playground<!--/lit-part--></h1>
+              <menu>
+                <!--lit-node 7--><mdn-button variant="secondary" disabled=""><template shadowmode="open"><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-iiufid7v9wp" disabled="" data-variant="secondary" part="button">
+          <!--lit-part--><!--lit-part--><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0--><span id="label-iiufid7v9wp" class="label" part="label"><!--lit-part Pz0gobCCM4E=--><slot></slot><!--/lit-part--></span>
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template><!--lit-part-->Format<!--/lit-part--></mdn-button>
+                <!--lit-node 9--><mdn-button variant="secondary" disabled=""><template shadowmode="open"><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-efom0czdeoi" disabled="" data-variant="secondary" part="button">
+          <!--lit-part--><!--lit-part--><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0--><span id="label-efom0czdeoi" class="label" part="label"><!--lit-part Pz0gobCCM4E=--><slot></slot><!--/lit-part--></span>
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template><!--lit-part-->Run<!--/lit-part--></mdn-button>
+                <!--lit-node 11--><mdn-button variant="secondary" disabled=""><template shadowmode="open"><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-ly2ys3geulp" disabled="" data-variant="secondary" part="button">
+          <!--lit-part--><!--lit-part--><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0--><span id="label-ly2ys3geulp" class="label" part="label"><!--lit-part Pz0gobCCM4E=--><slot></slot><!--/lit-part--></span>
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template><!--lit-part-->Share<!--/lit-part--></mdn-button>
+                <!--lit-node 13--><mdn-button variant="secondary" disabled=""><template shadowmode="open"><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-qiaj66518r" disabled="" data-variant="secondary" part="button">
+          <!--lit-part--><!--lit-part--><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0--><span id="label-qiaj66518r" class="label" part="label"><!--lit-part Pz0gobCCM4E=--><slot></slot><!--/lit-part--></span>
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template><!--lit-part-->Clear<!--/lit-part--></mdn-button>
+                <!--lit-part--><!--/lit-part-->
+              </menu>
+            </aside>
+            <details open="">
+              <summary>HTML</summary>
+              <!--lit-node 18--><mdn-play-editor language="html"><template shadowmode="open"><!--lit-part HOPh3kC9ZHY=--><!--lit-node 0--><div class="editor"><div class="cm-editor Í¼1 Í¼2 Í¼4"><div class="cm-announced" aria-live="polite"></div><div tabindex="-1" class="cm-scroller"><div class="cm-gutters cm-gutters-before" aria-hidden="true" style="min-height: 30.3929px; position: sticky;"><div class="cm-gutter cm-lineNumbers"><div class="cm-gutterElement" style="height: 0px; visibility: hidden; pointer-events: none;">9</div><div class="cm-gutterElement" style="height: 22.3929px; margin-top: 4px;">1</div></div></div><div spellcheck="false" autocorrect="off" autocapitalize="off" writingsuggestions="false" translate="no" contenteditable="true" style="tab-size: 4;" class="cm-content cm-lineWrapping" role="textbox" aria-multiline="true" data-language="html"><div class="cm-activeLine cm-line"><br></div></div><div class="cm-layer cm-layer-above cm-cursorLayer" aria-hidden="true" style="z-index: 150; animation-duration: 1200ms;"><div class="cm-cursor cm-cursor-primary" style="left: 26.5714px; top: 5.14285px; height: 20px;"></div></div><div class="cm-layer cm-selectionLayer" aria-hidden="true" style="z-index: -2;"></div></div></div></div><!--/lit-part--></template></mdn-play-editor>
+            </details>
+            <details open="">
+              <summary>CSS</summary>
+              <!--lit-node 21--><mdn-play-editor language="css"><template shadowmode="open"><!--lit-part HOPh3kC9ZHY=--><!--lit-node 0--><div class="editor"><div class="cm-editor Í¼1 Í¼2 Í¼4"><div class="cm-announced" aria-live="polite"></div><div tabindex="-1" class="cm-scroller"><div class="cm-gutters cm-gutters-before" aria-hidden="true" style="min-height: 30.3929px; position: sticky;"><div class="cm-gutter cm-lineNumbers"><div class="cm-gutterElement" style="height: 0px; visibility: hidden; pointer-events: none;">9</div><div class="cm-gutterElement" style="height: 22.3929px; margin-top: 4px;">1</div></div></div><div spellcheck="false" autocorrect="off" autocapitalize="off" writingsuggestions="false" translate="no" contenteditable="true" style="tab-size: 4;" class="cm-content cm-lineWrapping" role="textbox" aria-multiline="true" data-language="css"><div class="cm-activeLine cm-line"><br></div></div><div class="cm-layer cm-layer-above cm-cursorLayer" aria-hidden="true" style="z-index: 150; animation-duration: 1200ms;"><div class="cm-cursor cm-cursor-primary" style="left: 26.5714px; top: 5.14285px; height: 20px;"></div></div><div class="cm-layer cm-selectionLayer" aria-hidden="true" style="z-index: -2;"></div></div></div></div><!--/lit-part--></template></mdn-play-editor>
+            </details>
+            <details open="">
+              <summary>JAVASCRIPT</summary>
+              <!--lit-node 24--><mdn-play-editor language="js"><template shadowmode="open"><!--lit-part HOPh3kC9ZHY=--><!--lit-node 0--><div class="editor"><div class="cm-editor Í¼1 Í¼2 Í¼4"><div class="cm-announced" aria-live="polite"></div><div tabindex="-1" class="cm-scroller"><div class="cm-gutters cm-gutters-before" aria-hidden="true" style="min-height: 30.3929px; position: sticky;"><div class="cm-gutter cm-lineNumbers"><div class="cm-gutterElement" style="height: 0px; visibility: hidden; pointer-events: none;">9</div><div class="cm-gutterElement" style="height: 22.3929px; margin-top: 4px;">1</div></div></div><div spellcheck="false" autocorrect="off" autocapitalize="off" writingsuggestions="false" translate="no" contenteditable="true" style="tab-size: 4;" class="cm-content cm-lineWrapping" role="textbox" aria-multiline="true" data-language="javascript"><div class="cm-activeLine cm-line"><br></div></div><div class="cm-layer cm-layer-above cm-cursorLayer" aria-hidden="true" style="z-index: 150; animation-duration: 1200ms;"><div class="cm-cursor cm-cursor-primary" style="left: 26.5714px; top: 5.14288px; height: 20px;"></div></div><div class="cm-layer cm-selectionLayer" aria-hidden="true" style="z-index: -2;"></div></div></div></div><!--/lit-part--></template></mdn-play-editor>
+            </details>
+          </section>
+          <section class="playground__runner-console">
+            <!--lit-part--><!--/lit-part-->
+            <mdn-play-runner><template shadowmode="open"><!---->
+        <iframe title="runner" aria-live="polite" src="cid:frame-BFB8873E755E0F2B38D09E84F4EC4F2D@mhtml.blink" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
+      </template></mdn-play-runner>
+            <div class="playground__console">
+              <div><!--lit-part-->Console<!--/lit-part--></div>
+              <!--lit-node 31--><mdn-play-console><template shadowmode="open"><!--lit-part bdnDHNTpGJg=-->
+      <ul aria-live="polite">
+        <!--lit-part--><!--/lit-part-->
+      </ul>
+    <!--/lit-part--></template></mdn-play-console>
+            </div>
+          </section>
+        </mdn-play-controller>
+      </div>
+      <!--lit-node 32--><mdn-modal lit$580167595$20="" class="share"><template shadowmode="open"><!--lit-part 89wSBtjvN/w=-->
+      <dialog closedby="any">
+        <header>
+          <!--lit-part--><!--/lit-part-->
+          <!--lit-node 3--><mdn-button variant="plain" icon-only=""><template shadowmode="open"><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-a53bjpempq" data-variant="plain" part="button">
+          <!--lit-part--><!--lit-part bRP2a5ux/uw=--><span class="icon" part="icon"><!--lit-part 67EVkvpPdvk=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></svg><!--/lit-part--></span><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0-->
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template><!--lit-part-->Exit modal<!--/lit-part--></mdn-button>
+        </header>
+        <slot></slot>
+      </dialog>
+    <!--/lit-part--></template>
+        <section>
+          <h2><!--lit-part-->Share Markdown<!--/lit-part--></h2>
+          <!--lit-node 36--><mdn-button variant="secondary"><template shadowmode="open"><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-v6fuqgqn4zo" data-variant="secondary" part="button">
+          <!--lit-part--><!--lit-part--><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0--><span id="label-v6fuqgqn4zo" class="label" part="label"><!--lit-part Pz0gobCCM4E=--><slot></slot><!--/lit-part--></span>
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template><!--lit-part-->Copy markdown to clipboard<!--/lit-part--></mdn-button>
+        </section>
+        <section>
+          <h2><!--lit-part-->Share your code via Permalink<!--/lit-part--></h2>
+          <!--lit-part iStOuibpvAI=--><mdn-login-button><template shadowmode="open"><!----><mdn-button href="https://developer.mozilla.org/users/fxa/login/authenticate/?next=%2Fen-US%2Fplay"><template shadowmode="open"><!---->
+        <a class="button" part="button" href="https://developer.mozilla.org/users/fxa/login/authenticate/?next=%2Fen-US%2Fplay" aria-labelledby="label-qmoehx34iwa" data-variant="primary">
+          <!--?lit$441818497$--><!----><!----><!---->
+    <span class="label" part="label" id="label-qmoehx34iwa"><!--?lit$441818497$--><slot></slot></span>
+  <!---->
+        </a>
+      </template><!--?lit$441818497$-->Login</mdn-button></template></mdn-login-button><!--/lit-part-->
+        </section>
+      </mdn-modal>
+      <!--lit-node 42--><mdn-modal lit$580167595$26="" class="report"><template shadowmode="open"><!--lit-part 89wSBtjvN/w=-->
+      <dialog closedby="any">
+        <header>
+          <!--lit-part--><!--/lit-part-->
+          <!--lit-node 3--><mdn-button variant="plain" icon-only=""><template shadowmode="open"><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-iqq39zpic2e" data-variant="plain" part="button">
+          <!--lit-part--><!--lit-part bRP2a5ux/uw=--><span class="icon" part="icon"><!--lit-part 67EVkvpPdvk=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></svg><!--/lit-part--></span><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0-->
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template><!--lit-part-->Exit modal<!--/lit-part--></mdn-button>
+        </header>
+        <slot></slot>
+      </dialog>
+    <!--/lit-part--></template>
+        <section>
+          <p>
+            <!--lit-part-->Report this malicious or inappropriate shared playground.<!--/lit-part-->
+          </p>
+          <label>
+            <!--lit-part-->Can you please share some details on what's wrong with this content:<!--/lit-part-->
+            <textarea></textarea>
+          </label>
+        </section>
+        <section>
+          <!--lit-node 50--><mdn-button variant="secondary"><template shadowmode="open"><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-quxnkqbzfbl" data-variant="secondary" part="button">
+          <!--lit-part--><!--lit-part--><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0--><span id="label-quxnkqbzfbl" class="label" part="label"><!--lit-part Pz0gobCCM4E=--><slot></slot><!--/lit-part--></span>
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template><!--lit-part-->Cancel<!--/lit-part--></mdn-button>
+          <!--lit-node 52--><mdn-button><template shadowmode="open"><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-zsf8vnljdpe" data-variant="primary" part="button">
+          <!--lit-part--><!--lit-part--><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0--><span id="label-zsf8vnljdpe" class="label" part="label"><!--lit-part Pz0gobCCM4E=--><slot></slot><!--/lit-part--></span>
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template><!--lit-part-->Report<!--/lit-part--></mdn-button>
+        </section>
+      </mdn-modal>
+    <!--/lit-part--></template></mdn-playground>
+          <div class="sidebar">
+            <mdn-placement-sidebar><template shadowmode="open"><!----></template></mdn-placement-sidebar>
+          </div>
+        </main>
+      </div>
+        <div class="page-layout__footer">
+      <mdn-placement-bottom><template shadowmode="open"><!----><div class="bottom-placement" style="--bottom-background:#2F2A6B;--bottom-color:#ffffff;" data-type="bottom-banner">
+      <section class="placement-container">
+        <a class="placement-link" target="_blank" rel="sponsored" data-glean-id="pong: pong-&gt;click bottom-banner" href="https://developer.mozilla.org/pong/click?code=aHR0cHM6Ly9zcnYuYnV5c2VsbGFkcy5jb20vYWRzL2NsaWNrL3gvR1RORDQyN05DVllJTDVRVUNUQUxZS1FVQ1lZSUsySklDNjdETFozSkNBU0Q0Mjc3RjZZREVLM0tDRUJJNDJRTkNXN0lLMlFZRlQ3RDQyM05DQTdERTI3S0M2U0lLS0pMQ0VTREVLM0VISk5DTFNJWg%3D%3D.vMG5uBGeYdxjSupn%2FzVQfiflckGLFuCRIjPnltD%2Fb%2B8%3D&amp;version=2">
+          <img width="728" height="90" src="https://developer.mozilla.org/pimg/aHR0cHM6Ly9zdGF0aWM0LmJ1eXNlbGxhZHMubmV0L3V1LzIvMTY5NDEwLzE3NjE1OTMxNDEtR2l0TGFiX0hvbWVwYWdlVGFrZW92ZXJfRm9vdGVyX05PVkVNQkVSX0ZJTkFMXzFfLnBuZw%3D%3D.ZAWqTqMerhvljxUmWsWCdWnmTG525C2GlzmhmALom5o%3D" aria-hidden="false" alt="GitLab Homepage Takeover Bottom Banner">
+        </a>
+        <mdn-placement-note><template shadowmode="open"><!----><a href="https://developer.mozilla.org/en-US/advertising" class="placement-note" target="_blank" rel="noreferrer" data-glean-id="pong: pong-&gt;about"><!--?lit$441818497$-->Ad</a></template></mdn-placement-note>
+      </section>
+    </div></template></mdn-placement-bottom>
+      <footer class="footer">
+        <div class="footer__mdn">
+          <div class="footer__intro">
+            <a class="footer__logo" href="https://developer.mozilla.org/" aria-label="MDN logo"><!--lit-part eLWenVoT9SE=--><svg xmlns="http://www.w3.org/2000/svg" width="83" height="24" viewBox="0 0 83 24"><path d="M9.4 0 2.81 21.17H.12L6.69 0zm2.38 0v21.17H9.4V0h2.4Zm9.27 0-6.56 21.17H11.8L18.36 0zm2.39 0v21.17h-2.4V0zm22.11 16.83h-3.93v-1.27h.87v-3.63c0-.85-.16-1.45-.48-1.82a1.65 1.65 0 0 0-1.3-.52c-.74 0-1.3.25-1.66.78a3 3 0 0 0-.58 1.58v3.59h1.38v1.26h-3.93v-1.26h.87v-3.6c0-.88-.16-1.48-.48-1.83a1.7 1.7 0 0 0-1.29-.52 1.93 1.93 0 0 0-1.65.75 2.85 2.85 0 0 0-.58 1.6v3.62h1.59v1.27h-4.64v-1.27h1.37V9.75h-1.4V8.46h3.08v1.47c.28-.48.62-.87 1.08-1.2a3 3 0 0 1 1.68-.45c.67 0 1.22.16 1.73.48.5.32.85.8 1.03 1.47.25-.57.62-1.03 1.13-1.4.5-.37 1.1-.55 1.81-.55.8 0 1.5.25 2.05.75.55.51.85 1.3.85 2.35v4.18h1.4zm9.77 0H52.3v-1.66c-.27.51-.66.95-1.13 1.29-.56.4-1.23.59-1.9.55-1.11 0-2-.37-2.67-1.12a4.4 4.4 0 0 1-1-3.06c0-1.15.3-2.2.93-3.15.6-.94 1.58-1.43 2.94-1.43s2.25.5 2.83 1.5V5.22h-2V3.93h3.63v11.63h1.38v1.27Zm-3.06-3.86v-1.02a2.28 2.28 0 0 0-.73-1.67 2.4 2.4 0 0 0-1.66-.65 2.18 2.18 0 0 0-1.88.9 3.63 3.63 0 0 0-.65 2.2c0 .95.23 1.68.7 2.19.45.5 1.03.76 1.7.76.73 0 1.33-.3 1.79-.88.48-.6.71-1.21.73-1.83m14.14 3.86h-4.43v-1.27h1.37v-3.63c0-.85-.16-1.45-.5-1.82a1.68 1.68 0 0 0-1.31-.52c-.71 0-1.29.23-1.7.69a2.52 2.52 0 0 0-.67 1.6v3.66h1.38v1.26H56.1v-1.26h1.38v-5.8h-1.42V8.47h3.12V9.9c.6-1.06 1.57-1.6 2.92-1.6.83 0 1.54.26 2.12.77.57.5.85 1.28.85 2.34v4.19h1.38v1.24h-.05Zm1.31 5.15H83V24H67.71z"></path></svg><!--/lit-part--></a>
+            <p>
+              Your blueprint for a better internet.
+            </p>
+          </div>
+
+          <ul class="footer__socials">
+            
+                <li>
+                  <a href="https://github.com/mdn/" aria-label="MDN on GitHub" data-icon="github"></a>
+                </li>
+              
+                <li>
+                  <a href="https://bsky.app/profile/developer.mozilla.org" aria-label="MDN on Bluesky" data-icon="bluesky"></a>
+                </li>
+              
+                <li>
+                  <a href="https://x.com/mozdevnet" aria-label="MDN on X" data-icon="x"></a>
+                </li>
+              
+                <li>
+                  <a href="https://mastodon.social/@mdn" aria-label="MDN on Mastodon" data-icon="mastodon"></a>
+                </li>
+              
+                <li>
+                  <a href="https://developer.mozilla.org/en-US/blog/rss.xml" aria-label="MDN blog RSS feed" data-icon="rss"></a>
+                </li>
+              
+          </ul>
+
+          
+              <dl class="footer__links">
+                <dt>MDN</dt>
+                <dd>
+                  <ul>
+                    
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/about" class="">About</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/blog/" class="">Blog</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://www.mozilla.org/en-US/careers/listings/" class="external">Mozilla careers</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/advertising" class="">Advertise with us</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/plus" class="">MDN Plus</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://support.mozilla.org/products/mdn-plus" class="external">Product help</a>
+                        </li>
+                      
+                  </ul>
+                </dd>
+              </dl>
+            
+              <dl class="footer__links">
+                <dt>Contribute</dt>
+                <dd>
+                  <ul>
+                    
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/community" class="">MDN Community</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/docs/MDN/Community" class="">Community resources</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines" class="">Writing guidelines</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/discord" class="external">MDN Discord</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://github.com/mdn" class="external">MDN on GitHub</a>
+                        </li>
+                      
+                  </ul>
+                </dd>
+              </dl>
+            
+              <dl class="footer__links">
+                <dt>Developers</dt>
+                <dd>
+                  <ul>
+                    
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/docs/Web" class="">Web technologies</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" class="">Learn web development</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/docs/MDN/Guides" class="">Guides</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/docs/MDN/Tutorials" class="">Tutorials</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://developer.mozilla.org/en-US/docs/Glossary" class="">Glossary</a>
+                        </li>
+                      
+                        <li>
+                          <a href="https://hacks.mozilla.org/" class="external">Hacks blog</a>
+                        </li>
+                      
+                  </ul>
+                </dd>
+              </dl>
+            
+        </div>
+
+        <div class="footer__mozilla">
+          <a class="footer__logo" href="https://www.mozilla.org/" aria-label="Mozilla logo"><!--lit-part /TOdX171+us=--><svg xmlns="http://www.w3.org/2000/svg" width="128" height="30" viewBox="0 0 256 60"><path d="m13.32 22.1 5.1 24.3h2.1l5.1-24.3H39.3v37.34h-7.26V28.46h-2.1l-6.96 30.98h-7.02L9.02 28.46h-2.1v31H-.35V22.1h13.66Zm45.12 8.74c8.73 0 13.8 5.15 13.8 14.57S67.14 60 58.44 60c-8.73 0-13.8-5.17-13.8-14.59 0-9.43 5.07-14.57 13.8-14.57m0 23.34c4.1 0 6.16-2.1 6.16-6.73v-4.12c0-4.62-2.06-6.73-6.16-6.73s-6.15 2.1-6.15 6.73v4.12c0 4.63 2.05 6.73 6.15 6.73m17.68-.14 14.82-17.26H76.32v-5.41h23.31v5.4L84.84 54.05h15.03v5.4H76.13v-5.41Zm28.07-22.67h10.7v28.07h-7.25V36.77h-3.48v-5.4zm3.44-9.27h7.26v5.4h-7.25v-5.4Zm12.62 0h10.72v37.34h-7.24V27.5h-3.48zm16.08 0h10.7v37.34h-7.25V27.5h-3.48v-5.4zm27.8 8.74c4.24 0 7.08 2.05 7.87 5.63h2.1v-5.1h8.88v5.4h-3.47v17.28h3.47v5.4h-4.25c-3 0-4.63-1.63-4.63-4.62v-.48H172c-.78 3.58-3.63 5.63-7.88 5.63-6.68 0-11.4-5.59-11.4-14.58 0-9 4.72-14.55 11.4-14.55m2.2 23.34c4.1 0 5.93-2.1 5.93-6.73v-4.12c0-4.62-1.82-6.73-5.94-6.73-3.99 0-5.92 2.1-5.92 6.73v4.13c0 4.62 1.92 6.72 5.93 6.72m46.28 5.27h-7.26V0h7.26zm6.3-28.41h30.8v-2.1l-20.4-7.32v-5.88l20.4-7.33v-2.1h-24.27V0h30.79v12l-16.62 5.63v2.11l16.61 5.64v12H218.9zm0-24.73h6.5v6.52h-6.5z"></path></svg><!--/lit-part--></a>
+          <ul>
+            
+                <li>
+                  <a href="https://www.mozilla.org/privacy/websites/" class="external">Website Privacy Notice</a>
+                </li>
+              
+                <li>
+                  <a href="https://www.mozilla.org/en-US/privacy/websites/data-preferences/" class="external">Telemetry Settings</a>
+                </li>
+              
+                <li>
+                  <a href="https://www.mozilla.org/about/legal/terms/mozilla" class="external">Legal</a>
+                </li>
+              
+                <li>
+                  <a href="https://www.mozilla.org/about/governance/policies/participation/" class="external">Community Participation Guidelines</a>
+                </li>
+              
+          </ul>
+          <p>
+            Visit <a href="https://www.mozilla.org/">Mozilla Corporationâ€™s</a> not-for-profit parent, the <a href="https://foundation.mozilla.org/">Mozilla Foundation</a>.<br>
+            Portions of this content are Â©1998â€“â¨2025â© by individual mozilla.org contributors. Content available under <a href="https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license">a Creative Commons license</a>.
+          </p>
+        </div>
+      </footer>
+    </div>
+      
+    
+      
+    </body></html>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/pimg/aHR0cHM6Ly9zdGF0aWM0LmJ1eXNlbGxhZHMubmV0L3V1LzIvMTY5NDEwLzE3NjE1OTMxNDEtR2l0TGFiX0hvbWVwYWdlVGFrZW92ZXJfRm9vdGVyX05PVkVNQkVSX0ZJTkFMXzFfLnBuZw%3D%3D.ZAWqTqMerhvljxUmWsWCdWnmTG525C2GlzmhmALom5o%3D
+
+‰PNG
+
+   IHDR  °   ´   Ê]   	pHYs    gŸÒR   tIMEé
+
+K¾ "IDATxÚìwœÅÑ÷«Ã¤İ½|ÒrÎ	%$2"[D'ŒmŒÁähó:à€öcûÁ`ƒıÛÏcä,@€ !”P–NY§Ó…İÔİõş1{{wÒI:@'êûÓîLOOowÏîÔoªªÙq“nA  „0`Ààıw9/ c ïû©‰ƒ0vÒ´!làŠ£gP++k£‘.<‚ ‚ ‚ >"ø~tò)dl"Ácœ1VT(šXGˆ€±÷ÁDB dŒ[ÂæŒiDDÔ
+µ1º3­„8$`À8»NDéØ ~Ÿ¦q€ãÆ€qÎ9ãŒq\p)¸e#j£´‰#Ô,a‚ ‚ ‚ ˆÃéG9Æ˜`R)¹äL0`œq‹[‘""âÁ}è€œqKØ·8ãjTJÅÊ(ƒ;÷!Ë0ÆgBr)„%˜`À€qÉe¬M¤Cƒ†|EÍ Î8çBğÂ%o	K
+ËN¬ÃHGÆh´‚ ‚ ‚8ì‘ €ˆ±‰b1`’KK8RXBX—–TQìÇ&>(Ï‘Ã#]Á%fĞD:R:TF%{ƒ"/}Qa¬LÌT ¸´„m	[Ki'P~¬#r7841¨µÒ1‹°dì¤°9çOYÂ‰t©é"$‚ ‚ â0F&ÿÇ&M,µ´…k	[rKÚ"ÔaûæÀ¤Ä1Ä‘-`ÑD:Œt¨ Œ¬¯nGqÈ”‰•‰cZÂ±„Í¹LY™ˆ‡¡òÉUäĞº¢H2vB–p,ép.\’Ü
+”¯¢±#‚ ‚ âpEvjâ*£”ÉZÆv¤'¸p¤'˜TN½
+.=+%˜ ­ã@ùÊÄíj¢›×mÓFÅ:r¤'…´…#¸ôãÙÕ‡şØiÔZåc:ÒKFR\†q>Ò!AAA‡%|w6ë(µ„* D)¬”U"¹µ¹=ĞvÊÊn!`¨ı\Ü¢LL^!‡ŸiÍ€)çã–0ö,ee,aSJ˜n1vu>ÎúqÎÍ÷¬´+S ”Ñ‡ ‚ ‚ ˆÃ¾g	ÑqŞsg"egöUIÔÏJs&ŒÑ~œbCgÓåûQÎÍ¹ğ¬´-2ª»Åè1`‘óQ‹Ò s¤ëY) FÃGAAÄaï¢äGYƒš1¾OšHQaŒT~œuDRÈGÂ°›(·h3Æ\™"M¤F²± ÀNÊN1ÒD‚ ‚ ‚8¼à])Ô‘5¨8ğ”•‘\îÕ:B@‹[•æŒk£rQVQ.‰š]mt>Êi£8ã®LYœbgºÍØ ç£Dá®k¥¨[‚ ‚ ‚8œà],Ç€i£òaN£æŒ»Vš3¾ã®•æÀµQRC>zvµArÊ(Æ¸k¥D¤4âP=€  ‰ -Gzˆ4vAAA&ğ®eÀ4*?Î0‚×Jí^à@Æ˜k¥8Œç4©!]«šÔAœ3¨9®Lq
+¾èVèÇ~l"`àH×’äãCAAÄaß§ÒIìL¨| °„½»¬àX †q^iŠ”ùh›ÔÀ”VAœ@)¤myÔ'İ
+¢|kÜ“·g×0‚ ‚ ‚ ˆîß×°P± À‘î®(¹e "F:dŒÔ:Œ±XGIB
+[8û·~3ñáŒ0&ˆóçÂ‘):‚ ‚ ‚ øşÆ¾1†1áHwWÊ‘.c\ø’DBÚhÆ˜#]rêF$>>¡
+ À–¶%lJ&BAADwg‘dõH (¹m‰¶§ıh[rC4d÷Åiƒ`Bå‚äVûiCtƒác,R6
+ lËeœ®k‚ ‚ ‚ º7ûé!Â‹t¨ŒbŒÙ¢íi?fIS&V:"5„è0m€Å:R&Ælrén `û ¹$'‚ ‚ ‚ º;|¿DÄX… (¸L2‰  –` #’½DtJ¨BDL’“H÷‚SFi0‹;”ˆ ‚ ‚ ˆnÍş"IšLm4cÜV²Ñ6gLk¥tLöÑ©Q­Ò&Æ¤pÈI¤{€Q¢gq!wI¨LAAÑàr0&ËÍHnq`œñÄU$ÒYJÄn§&Ó%—´†k÷"q1¨ãRØÔ!AAAt_ø¯LŒh8œKÁ%gÜ Q&¢%vkT3P&6Æ0Æd«oÑ]@4±@pÉ™ !‚ ‚ ¢›r@‚fŒÖFc–°$·’€Z\†ØóÄ1h4Æ˜àM•î6zTp!˜ TAAAAtSÔC•Q (…-¹…¼%ˆ=ÏPZ!€`‚rÍt/
+2(*LpIrAAAİ~àUhÔˆÈ€1ÆÑ BtÁªÖ¨gœ3AiDºˆ¨µ Îé!AAAtSTaŒ£ƒ–%¡†âeˆ½M`ÆhƒLÒí0¨P0Á˜ ?‚ ‚ ‚ º!ÁC±UA4d]7ª ãœ´nm4"0Æ8ctÁAAÑá¥¦ÕÄ%A„èˆh €3N.EİÖ:|Œ1œ®x‚ ‚ ‚ º#ÃC$±l ƒ†Œ#¢«3‘VÔİˆ€1FHAAD·ä`xˆ ´[z“ô¢«ÓÆ$‚­2Ó]hø‚ ‚ ‚è¾œ™69iÁ‚8üA@DdäàCAAD·…SAAAñQãà"Å§Ä”P€ >"Ğ…Nİ òÙ$‚ ‚Ø=ò FÅ4$‡]Ÿ6œ%K5Ó{w=ÆÃÂÂRA’D‚ä`ÑjPAAp<D0Æ8  cœ¢«3‡q  ¬3İsğõ“Æ UbÍ&÷².Äû”BLÂ%AAD'ğƒTK¡Î8¹Ò]4¨9ã ÉRÍdWw'° ƒ44zqÈaÉÎj;Â>~ Æšº„ ‚ bW†‡ãŒsD Î-ÃItuâ0 hÈ¢î†_L0ÆŒADC(ArƒKl	yM%P'‚ ‚èÌ®9ÀãQpÁ&2Æ8”‚ØË´äœsÆFMu·?Á†€e"ˆCPéB‰‘(sAQÔAAÄÎ„§F‚`Á4Œ1Áu+Ñ•iÃG45YÔİ‹âe®¢p'‚81€‰cˆB^é±25]ªAA;s ‚cLp€Å:ÖF1`‚K ¨bÏÓ@r‹h£i™’î2Æ9¨&=„ ÉË±6’ƒ1,m‰êºV	‚ ‚ væ€ä\&QéX™%·8çôÜ˜ØÓ´aBp‰€ÊÄ4Sº›‚Î¢Ñ&&ñ“ Å«ÔX•D@ ÆdŸê‚ ‚ ˆ]9PKØŒqƒZ¥2Æ0Æ,nSÏ{@
+‹3nĞ(£È¢î^0`–°X«wAbhÄ”…Õ©BŞÎdm	Pn/‚ ‚ ˆ]àv0·¸ ÊÄˆh’'ÆÀ,aQVbÏ5¦´2¨É¢îF$Ùp%· 0Ö9‚Ä¡ˆ6XÂ*’¼!EmšyP‚ ‚ ˆì¿ ‚ˆ–°9ˆ&ÖQbÕF:2h—–°i­¢Ói#…%¸4ˆJGÔ!İmüÀ’cÜ­LLº'Ard
+ã#û€g%yC0RÖà
+g\O£¯\‚ ‚ ˆì¿ Â³¤À”‰Ñ–Î 0K:Œb!ˆ]`ŒÙÂ`ÚÄdQw;–° 61eÃ%ˆC@dy¨x^G÷¦÷…H·í¼òÂñŞÈjÕšP¡ÆBz‚ ‚ ˆ¸SÛãÈıºûBGz–´1ˆıâÊ©€·9çˆ¨P‘ÅK´Ÿ6¶pé@ |Mîv¯áCt­”¶AÄy¤á#ˆƒL#4‹5 0Æ´+£Ú’–“ú*-!$gÉÂ Sé•ÙÏò$øÊ±‰´µ5hÀ€=Ã ‚ â#…RzğàZ¹v‘Â– ‹uØş9?¦tóÈ’¶-]…±6dô~°7Éf·Ïíc÷–×Dƒ\´U‹ˆI¨Ô®çJ—q¤ŒÅ:ŠuTœÆ @r§{òC“$ÖÉ6 Æ*4Fà\B,ø˜0ÎÙAœ“­s©«³FÆf3>¤kŸ®£
+L”<®ôâ*OUxqT\“Ë]“±Y‰ÒÈ”ÑÎ”	µ]b÷şÂvŞ(ŞÆ›³ÁÆæÜ†SK~SK´ÃG…Lrê[‚ ‚ >Rì‡ ‚Œ1W¦u¤‚w„:Ââœ;ÒË‡YÒC>@«51Š:'UÆ–-]×âü€n|ƒ(Òˆè¥ì\K`;2©ĞDDÆ"
+±óÀ»–—$‰”ß¡Ù¦à½-RÕCsf1Æ\ËcŒi£#e“¹Ê ‹ƒw	˜$yç{o#c ”‰c•Éx¹\ ·,Ù“…a±ëZBpº5$ÒÙ‰µM'Ô)Ë¤,ã@ ƒ4ZÁAt2P”åU¸ÎĞ*)"Æ-‘ÊÇş¦–¥w¿]×È-A=LA	"»·7 \éIa`ûz—ÅI&‘P®åYÂv¤ê€œD> ¢Hõïßó¦ÿ÷qÛîÄ¨cŒíhÈÖ­«ıµ÷Şš·"Ôq*åì·éEº¢"só7>9rT¿gzûŞ_?a´‰•şÒå§MŸ>8{éÅ…÷ıî™tÆm6h7I?ª@™B,•ÖÆu­¯ëÓ½ûT¡Á»ùØ;o¯r=Z¶ù“C<Û\"`çšD‚ šräğË¯<3V·®şöÛşÊØcß”’ßtó§ì‰ üeösÏÌ÷ö8—´F)Å—o<÷„ÇÍŸ¿êg?ù[¶%İí!y>öØcæ™SGî—I»x÷]-˜¿Êqé::LeüU¹1=DsÈ”a‘aˆP”Â÷æè„Ê ­8cœ[Û©N•¯ZÿØ²æ$ˆAA‚ÈÔÖÈ"DºóÅX¤Á…%ÇòšXGŸü~cŒ))qO=mâŞŠùòK‹|Û_ß[º¾¤ÄÛM|?¼şËgŸsŞt >¢Ï¢…kŸzâMÎÅÄIƒ;a, 46d£(Nƒ…‰,×ò ˜ÒQ¤Ú2DäœŸ0c\¯^• ğĞ/Å±"AäĞRC méØÒ€(cøµÇ¦¶¶â„ÇÀúºúÿüÑCpÀ×¤ã;`PO xuÎ’8Ö·§C²YÿŸ<æ²+N€aÃ{¯[³õWw>ZZ–êF£ãçÃIS†şì—õéSUÜøÈCs”6,R¹\  RŠ’fòásI:¢üÅµ²9Œ«Sq¥§Jô¤ñ$ 0{^[—I.\KºB3¹(Î…A}.·¾9»¦qû‚ÍÂ%5„ ‚ DvoIn¹V
+Ó&;F=ìZ8ˆóœ	É¤k§02E§ âıÔD0cÇ±  —âH'F&HÉ3 8çÇŸ0vèĞ^—éÎË7z³_Æ'ØNÛäR cq²%f3
+.]+Í+£ü8·k2Î|>L^hmH8;ÔÔÂULé(TşAÆ@)½ÓèŠµÅ±ŞkSQZmş –-»×èhm\ÏùÚ7>YTC6mj@ƒÙ¬…ñ‘ÓF|ìÌ) P·vëı™Í(kæasUJnmÍUş{Ú-®J¸ÚSU©¸:ö-ÑıËPrè,—÷¤nvÌß\¿9nÊú›ZüMÍqs¨e"#S“œ–!‚ ‚‘İÚE•æÀµQ~œ3hö p0`çÒvF0áYi?ÎuEÑÈ2ÆP0¤›÷á¶<8ûÅ…IĞ
+´«_¿êó>qÔigL€Ş}ªnºù×^y·1f_ó‰0kßÿçY£F÷<¸×¬ßóÒ¢TÚÂx×i#˜LÙiÁ„F½×iC‚jˆgg
+bVt¸­,“ÉxÏ?ûÎ¿ş1wÚô‘K—Öıíá9û§~X¨XÒkÜ¸ÉÛŸşø‘?Ş÷œmKcs>rTß/š K×ıåÏ³ H9¬®L”A«>ooÉ‚FÜ8"Y•?{8Ö–ìä*"\+;wıöšQcÎ$gœ	[ˆDà&5„ ‚ D:¹ûB´¤]PCPçã\WÖI’‰ä£\ÊNs.=+¨\¬ãNÔÈ-@¹§¥ÛÙ
+™ÃÍÓ~°eKÓêÕ[Wy`.Xóô“oİş³K>õécà˜cÇŒÕwÉ¢ºıQq\kÃúíW^zWyyfÛ¶&)Å®)TP
+Ë“iÎ¸¨¼.*bï[ÎÇ$¨‹v_1\¨ëvâ>Õÿ>}º¦h	ÛµÒ¸FíGYƒ»¬,ƒ…K½‹5îCáƒ;»9µ”<Ÿ¿şµ?TW—64díX{Jªz`óv_‡o¯åAJaÛ ššòO=ùV>B²ğS©¤XK‹ÿAÚêëÒş g{w…1`€œa’øLÍÛdÕûÁÕS Ò+&áÌ¿µqÛsM¤¹+À‚z• ‚ b¯‚2 Çòé2ÆµÑù8«»üÂ€)ç£œg§9•áÌUì*óµp¹9½vó)=·É´TX*Ğ|½Ÿš]_ıìÖšõ¾W"İ¼í+–%ÇJÂg\×Êfı?ÿñ…sÎnÛÒqd¯ŞUŞYã1PÊø~˜3©”»Óú£ˆ˜Ï‡h \Ï¶,€Bğ–– ©1oY“l'lé¦¬cÑøq.ÖQª8VĞ¶H3Èƒ”À/ŠTÆ;YNgÑ¹óKDJév¦
+!\×Şé¥”.F;Åq“®h³M‚ # Òg··¬5" à‚§ROß´ÒIÇ
+Áó¹0YpÇó)y±†(Œ£v]€œs×µp¥Xc0"cÌ.5[®í9ÒcÀ5ª|œmÉæ¼”#÷ıHëb¢bwéKAßÛuJ±?ƒÇ*vbtœC°«mø‘êØÎö£ŒBpßÖ®Ù*OgÜd=0Œw'i	Ïs
+×vj´mËîr|"AûîÚËğ!¢ïï<(R
+·c’Ô|>Ìeƒl609gaåsAÆ¬U)ÎX­M¶Åg¤%S)GëâÅÎR)§}c¾ªX€eK×µ‹òP²"ŸD$±óSk"vh°kµWĞ1Ÿ19¯1&ğ#`ÀK¥œö%;Z¡6J-Ô•_\d3¶\İh¿°Úœ?¦ *qf²qã#‹M¨xÊ¢~"‚ ‚è’ ‚€œWz·˜6±å4ê}ò™oÕD² \™â\„±_hQrTIË7F.>¦ç°ha"›K5´ºşÄ>u7•ÿì½‘oéå	MÁÍãXõõÍA%æ\bƒÄ±®®.=æ¸éœ3£ÍóÏ/È¶øE)Át]ëäSH§] xmî{7l€^½+§MÁühö¬…;e‚Âö¬4cÌ òã|…~>:´×ñ3ÆÙ—ŞÒœmî²1; §î˜Íıû÷8ö„±cÇöïÕ»R+³fõ–·Ş\ùòK‹r¹ (=Cß‡ïsÜ	c'1¸¬,ÕÒâ/^´î¥Ù‹.Xc;Ò¶åN.¹lPV>ùÔ#¦N>pp ®¯Ûşö[+f½°°~[S:ã%íWJO2tĞàZÆXİº­óŞXÑ^‰#5xHí@ccvÎK‹ãXÁO:y|u2ÆØ«¯,Y»fëigL5¦çüñGßX½r³eËâ<şÄ±'éÑ£Ì÷ÃeË6Îyiñ›o®` ®kíGf\ÆÀ÷#Îù”©Ã&O:pPM²XòŠåç½±|ù’mÜØœq¥U>ÊĞg}dI‰‡€¯¼¼dÕÊÍ“&=ù”	½ûV1€uë¶½ğÜ;¬u;*P‰BÄ;æØÑÇ7ººG ®]³õÅçßûêRcöÁó+›õ{ö,?îœ±&êİ·Š3¶nİ¶ùo¯|iÖ¢††–dfî,Äh“ÏyÒÉúöë6ÔÕ¿øÂ»óß^åy¶´6™ŒwÆÌ)I˜É«s–lİÚ£F÷=¦?clÃúúç}§¶¶ü¬s<bâ`×³ãH-\¸öÅçlÜ¸=öö<uƒ8ÖAÛÿ˜cGÑ§G²–¬¿|ÙÆ×^}ïÍyË`'Ñ!bcpÊÔaG;jÄˆ>©”ÛÔ”›?õœÙ‹Ş{oƒëZ–%ŒA!ø3'§<§¦¶"iƒç9ç}â¨íõ-‰Èèç£éGHªíYSşÙOäœµ´øÏ?ûN¯^G3ÊhTZ?÷Ì;ñVo0Œ§L6hp- ,{oÃ»Öu¥LiYêÜOgÀ¸às^Z´iÓËù|èºÖ±Ç™8yHß¾ÕÀ@+½tÉú7^_¶tñzÛ––-’åÀGş±Écim}f¾ŠÔYçL8¨g.şı‘Wwd¥%tl|?=¦ß±'Œ™pÄàLÚmlÊ-zwíË³-^\ç:VR±—oEGÊ…ÛâÓC(±€9"^¼-ZÓÈ]ICA±wA$É`KÇ‘gcú*û• ¢;f=+%¹eG2ª ÖQVññeMwM|«où–\úï«‡Ì©ï±5pÒRQŞx^ïC+~1éÍª…ãş¸n@‰T4`H6L™:<•r ŠÔÆÛ-)‚ î×¿úG·_””9ó´ïîhÈ-[¥t&Súíï^PQY _½şŞU+6Àˆ‘}øŸ@.;óÖææ<¶S¬8pLé8Pù(£P]ré©×\wfeUI±ÌEŸüÂ³ïÜöÃ‡?Ş_5òùğSçûÕÿ8¯¶¶¢ı®K.;õí·Vşà{÷¿ûÎšL‰›QJ¥Ô•WÏ¼âª3ÊÊÓÅÂgÌœ|õug>üàK¿øïårA{‰¡¹9âŒñ7İü‰1cû·¯ÿ‚Ï¿jåæŸşä‘§Ÿ|;v  ÕÇ?yô'?} <ûôÛ¯ÌYê:k}üîûÑ´é#nùî °jÕæ×^}Ï÷#!ø5×Ÿ9nü  ¸ù¦ß_ğ¹.½ü´¤üâÅëŞ[º^HÏ…Ÿ>ÿØ¯tü€§œ6ñÊ«?öÄcó~rûÃ›7íH§÷meÆ Ÿú÷ïñÕ¯}üô3&íäGEêÉÇæßõÓÇv4ÅZI!¾qË§kj* à²K~qò)GÜøµ·w	¹ìòÓ~wïÓwÿòQ’^<EÏšòo|ëü™gMi_ÿåWñ“ÛŞ¼¹1IÄÛ•I{ÒÉG|ı[Ÿ<¤¶ıö/š±ì½·ÿè¡Ù³&	ƒ;|ŠX]}íÌÿøú'ÛË%—^qúïûô¯îz”pÁ•Ò••™Ûnÿ¢ ¾ôÅ;Ö­Û†gœ<şºÎ€'›·aÃö;îºbä¨~ÅJÎ‡ãÖ_YÿãÛşúøcó2w‰9âØ °ÿøŸüÂE3ŠKPÀ›|Íug>ñØ¼ıàÁÆ-®k#c,—jjËoúŸ<ëì©R¶y¾Ì<kjSSşÁ¿ÌºëÿÃ˜snÛÖÍßøTß¾ÕÅ2%%Ş×¾ş©N›1xHím?ş" lÚØğÂsïx)çÖ^X¸Kîœõü‚¤mÆ cpãÍŸ˜4i Ìzñİ+¾tW²v äóá©§ML.ù(R?ûZ›8ŠÇŒpã×>qÜ	cvµ‡˜}çÿ+Š”eI­u*•şÑí_´,¡”Ş¶µñ¢KN9îø1‰FùÜ³óë·5#""|å¦s/¾ôÔL»î:ó¬©W_wæõË;ÿ†Êq$i"{A0hÙ¶<”»I&µ¾"äBA±GA$qgKØ¶p¥ 	µ© ;Æ¹ì«&bPç£¬-]GºœKÏJ#÷zÛM??¿oÙù[j¾³hÜ»Me‚¡`hÍÙ^}]ÿoŒXò©A«¿9zÑÚ¼7«¾g†4‘.“Ë;vdµn{Æôê]uİ—Ï–’À³ÏÌ_²x½ãXÚÁÄñ^k³kD‚(y­µIÀbÍ4 `	[pYÔÔå³(DÄÀ¯»áì¯Ütn;cÉçŒ§ÒÎŒS&TT•¤:{Âß¥Ï˜f9åÇ?½¤(^¬X¾Q>jtÛ–'ùå¯¯¹äÂŸ¯[·Íq,c0
+ãÿ÷­O]zùéIù–ë–ÆòŠLUU‰çÙ_¸øäƒjo¸æ8VRÊ¤§Ÿ1éçw^Q4ş[Z|4˜¬Ì:xHí]w_ıõÿ¸ïo¼’ØoÅ¬á.ùeÛ¯«†Qq{±ä'?uô´£FvP%s¹ğâ/òíï}¶ĞÕA´icC*íÖÔ”ÁÏ:çÈÁCz]uÙ]Û¶69î>˜:a jjÊîùíuC‡õJ¶lßŞÜÒTU—–”º¶-Ïùø”’RçË×Şƒ¦E5™ a_xÑI'Î·S…©´{ÃWÏÉçÃßİûTÒa *+3¿úõÕã'*kjÊ•d¼tÆ½õ‡Îµ0Õ^Oòùpê‘Ãîºçª$ø+¢%‹ë `Øğ>™Œ;|DŸ_üêªË.şÅÛo­lfÁqíOàyöµ7œ†ñİw=š)ñ ŸfJ<D4Æ0À #Õ·_õ¯~}Í¡½’ÙUŒAëÛ¯ú»® Æô=¬h†ñÍßøäåW‘¼İ¸aû†ÛKJR#GõM†¯¼"}í•w+e„à¾Öö®¸çŞëŠÒ[«\.,/O@YYêŠ«?VS[ñ­¯ÿ)™HÅéÔu”Òc/]\÷úkËœ6 ¦9ìÙ§ßnÂâAƒk‡ï“¼;n`ïŞ•[6ï°+éÒ©Ó†'»æ¾ºtÅ²0|dßßüş†=Ë’í[·6æ²Amm¥—²3÷K—–J9ß½åÏR"´.×mY©æfÿº/Ÿ3áˆAÅ¯@0Z3&¾sëç>ûùŠ³¥~[sUUIyE¦¤Ä»üª3úö«¾ùÆß'İEßğ{‚3–yƒ’ƒÖ€ 6e)AADç‚&É#8ã–°-aInc‰cH¨ü$Læ o¦³*T¾2±+=É-î¥ƒª¨_ÛØã+ó§¬É;e2bŠ¡ã9%¿µhœ+ÌYƒV]?tÅ¼ÆJL0z8Ø%N:eBÏeIà="cj{UœsîôAƒk à×–İşÃ‡ƒ¢C’`w%÷”hÁNÊÉ0#8+<ÖuÆy2~>œ~ÔÈë¿rv²ı½¥ëïşåcK×1ÆÆŒíİ—ÏI¢Hö­M:í\yõÌäíK³şàÖ6ml`ŒÑçû?ºpô˜ş½{W^zÅéß¼ùce³Á'>uT¢†ärá½÷<ñÄãóZšó®guô¨¯Üt^ÏeÇŸ0æšëÏúÉş5–aÚû¶_œ¨!+–oúÕ]ÿ^¼p"\{ígŸ0HşoŸ¿àÕk×lízËÛwfñõ´£FîØ‘}è—–,ZW^‘Y¹|“Ræ˜cGã–óÀóÇû{ø¡—w4d-KŒ›0è«7}|ÈĞÚÑcú}óÛŸùÊõ¿Iô¬.6 Šâ«¯;3QCvìÈş÷ıkŞÜ•*ÂTÚ9ë¼)_~¢”bÆÉãfœ2á±¿,¼’´Ó¶­gŒ«¯oşÃÿ<óæ¼Æà´é#¾xÉÉUÕ¥ pÕµ3Ÿzò­-›wX–ˆ¢øÚÎ.J?ôò_|¹¡¡¥$ã>sòeWœ~ü	c÷úœß#8¿üÊ3âİk¾ó­ÿ]¾lcĞ·oõ·oıìÑÇŒ*)ñ®½á¬+/½«}çlü„A-øŸgßœ·\i3yòĞK.=µGÏ2 ¸üª3||^İºúB†_,Îÿ7~`bÿÿö7O®[»Í¶åÔ#‡_}İ™55åBŠïıàóK­Û°~{§jTD#FôùÂOJŞŞ÷»gîıÍ“-ÍyKŠãOwë/,¯H{Ü˜™gMıëƒ/§R6çüû?¼0QC?º÷×O<óôü ˆ**2çæ¸O}æX 8÷ãÓëÖnûïŸÿC)ıƒïŞoÛ²WïªoïÆXssş§?~dÛÖ&Ë’ÉŸqÒ¸¿x ,oÃ?ÿ'<ŸµÖQ¬_šµ0D&MZRêim„à*ÖcÆ(ºfTU•ŒÕ·®®Şv,¥tUUÉ”©C“]/¾ğn+Ç±oúÚ'5dÓÆ†ÛôĞü·WÅ±.+K]øÅ“>ÿ… pÁçNø×?^›÷Æò$ÕKÒÇéÊÊÌªU›~ğåÍ›v¤ÒnSc.ŒÔ—.:)QCš›ò¿ºëÑç™ŸËé´{Ìqc¾rã¹•™9eÉâº_İõèD("ù¹ƒ°53ĞFon¡Õ½‚ ‚ :DrÎ¸BpKr™´1¢Ö*RA¬c `ì >cJ™Hç€¹=½à´kÁˆß®_¯kkS9m¸6*q7@@W¨œ?[6lZÕ¶#ª¶O«ÜşÂÖ)A‹ÎìÎÌÆöFİÅ_:¥Óbù|ø|şç?ıGFeåi,Ö.é%`ûªvª“•$Š‘Œ1O¦,ÅF!š¶‚€Æ ãì¢KNJè®X¾ñ²‹ï\»vK*å ÂâÅëŞœ·â·÷}yØğŞûñyãXŞgÀ ‰8rç/ş•H	ˆøêœ%ÿuûÃ÷ıï pâŒq=jÊ¶g+*ÓW_sfRø‡ßàï{6ñ¤ä¹?Ş÷ìÚ5[îııé´ûÙÏŸğğC/¯[»5õEŸ\Q™€ºuÛ.¿ä+WnJ2’,]ºaá»kşüàÍÕTV–|ú‚ãnûÁƒøÔ:ğ£¯^ÿ›gšï¥lDpËóì«®™™„NÜóËÇ~üŸ;•d»øçßç.[ºşÿwcï>U§lÒÔ#‡Ï}uizO6Xü?Um¯Š3fNNvüê'üÓ«ååi.x}}Óí·=Ôg@ùÇfN€cıø¿ß€©a¡©)wİUw¿4{QÒ/ÍZ¸tIİ]÷\í8VyyúÈiÃ~èecÌˆQı>õéc’£~ÿ»§oıÎ_,KZRh­ßx}ÙÚ5[pÛöÚcJ™=ËŠá*wßõØÜW–V÷(€Å‹Öığ{÷?úÔ­œ³cİ@ÏÕ«6µO;ÚÜœ¿şê_¿øÂ‚öí¼ûŞk]×.)ñ¦N±jåf«‰Q_|áİë¯¾'Ûâ»®mß™¿zÉâºßıáË%%^UUÉ§>sÜOnûk§‚ˆŠõÈQı’&­[»õ—¿øwSS>•¶£X?øÀì¡Ãz]ÿ•s à´3&=üĞË¹\pêé“N<i|2?¿ıÍ?İÿçÙ©´#_½rËë¯½×ÔœOÂ©.¾ì”ısn]]ıË³åráˆQ}oÁƒ0Œ_x~ÁšÕ[]Ç€¦¦\Uu!<mûö–Ç›ÇXRx)Ç’âµ¹ïÅ±¶,1nü€~ız¬^¹I=n4 Ä±fŒIÉ>fÔSO¼™\kcÆ2´7 ø~4ïõeÆà°á½gœ<>9Åwnù¿ÇşõzYyšs¾ukÓ÷¿{ÿÈQı&O
+ G3rî«K-Ù>ı0[»vë¥İ±|ùÆ¤lKôíW¸Ò(¥oùæŸyhNI©'„Ø±#÷»{ŸÜ¸qû/ï¹Úq¬‹.9ù{¥¾¾¥ëIm?¢pÆ¶ä@Ü4…fG ´®Ì!ƒAf´aJsL›ƒ44Ì³î\ÿÔø¶[ªÎfëä×¹³šp¿æ{ØØ…3¶Û;µ}Z¸'Å¾Ÿ8c‚sÁkw?Iñá"5)—1Î ¨´Q‘‰ÀÄ.C×z_¾¥ §ü!nC¯TÓú–Ê×k3ÒØÂtD£AÔ°L˜MQÅœú^ç~oZeÓõımÑ°u~%™%÷¾ƒãX§lr:ãşÏoİº¹ÉK9±DÉÛ´¸mKÛ–­6á–´‹¿w–p\;#˜p¥×^%Q&b_Õî’+¥ûèyôÑ£“-¿ıÍSk×l©ª.M~½”³zÕ–{~ùØÏï¼¼İQ¬«k1¦•Ac’×5=+”2J)xEeÉâ…u?¼õÒ²T.pÆÃ0>õ´‰C†õ€7ßXñàŸgyË7 $“zîéäÕ/šQRâ8cü=w=:`PMÑŞûŸß>³rÅ¦¶–{Î†üıs—]y:ç¬¦¦Â¶-£MÇ»Öş³ìô¡vÚ Ï<õöìY‹«{”rÆ ¢1cûO?zd"ÇÜûë§¤RÈ¤Á™´7ÿíÕøısßüöùŒ±SN›øÊËK`÷Am‰¦ÉãŒKf§œÌŸ~7Ëqì0Œ^|fQYy™É‡ù ¶74.]´.D2%Ş®·)şóõ9//©®.Mv¹®5ëÅw-\;iòP 2¤Vi­µ>áÄ±‰wÒúºú_ÿê1Ï³]×B Òv¬ÿ2ëäS8ù”	ío;»‡Be´Ö…ØÚ^åÆ`)i‰’R¯®®ş;ßúß=Ë¢0cÅ9o¯ë=õÄ›³g½[]]št‰ëZ/Í^ôö[+:z Ö« üu8-"tØ’ÏwşüŸù\X^‘ÆÂĞÛ¯¾²ä¡^Jä‰N{ï=OÄq,v]:§]T*í”W¤·li´l!¥¨¨ÈüûŸ¯ÇJK)6¬ßî8VÄ›YÈ´2ëÅwÿöÈ«•UÎyrÁA|ï¯Ÿ8cæä>}ª2ïÄ“'üî7O––¦’õYŠ—C*åd2nâM£µ)Æ	Á3—1(TèZËßÛ°bùÆQ£û¹®}ÄÄAK×	)ª{”N˜8 ^m™”|Úô“&-/Ï(¥£PM=rxâ‚´dqİª•›S)'
+ãŸÿ×ß…àÍÍù7^[V^‘aŒccõõMË–mH‘’ÒÔ®ãzÿÿÍZ±bcuuiA½jÊ{Ü˜Ş}*`Ö‹ÿşğ+©´ ÉĞ§Óîcÿ~ãìs¦sŞ´êêÒ£óĞ³IÙû÷ãÖÄ†9ÒìğMcÀ(ÎèÃF)iîZ:ã¨%aß
+¿2U¤"Æ`/Yã;-€{³[w-°õtÑFŞ×Æì_=]7ØñéŠ]#Œ¿Â ñgN^´ÛXğƒŞ©@ëFØ¶·x`r×P|½ë‹âŞBœk[Å
+“Ú:6 C=I%miİ…­»:İ ˜ìÅöíoWmáD_sƒÃf?hÈçs¹PÅ±ÒR)'e„ ˆEyäÈ';š€h’¤ªï«– 67ÀÍÊ\YCäzBaá[–q&…(.”	šYËò=—ôK«R'í
+›¾/;¿_Ò±#½¢IüÈƒs—-İX4ŠŒÁÒRoâÔAS§0°ç€=§Nyãµ÷mÛÖ’²¥#ÛÖËp¬TÊÊ8V«5…ÊµÒEÃØ¶-@ØÉTæÀmésˆXÂÎ¸ecFÉ”¸ ĞPß²xş¦šêÇ¶Zo"˜]Zğæ†­[šzÖ”€k¥ÒniÚéRJÏÂ†­áêUÛÆ1€sö­ï\Ğ¿oíësWlßÖÒÒâg£ÿıíËÒRòtÆ-õÊ§L.dèØ¼±éˆq#Ré+}¶4ûÍ;
+åL?$ã–>¸WïÊÄZ[0¯®geO×¶‹-Oõ,yæ±E¯ÌZÉƒ•¥•¡))¬ŒSÒ~ÙQŒ-×*HH‚É´Sb"é8–lí±Õ+êKÜ²×-¦Ÿ›tÄˆ$Ğ`C]Ãˆ¡m[¶op>ª’H™qãÕV×DÑyÔLaRT›å³ê¿}1•ïÇ™Œ[ZîÙ6ïUV^SSÖ»OåYçL+Œ)rÏN;¶%$gP°¦Ö¬ª/ñJSN
+ï!‰ÌDÛë³ÉŞ²²Gx¶%G˜l™÷úÊ\³)Ë”µµİòÙÏ/NÜ³RŒ±]C~¹ÆxÉ¢ıú÷ €¯Üx^EyÉì—lİÜ˜m	ó~ø—?Î±$R¤ÓnIªÔ¶D±‹V¯ØV’*õl¯xÒ8È7íğ“wåe%¶¤p¤WÔ¬láyVZ¼0ù¾»vé’õéŒk+ô£ãXÏ?óÎ—.;•1Ö·_u¯Ş•+WlÜU‘R.Y².	ú¨®.ûé—ıéÏ½ûÎšíÛ[‚ Z²¤nÑ¢µ–%mKº]Z–*†=ÿì;Æ˜D¼Hp]kÛÖ¦—g/úÌg€ñã
+Îq3‹&Æ+s–Œİ ¦Lş×_ÃxÂƒª€9/-²m9múˆáÃûôĞcÉâ:×µ'N’,)UZšŞ¸±á—wş;ŠTÄ¥e©²ò´çZ%5½Ê¬9şø±…oİ‰Oßª•›mK!ø„Ö¿qıö‘£ú––¥Û—oiñ7mlH^Û?YœØã03h )„JÏl÷M6b´ÄÌ‡"„J„Š—{ñ˜ş;¦ôß1¶OÓÈš–ªt˜v4—¬.äÂİ¼ØõïËìùm§5tåÀı¨vÏgézãñè¢¶¿àÀ äÀxrcÀ@ëà;¿†Œ#p À8²¶×À8àK^ğÖb GÆZ+iÛ…íê/¾.lÁâ‰8°¤pÛÄÎGÖ®%À±Ğ6m¡µSxm€ÅCmB¥rùMMkê·­Úºiã?
+¥RHºÏ'âDRBíj=íò;ó¾("œ! *gºs%0f:H3û4"mÎŒ»ó¥ìÌ ã¶ç\ğÔï´¶7Æ¸}î'üoí¸ÖğQ½®¼ş´[¿ùàNıÛªş#´>0ß9 vñwà\„¢ÙÀ9—¬wïÊä}CC®a{Î±ìöv¯”Vè«õë¶'‚çœsÉ¹èJ'qÎü|x÷Oı×•”º½zWÜ|ËÇ?Ş²¹ñ½%Ş[²qî+Ë–-Ù$$\z®Ó«wa•–3Ï™<óìI;gÅi÷™zÖ”;Ó»o¡å[777îÛno£0cLs“Œ3!$çÈ;||Áy›}Î¹l·’½í?©\ˆÖ-BÈ^½
+˜:}Ø_ùj'i|°7¤gM¹ç¹~>,´;Ü­¯¥dds&$/+/=æø‘“2xhMŸ~U¥%ÓÑdâLXÒ±¤%oû L¸–k	'™&ˆ¶”¢p Caq·¢<]\gıÚ×ò\«ƒÈU’›Ö7')œcô:D €™ø¾ß¼8~ÂÀÚŞåeåén<çªëÎÜ¶¹iù²Mï-ÙøÚ+Ë/¬CD×u´Ò¶”Åø>Î„g§Ùv^Ï)¬ÖvrGz–%lé¯K:®ôbñãl¨k´ •qJi¥Q4œ³†-ù\˜Î¸%%^YYJwfó»®µjåæ;~öo}ç ˜8iÈÄIC²Ù`õªÍK—®_ğöê9s¯[»Õq-¥tm¯Š$S/"®]³Õ²v¶]c«Wm.ÎÏTÚ1 
+0Îç¼¼øâKOœOœ4¸¬,½uKc1gêë¯/++M€íÈÉ“‡Î{cùĞ¡½’\?Z›7^{Op€Bp!x¿~=fœ<~Òä¡ÃFôîÓ§ª¤ÄkŸİv¢L›Vˆh;²wßªäíg/<á‚Ï¿‹6³ÕÔ”»½OIs>ŠpÆZVŸƒÑ=ÔºFêI
+aùH Ã‘5-§Ş2cø–áµ-¶ h†2£Æ{ûÉëº¬Ği±]oè°Ëµ½OgÙ?y¥‹Í~—?À.j•vZ…ƒV¹caWÛŞ]JrS”?
+êCáo;ù£ít…-¬­ìxºvz
++º“´ºè'Rt:ÈMÌ $Ş—ˆ7ÉNfp€ä§ˆ!ƒVQ‘ñVK€ÈL»À‘q`œ1éÙv_73 gŸiÃY.ˆÖ5l{·nÍ»kWlijàŒ·ù)A¼ß‚ÈçæÍøPNœWbJEı÷Ç½ÒÏkI‹?æ²S™ƒa¬°ŸÓÀ¶V>má°ÏÇ€3ÄU2àEm¢õË(£ÌN^<±ŠbÓOd{<•^ºı–PJıñ÷ÏVı¹/ G?¢GmfÍê­Ê´­Š¢L«ˆ)“X•ª.ˆÚ´¥ØD±
+•6ˆºµ‘:RÓÌrªÖ:}iImmNÖ¬‰âÂÙ•cÄª«ã+m˜óò¢®úÍ×6yÊ0Û‘®gÔcÀ §Í<âŠëN}òÑù¿øÙ¿²–ä^ºà¾‘¬±ºÊ*<±—’­­ÒaÄJà¨‡ V©H£*~üXE\aÑê‹U Úöb¬¢XE\´ågÑ¨cÆŠ'Cl@¥2m!°ÇæŠŠ42Æ¡Ã,–hÀY'ÓF!Æ¸ŸGéË÷>=f|¿öõD‘ª[· ’uUêX…\ƒmşÚèPâE,Ö¦ı!¢á‚»^¡ña…q`wÓHGA Æ8F*Ü Â-X´hõuWüæê/Ÿ1ıè‘é´cÛ¢OÿÊ>ı+O<eÌe×œ<ëùÅ?ÿñ?7¬¯·l	J·og¤‚¨İy#ç§A© ™ŒuXì"¥ÃHQµF~år¡àB
+K‚e4¨•‰U„IlHQªØİ¸xó‡ß?ÛÒâé²Ó†è ™Œ;nüÀqã~úücëë›ÿtßs¿ÿİÓq¬R)§¨#t*¯@»ü»gK)£0Şï/×µ.X³aıöşı{ôëßcğÚúú¦)S†ÀÆk×lMyNCCKeeÉ”iÃï¹ûñÑcTU• ÀŠå—,ªs=›1ÈåÂc}Ëw/:¬C  ˆÖ¬ŞšJ9ıôèªñÎYQºm¿Şpç³½2cYrWY–ØI…ø·¥Ñü-fşffê’ú&' 0mĞö¦ÔÍ¾5]€æ ¸	¬}Ğ2÷jğwQG8bûz8ì»{Èûw–ƒÛE»=KÁ¡£E£(jìâ7Ñ^àèà|ÑÎ/£UÙYşh'¾°v5t(YtßhkI»’m¢É®òMû’;Õ³ûwÛ˜â‡-ìÂ¤ C  ÒÖ{àğ>CN7}şšå¯,y{ıöÍ‚s‹d‚ > AdQã‡ãFjKvø™¡¥õC¼³·õ,³¢]np14¼D¶SµŒõöT¬Z|ø¨¬¼›d|`L.$“w`˜V*MÅuy‚8ã hİ…*ÌG9ïl\)Î»8D\×r3¼ÅoŠ´_ìü|”ÏE- =[¸œs¦½1ª ¶ÔAì-à ÎçãœV¦hó+ûQb{Cc«Á4‹¢Ğo\ •á‚"úµyw‹Ü9¯,|}ŞÒ±ãLš<tä¨>#Gõ4¨Æv,Ç±ÎıäÔ’rûúkîÉ¶ÄMÉ1{ä•Ç}#“vwvsA .xcc.e·moh•]˜Â ùv¸XâXÇQœâ8–GÚè¢²“‹²†ÛÅÇÚ~”ã `ƒöãœû†[Û)"6ûùúí…®›õâÂûÿïEgçŒ>­æ,UcKcl”Šx"¢qÆ‚[œsÎxâÿÂ‹•òC?q¿ûg†ï JéŸ_ğæ›+7®ß¾aÃö…Ö\}İ™_¾ñ\ P¨ü(g˜%$G(J¬C?ÊZq[Îİ Œ‹
+‚A@élKáÃZTGš·_@*˜Ô‰”€hü8·;A ¹ÍŞ]¼òº«ï>¢ÏÔ#‡ÕoÔ¨¾Õd2®ü¤SÇö¨É\zñÍMMé´[Lëë(eÛÏ¥|”+¶SåG9…2Œ3EÉ(TA>Î¡Á$™4 dJílĞly ¹ä\p.m.S6÷¬¢ ÿ³;ßóœ¿>øò³OÏŸ8iÈØqÆ0lxŸD)¨®.½ñk’ÿü'oiñ?Êd\Æ˜ãZ†Ã$ñS Ïq¬D‚7lÏÎ}eiÿş=¤cÇX¾lCA3ÿ­UÛ[šE~á‚µÇŸ8vüø™±ã$¾2gISs¾¤Ä‚xÀÀ?ıïK“·¾=ûôüw¬Ş¸¡aıúú%‹×İúÃû8¡k_t 6îÈ%oïÿó¬çŸ}'q;>®-Ìv!Å¶­Mœ3DRCö†Å±®I­l`®EU?H”a¹PíİtÙ±«Î·I¸1DBûûh×íŸ.ğ~ü‡¤òrp¿_GuÔ;vñàèDïà»qèè¨b´ºànKvW sO¾µ…uô.éPçˆ/;‡ü@çâë\¦A¦b€)7sâØé‡Œ›·bá¬…s·5Õ;–Ã¥@"âıD®?”Û\oò½Y[{œ7då5ƒW½½£Ò×Ò£ç•uİ•Ëw¬k¬xe{õ‡ÕÚDT¨ UÌ€\HnIa	&-aKnY&U µ*®÷Òµj¡úQÈîÍXi¥t’§sîÙ©´SÂ@ƒ*ŒÃ¢ˆ¡L¬tÜµ”àLJx @Ïšò>}ªV¬Øèym‚ˆRºwMå!½öO0Š" ˜0zû­•¯¿ömKÇ±‡ëuéå§Ï<k*cpÒÉ&OöäcóêÖÕ¬ñlğ¯¿ÍÍ”¶å[Işõó¡RÒi×qäúºBùŞ½«jj+v,É¶dĞJ——§ûô­€(ŒW­ÚŒˆaëCû]ûÇ t=z’r½®µŒÁ£ÿzMZRcv @Dq¤Àu¬ªêÒdXÑ€ÒbÎ¸–ÅmÎ¥¶àVàqÇKÔ––ü×ÿãO>>OäœÙ–Ìå‚.´s·bûqK}c¼qÃödËØ±ƒ2N™F™
+É‰ 
+Õ¨Ñıöz¢ÄTÎçÚÊÒ%uŞYmYÒu¬>ız\ôÅçöx!ø¸ñgÌ˜pÿ_^ÜeÖÅfïaÃ{;i‘Z,)[/@[+Ó¯_ÏtÚ€ÆÆ\CC‹ìÌçˆ1æûQ+ hjÊ½øü‚çoÛV&ãŸ0ğ+7—$ùÌgOxèş—6mÜ¾½¡¥ºG) Öû…gßt‡k–ŒÕ7y»aCC6ë—”¤Dl5hæ¼¼øü€‘£û[10Y;ùÕW– b¬ÔÜWß;şÄ±½zW7`Ô˜~I3’Ü½ †ñI§LHÔÍ›wÜxÃoç¾²Ô BX–‚h_V`Q¯][X¸zGCö‘¿Î)¯Hw¸<òùPk %%^YYúıè<L~B ,Á,òù@É…Ò³õ'.¿äØUåe„rŸ¥CÉà?L4‘÷å,¬½l±³Ä.*FÇ’ı/:‰|íU†Î½-:è»ˆ/…·¹«ì^|Ù“ÈîœM:sKÙEèéè]’¼5â(²­ÔŒ	Ç8æ™·g¿şŞ<š\E‚x‘ëÄ€3üŸ5ƒgÔl™V»ñ¶±¾¿dÌÖĞu¹Ü ²ĞppÅà•W]FÜ½jÈ¶Ğ)‘ê#5<ís…(£”QL·má!-áHnE*U€å:ï¸b.À ˆŒ6'Î(,’ÏE;ZlÛjjös¹À¶3RŠ1#×­x‡e˜1*ÒÑÖ†í¦‘X>Pğ3`{0´Šj"ZR®Z¹yÛ¶¦=ÊJKS§Ïœ¼à?W»®“”BÄlÖŸyÖÔ${ÂNbPÄIã]×îÔwÀ÷ÃiÓGuÎTc`ù²÷ÿy–çÚÀÀœÿÖªo}ı#G÷2¤ †íÅŸÿöÊäÀ“O™0dXï††Ï³‹}•ËúŸ½ğÄiÓGpÎ_xnş¿¹zÕ–Õ«¶\“J9§1qş[+<ÏnujÀ¦æü×o9ÿó_˜ /¿´èKİ¡”®ßÖ\0¤‡õñ<;ŠTqÉcpúQ#»>ô®c/|wïGgO<tâä¡‹®-)mËÓÜœ?íŒI3Ïœ‚ óßZõ¿½š¬È›(DŒ1×µ€F­ÿ?{ßGuµ}n™²Mİ²¬bËİrÅ7Œ±éBh¡„H€$¼¤7å{“Š	„4H£Cè:î7¹Y–dum›vïùş˜ÕjµE–Ü°Í?ü³vgîÜ¹{gægó<°ÀäLQ™æ¦ôÃ‡Ç*eV®ØşÒ‹K
+òı”Q £†5¨²øĞ²0i9Æš5[¿ô•S `êô¡#F–oİ¼ÏëÓ;*QX¦›ç;ï'°)ÃpÆŒ©¸øÒÙ P_×úø£oišBAÄ­[jÿ÷Î'0}úH <´äHøöU®˜5kÌ«¯,+(¸ š#*Ï:/æ³gWSsCTQx§uâü´.¾dÖ¸ñ•ˆøÁ{ëŞ~kuNÃzóõUÍ-¡ÿócBHaa ¬¼pçÎú•Ë·Y çò?zß²lU­ÿÂa£rpÿSfV¹®X¾¥S­¿W!¥”Yw€Ç£®Yµ£¹¹£°0gÄÈ²ù&ºXáê•Û…K‰«WowÁ9;óœÉÃ† €}µÍë×íÖuÕ•A­ìœ'ï¿ûé»ÿ]Û¿û!…Pêí,"qÍêí  àŒ³&=úÈ›‘ˆ©wš#b$b^{ÃNL)yãµ•}¸!~ñf#ÇÌ;è0”ñeí?<gãôûÁf…ÀñLµ€BR9	4D ™|Ñ3Ş‘P~ÒM=$˜Hw~G1‘Ø‚bÔ”jÒMÆ5YE5¾e(éM2Õ
+uïéV”rÑ6­\áÅs¾<¼|Ä«K_knoÔUOö>“ldã„D ÀÃÄÆ`ÎÏ6Œ»wÂêó*wó‡ŸØ]ùi[^›­hTó‡.©¨™?`0ñÏmÃ^¨-÷1ñyş©H§I¼%L[X
+WU¦3Ê4ÅÃ(7œb7CbË´#“wR;RZZZøÕ«æ}áÂ˜È²¥›÷îmòz´úº–††¶ü|? \}İiŸ®Ù½kw Û¶íÁƒK¾sû…¬w–îûp `Œ†­{´úºÖ·ß\}ùWçÀÕ×œ¾|ÙÖŞ[ç¾Qw±àÌI7~óìT4DQø¡•ÂŞš¦PÈHÅD,Ë	<_2 "aóÃÖoÚ°Çç÷ Ç‘99]‹MïÖÖÇ£®X¾uİÚ]ã&T––~çö~úã§ÚÚÂŠÂÑ4ìé3Fıôç—»ĞÌ‡¬§„45v¼úÊ²[¾u> \ıµùË—nyÿ½uŒR `YÎi§¿à‹§¸íğŞz!$¥tÇ:÷“£Ê®ºæôßÿöÓ´	 "\vÅ©ÎœØûŸ[QùÖ-û>xoİYçLöùõïıà¢oßòpKKPU9 ˜¦=lDéO~yåàş °kgƒµ8gš¦ŒUæB{v7F£V|Üla9ÂâL’;båN¥¥ıúå¶45MRZ¦}ÆY“Î8kâ!NUGûàƒûÛûço}÷ì;oÿG[[˜Sà»?øR¼
+£§L^HB©k­ K–Tğîºœ\/!D‘“ãõûc”öğ‘p¡”|÷_Ú¹«aÓ†=ŒQ@R^qõióÏŠ"ï¾µ^XÄïË1œˆ"±,{ğ—‚QUUñŞ»k;Ú#n9"æçû]ÆŠiXá°ÁûÏKË.¹lctÂIƒoúæ¹,|!µ!Rbn®ï;¿RX˜ {÷6½ÿŞ:®ö¢ó±kÖğ"Ê`ĞRîé´éåœÕÕµ,]¼åœó¦ŒYV1° ª«÷îÜQ¯kŠD¬ŞX³}[ıÈQe|ñwœ—,©njlwqQbGç,8¨8ğv´G…!-Û¹üŠ¹SOŞ‡gW[üIõömõC‡•>à–ow×/no³…K”FÔÆI?ùùe.¼øê–g]f²q¬…$lòsÇÕıßÖåçF¥¡ôÙêxÔÏ%;È$àé	=Õ³tgUd_’0”Ô-“™ğ®c¥?»Œ:#]µBIxGÒÓøİd¨ôI8#Ë@`âğ©
+>ÿÑÓ[jªuÕC²Ö¼w‚H8‘‡½eâ ai–¹™, rpáçöKûJIî¨Ú4ª¨ñ×…Má¨w¿¡ù¹ÓÏîX†çÑ­#¿m˜B%%Ù+­±Ó¶Æ=*Ó8S¼$`1‘È¹ñ›gŸá4…³8R\œ;dH‰KŒ€¶ÖğŸşğ£”2	Yï¾¹nÔ¨r ;aàŸŸüÆ‹/,jjì<¤äìs§””äG°Å	€²®6¦»qÚéî^xíG¬ÿà½u}ü³Ï’ŸïÏÍóıé‘›ŸyúãeK7SJ§Mùå¯ÌòxT÷Et¼)Ã°)ùË“·ùız0½üâ{Z[C©Ö>Ÿ¶hÑ¦êM5£ª*¼>í¾ß\ÿ»_Ş½»‘èß?ÿ›·[V^ -ÍÁU+·{<Z(d<ôÛÿ<òØ­ pÉes**ŠşıÏêë[9§S¦¿æÚ.òŞ»Ÿş÷í5^Ÿ.„|ê¯ïqæ¤#ËÏïşæ3ÿúxÙÒÍRâ¸ñ•W^3ÏÍ·mÙ÷òKKt]!„¬X¶Õ%• ÀíßÿÒ„“†,^´‰1:õä}BCÜT şôû×fÏãóësæ}ê_ßûë_Ş©Ùİªª*¾vın»¹zï3ÿşØëÓÃ?¾ò/OŞ„Ôîmºêò…¡`”ª<qÚØe
+gÅŠÍBHÆèˆ‘eşîÆ¿?õ^kkH×Ô©'¿á¦³\
+À¡,9T•×ìi|ìÏoİqçÅ 0ëÔª??õ—[V»·µ°(°àì±ÓgŒ€$sÙÔĞteÃúİ¾¿~ÎÜ± ğ«»¯yğş«7íE‰…k®›?vì [²¸ZUÿİL1tØ€¿ÿë{OÿóÃO×îÔ=êió&œ÷…©n··nÙ÷Âs‹tÊó’@Ô	;Âc"ªÊ_zañWÎÕ4eüIƒïûÍõ{â¿mmaJÉè1ƒn»ıBw„?]»sÇöúÜ<ßŠå[şñÔûW^= nùöy£ÇT¼ñúÊÖ–PYyáÅ—Ì3v Ûìï|¥¡®5s€zBIGGL•cTUùÂn¨ÙÓØÚzú_Û–C)!„Ø¶³xÑ¦sÎ›âõj^¯ ‹>ŞdV à¥‚í‘eK7UæÊ©À'mRÆ£„¬\±àl ˜1³êş¯ñùÅÁ`ÔçÓçÌ{Íµóû´fåœµ4ÿĞ+÷?x= \{Ã•ƒû?ÿÜ¢ÆıíªÊO6òškOwï ¯¼¼lñ¢Mz–’c)IL›];cççlä\
+ã0ÕÈÀç§üäØ`£`³^©¥H¿#“\HO(F&‘nàK¼ƒ&@Éê!éÄDRJfh/ÉJzõÃ¾t#›„M³(ÀgŞøÒGÿ^µy©®êYL¤¯a!õQG%²EªÚaÅDÈgV»T–ÅD²‘D*·‡€b¿ÖP²®#÷âòš9ıööF‚¶Ã··ç®lÍvïÀUmy:
+ÁìE–‹¸j”ttÅC	ó¨>•ë´“?múÈvßµ³á'?~jã†=>¿Î(ÏÏõ?ó%§Ì5qÊ` 8¨ß·¾sA|ãÿ¼´tÈ’1ãABQL‚¡,uÿfŒ~øşú¯ãlÆh~¾ÿškç—–|øá†­[÷ıø‡[ø›ëuêóë×\;ÿškçÇöéÇŸ4xÄˆ²x›#”æçåù `Ç¶ú½{›ÒO0Æ‚‘»~ùôC¿ÿFN®wü„ÊGÿVkk \ª Ø¶øÕÿ=½¯¶ÙçÓ…¿ûöÚ»õÌ÷øeBÈŒY£gÌ-…¤	ä—5«wüìÇO	!…1Æš›;~ğİ¿<ô‡›Ê+Šü~Ï×®_ğµë$ö¡¾®õï?ÑÒtÕ+š›ƒwıâß¿ûã7UÀü3NšÆIî–á°ñì¿?¾úÚùğê>|@:Ù¯W[·n×?üÛ]w_íñjcÆ¼gáµˆ˜¸åİûpûãm­!¿_7¢ÖĞá•À¶­uõu­q:@×´!DÓøªÕ[ôín< æÌ;gîX€¶¶ğ’Å›ç6.±o‰}N»‰oÿÏ§?ùÄG*ÿâE§ ÀˆQ¥ß»óÂøömmáWÿ³ìÒ+NMÔf…#î»û¹¡Ã”•Üÿ‡nlo!
+ñÍ~sß‹ë?İå&É}í'¸&> ”ÒÔ=V¯ÚÑÔØqÖ9“¿qË¹I_57uÜyÇ_÷54äçåqôPÂ¼Šß€ˆ%LÑuuã†=ï~şG?¹ Î=ÿäsÏ?¹¥%È9Ëé„3êëZï½û9)‘1ªªü¾»Ÿ+.Î=óìÉ 0oş„yó'$ôO¿íùg?ñùõÔ“¢İ9\]]üÉ¦-›kGŒ,cŒ}î hhh{ş™E¦”®»³®«K—lDLAÄåË·JİR=	¸|Ù €ÖÖĞªÛâH„×«}üá†—_\êÒÍÎ¿`ÚùL‹Ï¢½{›jö42cTÒ'š¥ş:>¿şÊËKéë·ÏŸ~¼A7/ªşåÏÿE	ÍîfãØ	!‰é°oÏÛrËüÍ ¨°ú(ÚrDC=,G!´0Òs%’jdº+}tÇP2à©ğJòE|Iò¦IÜ1SLMã ÕR{6µqÿÓ­*'åìÒ
+ÓvÃP¢¶­©Ş‹N»ŠR¶bÓ'YHŸÂ@6Nm½-oc€:nşV´T'‡‡q/€hD~+wÓÉzÓ¢h¿ß¶We1‘l§ñÙë6€ wö›ÚÂ­#¯^>íËKf\´hÖ—Ïøê²é?Z?~m{®;<‹†d<ÄfÄ
+	tP•iR f-Ûuu-‹mºç®g/ÿÊ=‹>Şä¢!^Å¯«Z(d|çÖG{æc3ÁÎ31ŸxüŸŞù”mÇıt1é?q—¯W[µjûwo{tõªí‘ˆ	 Ñ¨E ü~Ï›¯­¼é†ß­Z¹=±?--Á¾x×/àã’'ååEî'K–T‡BÑL;>Ÿ¾è£M×]óà‡¬wÍJóóıq4díš·~ã/¾°ÈÍ÷¯OûóÃoŞ|Ó×®Ş» :[nhh{ôá7o¼î¡úúVÇÍÁï÷¬ût×UW,|şÙE‘°ÙícX/¿¸ôê+ï_³zG\ËÓï×ß}gí·nşÓ¦5‰oßVwãu¿{û­ÕI# R&gbøıÿ¼´ôÚ«øøÃî^ñE@{[øé}tÍ•¿Ù°¡Æï×AHY10ftúÑ‡ë…i®¼Èƒ_üÍÂk;=îoÚXsãu-[²9©o‰}NÛÏø–ñÿ¸UQ?ùÑ“,|±¾®5qãêû¾}ãã‹>ÜêjÄöàÒ ^Ÿ¶iSÍõW?øê+ËMÃ€Ü\_©Ş´÷·?şØ#oèÍ™¾ö:mn¥”©{X–óÃï?ñÄãï„BFâP¼÷î§_»ò7«Vnóû=–cD¬ D‡ Ñ¯Êô8QËãÑşòø;·}ë‘ö¸Ÿ\4Ä²œ·ß\}Ãµ¿]÷é.WCU¹m;ß½í±{îzv÷®ıI=Ù¸~Ïwn}øş{_Ğ4%	BrÏEv7ëå
+kkßvë#o¿µº¹)&m
+F·Q¶woÓÊå[İ?wl¯ß¸~ŞYŒãñ¨kVïØ¿?æÍ´lé–ºº6¥š¤” ?ûß§ûó[qéw­\±íë×=´¹zoêwNıu(%š¦<ôÀËß¹õ‘õëv'(ûj›÷ÛÿÜrÓZÛBš•ÖËÆ±ˆ$lò›çl½åŒÍà0!ú¸¦J¢'ôğŸ>ıÙÃ‡r”Ş~X‚‡µ“;ÂˆCÂëöÿtÊä¯hçŸ.@À¤ûIúF8ƒ®?“¶t{kP&vk3ù<¹oİî¶ISÚd²Ç“ÿ	é¿¢)‡èv¸ÄFdÆQ j;6%ì‹§^1µj¦iE³7ŸŞßcÀÔÖA<tuÎöj;‡É¦-*ù4­ñ_M?j\äß3Co4$;®nà „Bb6ÑüœgÔFß|ìôF qJÀ(*G Ôí½ß!%Ì£ø<ºŞ¿$×¦%$ÉVCH
+F;"ÃãQ…SJ½J€† ;Š„¥„1c3°°0ĞØØ±aıîj4ØÏ•xlØß àóiıûç€bß¾Ç‰¹¨ºşä«ª
+E÷ïow_ç†B†ß§O˜8dÈ°’@ÀSWÛ²víÎíÛê|^­bP?…s hhh…Ã°~ö‹¯^ñÕ¹ˆpÕå÷-]Ríõê=œ~$b*
+3vàÈªò%ù@HKspË–Úukwƒ¿ßÓıö‡áxÆ<jtyAaÀ0¬m[ê6lØS³§QS¹ªñÄ»"!Ú(qä¨²Ñc–WQJkö4nÜ°§zÓ^7oLêO(däçûOš4Äsİ¹£~ÕŠí® FII> ˜–]_×*¥$„””ä»)hKk°­5œöÕw8lhš2fì ªÑ%òmËÙµsÿ†õ»wì¨g”ºù!"FÂæïÿôÍ3Î‰˜—~ùîÍÕ{3	O#£Q³´´püøaåeı aÇÎºU«7·¶„Êåçù îoh§„ ²òB÷7jjêèè'æäˆXÜ?ÏçÕ £#ÒØØîæ±îQÂasPeñØ±*BnÛ¶¯z]}¸Ã)îŸ“W¨vÔ¶œ}ûZğĞZ„‘£ÊÆTRZÀ9mo‹lÙR»~í®æ– ëVën9 ´@S hnîho$§”²ÿ|½
+#„€¢ğÒÒJ)Ö×·F#V$lÜüíóo»ıB X¹bëW/½Ï41c7°_¿Üööpõ¦½6ìq,'NÀA@F˜Gõ1ª ¢a‡,a¹<DtçÃ¸ñ•ÃG”æçû¥”ûöµlÚX³ic”èõªñùF8¶ŒDÍ’’ü±ãUğëM[7ï[¿nWkk(ñLİÆ•—• BˆººÛ	.ˆF,Êhii{X¶S·¯EJŒ·árm\15ë÷µ$2M¤Ä²òBw<[Zƒ­-¡Dh’°-aYNÅÀ~£ªÊûç
+!wî¨_¿nw(dª,ø= ĞŞnnî „0ÆÊÊ]¬¡¡56Sg»;\¹¹¾ñ*«ÆTäæø¢QsË–}ÖïŞ··YÓUUeÙEK6hª—OİıË/®$}CC>Cá£ÃF9B¤8š<‘òE¢oÚ$ÿ”î”ŠToš´f1©üƒÕU¥
+XR¬jz*`IÖUMªJWò“~ÇtFºlqº,İ
+WÇùûÛTïüT×²«Ù0¥ã¡¢å:ŞÑ2é“h±ªIÈïÌÿô¾š T|Äy/Zòã–‰*Ç>{‡pl5ì@ÀÃ•ƒÁˆª*Ù5Æç0¢Qëôù-@$‡‚‰0Êtæsl”(£VÈ–éÎ " ”QÎ©›şQB½j€.AF­°--Äµwˆ”®0××Ã4m÷E´ªrÆ) HGš–ãŞVÜmº!mÛq­(•„¦i»@,¥TQ˜«`¶ûv^Ó8¥$µÿúÔÿLŸ1jÇöúK¿|w$lğ9GJ)MÓq€RÂÕ4%µ$ÖGJDB€1ª(\Qx&¦k©ë8B
+D F»F&íö#LÓ–B"¸ƒ ¨*B˜¦/Ãİ-ã«(LQ2Şˆ¥”¦i;”İßQQ˜ªòxGèõ‰'ÿgì¸A«Vn¿ò²{c¬,°,Çq„Æ¼*S	%‚˜HÇ–.!(ñç‹›ş¨*çœ&õÓ²÷å?çTU•$ İ²Ûv„nÏ5]Íñ(*¦ivÄ–¦Ş‰P)Ñ²lÇ.“ƒ`Œ©O*§êa<	ÓLì'w˜LÓv7Ó4…R
+Fã€ÈŠå[¯½ê)¥ãÇR"!„sšJÓèÄDüœr‰2b…Ù¥'â8Â2!¤D$îüäÌ=\Ú“µmÇRD¤„2NU•§-s/Ø´—a|ÜlÛqÇ„’D¯ Ä2iZv­¥:÷øˆ¥vÀEî!ÜësfY¶Û,çÌ]a ‚iZCÍ£™f»ã·MWËÆ½<„FL6²q(4øŒ!Í\¹Ü£	a÷9…?N·’Vì3I5ƒ®jÏØAw¹tU“½iú¦–šj©›ÁG&£;LÂÙœÎHJiOæ‹ÿÙ½î&ıóQUÔöPÛ¯>TßR«)zöFt€Û*7¶Ü”³%ˆ
+ ¨ıÏĞàû[G{©sˆ°…´™¿ë·´˜6PNdXò[›¦í´ı‡«$'u=ãºæI!ÄØ/”RF	e´OUT¶ípÎ¯ºfŞ¹çOÍÉõE#æ[¯¯zìÑ·"#nğw¨y&ŞV×]Ç"^”– ó9)Ls‘ìó	DHÅ°OóSªê1CÉğDqéıŒr‰2jÇĞwö§¥tË” €2š‰€ÀeLMû¹7EÕ “4Çyy¾şıó `ÍêíMMí9Ò JiŸl83õ$3–Lz“´Çƒs–”¾ºPj'¶XšRêòd
+!dn·¬¼ –-İìJc°ŸªÊ•šÆ9UÕˆDæ¤æŞºŞS?“ÕÔ»ªª&g³+ìQü¯¦£’„d¢ë*hñÓÃx"&õ³·¿l¯¶"PD­W0ÂtÅ±B²óL=‡Ïõrfö<óÓÂ‰ƒ (\Éüôïùw‡˜*’t×(*ŞlçPCâ0ö0Ûû:\ÙÈÆÑÃa%¹ÆÏÏ_ïñØÂìİRêH Ø½}<2ÈKïr(0Dj³=ƒ½ß{ÑyŒÿ7#W€J b˜ÒEıèD2å¦¨¥¦ƒºÀ—ŒCZPFv:F‘@ ›x‡ûg!Bcàô.9RKMR!)}ë6b±CwIÀŒaÙVANÑù³.}ò?8ÍX6‘É¼2’O­YıvçûQédµ9ŸYä‰†o!£¶•°¨… ¤…Ôœ¥ïßbçèp8÷}˜iØº®r<99Ş¼<Ÿ[
+$[šƒÁ`´£#"©{TEaLã¥D@øÉÏ/»èâ™ñ¿që¹ÃG–ŞşíG“ÄË2)#Ä¶İ÷:˜ğ!0Æ4S$B@4+ñHPJ{X=x‘½œP˜ˆ”"j‡½j€î¦dVe¨sÂT 4¨İIï?Â¶Å€²‚ÁCK `ñ¢ê¬nVo{B––ºµK—lîı¸ Ò°Â^-@	ÓoX† $É)ˆ†f„2êNÔ DyìLÂC%í°Wñ3ÊuÅ“éÌF6²q\‡D"%ùîüÍCÊÛe¤wKF<€døäˆ²? ½Â#ÏşèÍAûØì¬p3–¨$fõsuXã¨A<ÿWÁÄÁˆnÔŒî*§™ğ”d+Üôâ¬İDUñ”$€#±'ˆI÷ÉÀéÁu¸—ì˜´Ş:q¶H/àH32¼¢jÎIg¾¹ô…, ÒC˜È¦hÍÃ• ‰±w6Òr©t,5‹Å‚àd­Y%2Ş¸ :ÛÓğ\h ô°H«"b8l2FGU•Ï˜Y5~Âà‘UåÅırU•»€D£Ö¾ÚæMkV­Ø¶dÉæİ»ö3J<=¾òŒF­9sÇ&¢!nÌ?câégœôò‹K’jí"Â!ãìó¦Ì_pR¢b¥dÙ’-Ï>óñ14˜¦3¨²øú¯Ÿ™Èª¦”lÜXóäÿe}¤Şd‘l)!tL;¢+>Î•i¦c$Meä”«\×„Õ1©D”sìˆ.¼çyD\²¨Ú“õ×ì](
+ki	ŞwÏófÔÚ´±¦g:IÚLŞ°"^ÕÇ(×a…è ‘RFíˆWõ3Ê4î‰Úácê:Š?ú~Ú¦ˆêÔ«0UeZÜt&ÙÈÆ	!“Ÿ?®öÂI5hp<`Şp¸ “…3pk‘ bèA×£û–]4ˆ@²5LÏõ2ä@ú ²†É¬’Jîè^/“–ëq oTk˜Œì˜$H¥k {û¬D Ë6gŸ·eÏú]õÛ²…3=Ü{NóÔ«DZCš$ µ'kÍ‹Í¢Ci\ -bÆ$­%†¸øËŞ1Vm[böó’CÕ(1KJœ=gÌW6{ö˜Lzêš¦äåùFxÑÅ3[šƒo½¹úO½·~İnGË$â8bÒä¡i[›<eøsÏ|’ŠË¸%À‰áÖæ÷Ğùñã+Ï¿`Zê2ñï˜Dl[Rá¡âşyO<öö¡“e²€H6>£\ˆ)LÆ…©š¢;ÒN)œ!÷B¤†9Öú¯ª|CÛox rr¼ŠÂ³ÊÏ½7e×Îı=ğ2!$'Ç“*óqÀLŞ––)¸Æu•©³zSÆr¨à°MÇĞÂ4GX¶°:Ş‹ƒèb:£\aªÆuG:2såZ6²‘ã.lA¼æ-s·†¢ç2üÏ1·—hÅ1…¼às’"o‘6]Ï¨µ¸™Øs‰J:}t[¦2A2ûò¦+M_Òè¤Ä{?\|Ókß®ÓÊšô9!—BW=s'ŸıÔë”()¡Ù[Sò
+i‹LÑšLì68Ò©zSnpˆ…”‘ƒ\`’Îğ´—ñH¢ağRyª§~±ÑïW=Á`tàÀ¢ïÜşÅ¾8½÷{.½|ÎyçOıÛï>úÈ¡PÔçÓSÃ„`G$Ãq#©?Æ¨×§'&#”Wì¬‡%n¢eg×¸E­cpAHLW1	¦qİB??‘DNÌ0ì(#œR¦r=ñİ;"*\ãLÃ1\£“cªçˆÈ[çfÑŞ›¢°„q;((Í18Uåª¢Ó9Ò}&„X¡P…1EU<t…‘ôxÔ7__µuó> ĞÚ¤”`ßêLÛàT¡”k\‹Ú‘ìüÌF6N˜ˆÚìªi»†—·JCé'øè±éÓ(A`é €d¼#òÈ¨$§d4‘IE[úbC;»}@±ÒqÖä]“ºŞD&5LŠ8kf%‘îr!]Œ’ƒÓ6FTŒ3dÒš­Ku5ë8“Òézc	7Â’'%•<4Jm_nyá ×]àd½I#ÂB%é 'ëÍe<²_èêA•ä BGGdÎ©c~q×UûDş€ç›·;uÚğ;ïøÛömu@òÜĞ4şŞ?½ùÖó9İ¾²mçí7Vë)¸À”©Ãÿß/¿*!¡¢dÙÒÍwıâiBH’Ä~6²€H6•pÅD,a¸¼}[˜tâš©× ˆ#-GXY…ltIË1tÕ§PÅ¦Š}ägšNÔC'\aê±P`Â¾kgÃæê½ Àõxµ¾"Ğ±CS¼
+Ó,ÇèdI"ÙÈÆ	¶ ıÆåS÷€ ØÇFùÉç9¨İS²÷T{]’Â•èFdÖa½òåí†)ô1Lì•äúŒ`ëÁ—7šôÑ—7©š¦ÇZ¡ôŞ:ä¥Ê\­úécælÜµ&KI
+	ÄCÄ\O}ª”‡[53Uo^jáAıÒ"nLÔš-d©(LLÓ›:8@¤£#rîySïıÍµ}*ıN©'xô/ß¾ù¦ßoÚXx_¯jš²cGıwüõvY¿âÜØqÛ#wıêéuëvy»W8Òï÷^šÔşşÆv×/Y@$Ç0&BˆíX
+Óå
+ÓÜwïˆ¨rQ(MÇ@Àl’–¤LŞ–"TÎT•k´Âiép¦*L³…u B˜j‹Ó÷óKX
+Ó(e*×¢¶“]ÙÈÆ	Q›]4qoEÿ Lë,sÌ‘ N,6Êáéd*Ş‘^&#3n·R—Œõ,iÊOºã˜h¹’¬’ÄÅHª¦I»eÏ:#ïH9ßj…0€IUEôĞ¡®ôÛ6–^^µqçZMÍ*‰t…‰t¼Ú6Fm70e›tªÖœKlë ÔO¤Ó”ö2±ÓñgaŞğj¸\¡}l<Ø9uîØû¸®OÆ™bà ~şş¦ë®z ®®%©AŸOıÕÕ›jN;}Â€Ò‚Æım~°¡zc×§%ÍMB@Ê4ÈeÚÙi–D²q„i“Q®0År˜@AQ˜
+)hÉFºõ<ÚÂrgåGZIÄ]£ZÁ©Â)çT‰;@ïà’DaS£NJ¢€ì—lÏ!$ñkö…j!ÕtåÈ’ „»‡¸Ìm®U:?ù¼"/}ûœôhİ’ìÿšï@"…D‰@(B¸#>$«¥f&›d=MÙ±G‘Ìd“$µÔô‚ÉçKˆ”DX((ª°nJ%İaÒ×
+!uœ˜¡”2šÙ£çp>‘seü°©›v­‹9ŸdÃ½Y!=ÕSï§vP*i‘
+ª×Z>ªŸº£<IkÑ‰¢’.aãµÖjû+ÏCúà¿kD­ÊÁıïºçšĞ5«·/Y¼yKum[{ó£ªÊ§Ï5n\eÚí‡)ùßŸ]öÍÿ ¥Lªmñùõšš¦Çy“P‚ˆœ3Ÿ?‹©e‘lœpA la©Lg”q¦:v„3…Qˆ¶cfé!ÙÈ0mˆ--uJ;Z$Ç‘ÂÎ[X'ÌÄ´…¥rR¦PÅ"{½e#Çu˜›:¨e\yÚ,#rØ~+@ ()ş`8Qè¨ÅÆĞ¶îÀPø#%µÄƒôÅ†"PiY@(-    ÑÚŒ¶”ö…+Á°›MoxGO‚q<%“Zj²@IfŠ’ÎŒëÇ5Ş´­-ÒjÎâ§Óå#“¾Ò‡ RÊiN¡”PÛ‚H!}¥ÏxÎ:ö²ıòŠ›:¦doS à íÇŒSôFÓ¹ ’CíIZó*³°¯+.$Z“µæLK ~êÌÑ>5 ×€ˆ”(¤¼ıû_PZvƒÅ‹6ıéw¯­X±-5iB¥Êˆ>Ÿ>cfÕ·ÿç‚Ñc¦î8oş„/]tÊ¿şñaN®7é+MS4MÉV¾d#ˆœà¹­DéH›RÆ©BáT!„
+édé!Ùè!P¢-,F9£
+%ô(èÚ" #-Î8§
+¥ôÄPÒ%@
+G:*cœ©–0³S+Ù8®CH2kh“â±ET9*	?‚‚’ÉtÒ¤|xºç	áÜş_¹âĞ²TÂîv4&¬Mpıˆa"¤¶@ ˜Lëô>†Ø(q.Fr±:–V=Dš&+ê=ç*^9Šh@)Zş¥µk¨îˆT€#ÉV&Õq&-Š‘¶€%ƒUMgŸ¥ )$Š€”3 ì@ÈA$É¨³†•M  åÍÑ«6ÚmÂY7ø#³t«#Hn‘:óŠ~ŒB a‡µèù¡HâÔšS'Ç›WY:¼¡µ.ˆ¸a ;M«ÈÃfºz™„tºŞô÷à(²>UÍ„‘OÒ[*yÈFš‘!3=ÿKÎ{gd	g=éœó¦¦ıöÏ¿ñ›û^4ËçÓsr¼)s@¾õÆªË·şúŞ¯-8sbêî×İxÖÛo®ç]b[ì¾Ú$„(
+wÁ)¥m 0MÛNWõ,¥4M›Ò.QUEaŸ•ÀªÒÂ¶„Ò-ğ!”0J¹Â…QJ]PJ´mÇ²!$ RJ9gªÆ£'†e9ÁÃ¶Ê4F§œQF iK”Y9ÕlôÊi#JF#ÜÆ£QÃâHQRJUìc@Zõp…-l…©”2J˜D'KèÍF6ÓH|ª3chzØş73C¤êb:ï.P¼i:äëOÆ_ÎÍ¯ÜûV‚ê@	\'Åcp hÙq¨ØdĞ•x
+Hù` B±½Z÷vS$øìÙ(é „ôj©=°t)èŸsıÏhQIâ/€\•H	°L(F&ı;zoİ’Àméì?‚ZàWs}ˆ‘-+b¥=ƒ/R‚â×‹«ŠbÓªĞ5·r…&qOºsFº-aš7öÚkPè*™9ÂkB†—^¾ñãìmÊøœÈ9ıœH£@è`%4MoÚlçè½V?E ÙOƒJe’yMb˜ÈñğD­å¿‘¼%9B ¦+W_» í·ÿñµ»õ¬Ç£r½i¡Æh^¾/2¾û?ıñá›gÌªJÚ`èĞ’y&<ûôÇ€7>g”(
+;Ç ÍMB  z½z~¾#!£I~êA=½²²?¡„Ò˜gE[k(1fz…¦aY¶ã÷{ÊËûª,.(ğr¼ Z­­¡½5µ{›ÛÛ#”W=¸¾!b8d**«ÜøğÒ¢~9”ÒP(ºo_ËÖÍûššÚ	!^v¼/o³€È‰Ø‚@G¢ „©L§”!¢Y lô<mˆB £•QnKë(Q
+…1N¹í˜'n ¤#¥¤„2Ê„ãdqÈldã8Û!Cû…†…Á!GÃ Æ
+CéÉôô{€wY`¨ì(¨~â+}”[AÏ¾_şó"0‚ÀpLÈD¿øh Àš%ò™¯bNq‹\¬(5•^ü  ¡ò“?ã+?=ç°!/pˆ>2)=ˆ}fÉˆÑ.lÃ3av""Z›Ğ6¥å ål+“mI*6É¤3ïI²I*»¤C¶,:¢tæH—§³ùÙ•k÷2e€i:Û¡Ä6d°!Z0X aËp«M8G`	R&ö$–' €’ 0—rÔ³År|ya#Èèç=¯±V‚µC²	yGş:Y_'u"’÷Œ›(DÌõ4¼-‘pàZ)Ã0gÌ¬š2uxêWï¾³öş{^ğxTEá=YÁëUƒÁè¯şïßÿ|ö©V»óL|ñ¹Å(‘PbÛÂğÜ³ğÚ¡ÃK»Hmö×·_÷µš›:,Ó9}Á„Ÿş¿+ %ÍHN™:üÙ”Ëıòçÿzá¹EGMˆÄ²Ó´«FWœyöäÙsÆTVçåû“¶	…¢õu­‹U¿öÊò•+¶QJú¤VK l[!ç-˜pÙ§Nš<,7¡ìH¹¿¡í£7<ûôÇ+WlÓuUUÙñËğÎ"'xn+Q
+”0Î  …Ù¬,=
+)
+.«è(­iĞá 2Â%€'ÄåD¢(eŒr€lÕL6²q¼†)èˆşÁ€Ï”Ö‘'AH tÒ×»ĞÖòã»°v¹‹nA§Ò9w‚· HÁ02úË¸ô÷@s€‚â7-dZWËi;ƒ€Ğäm2u>iÊ R%ãQú:DIGqû[Ÿ“dJöŞ£WK²¥nŠWR$*ëWŞ•c¼óbğ­ç‰ªKÛÕ›bHTº:ƒ€„BrqMzÉÒXvnŸAô€HBˆ ”Ú9J”!0$,¾WÚZ! Äq`ÃvUÎ*Ut¾wMK°Á¢ªÒ¾¡±k—dµÔDË[;‹£·x¢ P”ŸSÔnÍ"²™zc3ÒÊ©&†â£Â}vÁHäĞ.C²ÉZK%ívüÚ”D„ÎœäR-ºçóÆƒ÷¿$%ª*?`¦~¿gıúİ/>¿äÊ«OKúvê´áıKò›š:\AB ¿ÀŸÛ]UÄ±%!QÓ”Ü\_‡S–›×m]WRÅ7pÈ,(ğİşı/]zùŸ/#ã÷{†÷^zÙ§¾şêŠßşæå;êSÑ¢0İ«şğÇ—^yõ¼Ôo£J¾réì¿tÊ“}÷¡_D,¯W=N1‘, râ‡BU  „8-AfD²qÀp¤c	éHbB)²#¿¶R  ¡Œ N˜Y*ÑèÉ"‘ÙÈÆq`HQ¨D—…Şs9I¦l?-6‘ ’I7GS¼óØşhù®`®|\
+›ûP¬oÃÎÀU;Ñv0;@ØÀu  Ç„H; ÅŠ/ö.„¶	R × Ø
+\‹(q}#ÓQ½@°Â  Z l"­`„»ÎËB¤¤ÕÛMLÄÅwÌˆN§-= „uu†°¢`  Añ€¢ƒÄØ8XQp€€c(:p5a¸˜°Mp3v=€Š›;Q mËCE  ú@Ñ‘iDQH 
+Œƒî—¶ƒ¶@@Ñ‰æAL M$J#*CŠ®¤Ñ¨^g××_õ€*Â0®‚Ê¥íHˆ„j:pÇA„-Ğ±AQ t$„¨a,-"l‰\J¤ˆ’(*á,©ü§«|‰c
+ÇÂîª}p,iEGI5”:–D	’0Æ4æØ(”€L¥TåíÖÊí$”I$Z@EBc‚8HI§H¨2N)“YˆK'I˜ÅGõa'QªŠÖ¿`À®}[?ï~ 9Ä¥4X‚b/@)Éú±lIˆ1]iÚjçôˆ8(*Ê™1³*õ«·Ş\õé§»rs½½Ï±5¿ôü¢ÉS†Bâğ„ûÿœ\occ{Wíä^%j…HÙç´>­;ïáèèˆ]q÷ÂkÓŠÈ¦Ïö9;ÿ‚i'MúÃïÿeñ'Õ9¹©”Òò§?¿üâKf÷¼¥ªòën8cTUùnÿKcc›×«˜H9ÑÁ‘-l) v$b…c‰¥TW=ÙAÊFÒºßR¢S–Ã½zsXÖ´‡#–ô(‡G,*b£Ó½ªÁ"%J	(N˜ñB GB)!QfeDÜ9q˜)Xª{©_qzÜ<LÀÔT AL8 è''„DpöAŠ p¬Ì€ GCC
+Ğó€{º°†ÆjPÀÔØBÜöÔ®€À   aR:*¦,FŠ&ydömÀØ¿·½„Ç„Zs+ÈàY¤t<x0ˆ4cİFÜş!4ï Õ„‚cAÎ 2ãF·¶¾‡µëÈès¡ÿH°¢°æ~V’’®†š
+gİª¶}„{Ö ×Î%‡œòUP<€¶‰ËŸ3ÒUÅcEIåd6¤ ¦ÀÎ•¸åà!ĞüdÂ9dÄÈí@ Ú;Wã†÷ iè~ 4V¹3z.>	‡PE®yv!×(Z:Iu
+:0ÅÙ¸Xì©FÂøÔshñ@@”­æ’×iñ >zñìí-ŸScy¾”ÔŸï=Q+GÆÏÔ;m®R>˜^µTD"ş9gP¯(µêêBkVéÃFêC†WÂÖ›uõÀUéDâ>Â;r„RP@(Q#²gopÓv«-Hu½‹$B¨tP
+áT–;j°Z˜GîVd_s[uM´1Hu5Á§¦“"ªê€ÉLUr*ãıì7¶T/ôJÖ7ša§üä2Å§P£Q÷iS~e^~e.a¤q[°m_´lB‘·HG	¤v}‡”„1b› ”Ò!üR]ó3B‰•íûeıN«½™J	¡2F	ùLŸ)„åôGø¼ßn£‚Í-Ø?eP{4Di„„ÀÑüqe_Õıx^Ş¾—7WØ’°ÌÒª¶%†/<¤êW¯¾¼Œõ‘¦ìñh›7×~õÒ{$p;ß°iÚñ-»K„ÃæĞa%|ô–òò¢¾î^1°è‡n¼òòûvl¯÷xP;_¹töÑxÌœ5úŞû¯½é†ßY–H[d”D²ñY†e
+j
+*ŠóJrüyª¢r®¸k.Æ”¶`ÓGkŞqŸ%Ù±Ê†¦í²	e“Ëò¼
+‘X¼«%ü¯uõkê‚:?¤çªëmvY•§<‡Úã‰'ĞaÉç·:¶*§Ô]æ(S‘ ¡„:(³W Dú…!û¦•5JÑõÔ¤È?ªV·4&ı³0æHRQÔ1¼0”£;ù‹¸•àáeC÷ux”ãá\²q «˜0‚¥¹Q@r¨ØG¯v§`t€c ä è¹tò×åÇ÷B¤˜
+”U@8â™+°˜ç®ÑCæÑ·vëwŞ zÚ 7¿‰Õo#àXä¤Ëè©·AnyF	Áùş¸âï èà$·œş=÷[itüÉŒëcn~Lº˜TuS@$ƒ§‘ÁÓ @
+¶-î"› @´ƒœt©˜Û½q~ú:è  ‰ $Yp©ŠQ²å_¾¶E†L%ı”TNêv”S.æùÚƒøÉ¿@ñ ¥`D`Ò9tæ¥±İëwbÍVT| Dš¦2r:?÷›±¯LÃŞ²M=õb6d< ˆÚí"ô^ú?4§  ÈÇ¯šWÓcL!HNAàÂ¯%=Œ¼SgÃÔÙ İ¾Í‰˜¹g]Àü9 Zµ<ş~]B œPdw- dœ~ç“;¹Û‰ä<Éjjixë£ÖÕ‰ÊP T8’(Zùy§NGì0`285RûşÚú%[	#@Y¢X‰Däš2hŞhÅ¯%¢ÿ„ÒşJ ­&l„Ã•§Vê¹ ì¯nÊÆ^8”) lsoãhÅ”Â¢!wÇæ=f¨ÍäœÚ)ã3¯À_˜œ,˜Q¬şÄ¨^jQæöä3Î(¡9ş¼Ïım
+anI£¿Ìò˜ª° ÚA¢íÔŠ À‘‡E¤ÆAÏEOj^ä
+™Œ£÷µ/k-ğ2‘9OqFU•§¦!{v7nÜ°ç  Æh*û zo¶‚ˆŠÒçYUù‘.™q©iÊÿûå•™ĞÃ°ƒ Ğu5“æ…wQ¿œïİqÑÍ7şAJL­QJŒ¡CK&NÒ§î2³ê–oÿë_>Ã¹~Üå•Y@äÄ½3¢´kXÅèSÆÌ­,¦«^J]¨ØUØS¿ïÃÕogÑlÄCHô©ü;3‡N,Í[¶DI€Œ.ü`–şËw®kyqQSj“K¸a¹oZ 5ûÂâÕv‡*ÌQ" šå†t-€$^Ò|Ñøí`%¬u¨ ì-Z×”{ì"!‹+]9q×¼!0«¸­È$ <ıiÅî6ïqø¦$©W1èŠÈóX ûR#sĞz«”C¸k>!U_rq 2íZ1·¿µ+±m/„êÁ6  ¸¤{	OÚ ®‰o˜L¸˜~aaúmıéùwÉH®{€@œ¦‡HG•'wîfHº•Qáv\ô$¹$ˆÑ§ãÚWcØ&é?œ™Ûµ®7~ CFÍ¦_¼¹iÚ/¬ WŞ'õ ¾õ'ôä"åÌî’Š—ˆ’2ˆ•“0tºò")CÂÑêT
+WTï…7¹hˆ{!ºö(Ì-A`=(C hÅÄ¡”~ı
+GŒtÑ·5é Ïó—]õUÏàÊ4éSQAÅå W›–­c” LtÉ™ycÒ$!J·ò§PİSóîz¦³D+\$ˆÀğ@ıVl(<yÚˆY'å"aNçJ(jYdÀpßÉ§M¤5™0ßcÙtË
+§ç´ê(]¡=ºOU4‰’~Öt•Ï*$’\îœ”Ó6®AN1úD4HBÔŒ@LşåˆŒ?
+şBô¢âAB %HI(·OÊmû¸¹¨@+§~¾}[]SSĞçS¢?ŒÒğx´U+·ıø‡ #jUxİ×ÏHÚfÓ¦š¿ıå¿”Ò9ÿ×¬ÚáñhGô'‡ŒK/?uú)£R¿Ú¹½şŸÿø`åòm-­A ğzµqã_wÃ‚á#Ê’¶<mŞ„©'X¼hSâ# 0n|×]«±±ã·VoÚ¸Ç¶E^ï”U3gN;È×\·àí·Ö¬^µ­çÆ³€H6ÚêmÇ5~şYÓ¿¨*ši›B:è¶br„fXÑãòìÒ-ı²Â(‡%LG9¢ÿ¸’ÜÃF@€€aKæèü‚Qı67…%"íşDÅÌ+ğ´±±ÃDÃ†ø›VaÈD@”àDZÍ ˆˆˆ”Âçv•–vnD†*ì®g£(8ò¨.®1ÔõnöÆÑS*Zî;{uÿ¢XAÁJ fÁæ'ÓhÆ$ éØq˜ rÉïXùt”Æ>*BJ§  ë±u;Ô®Æïã¾Õ` ú€©°¿·¼ŠNÍˆiFšqÏ2`
+îYˆà)¤§ŞÏ`ä¢‡aë{@w!™x±û™Ìº	«ß3”È6¡!M;1Ú…;—€(&'Æ6kÚ‰µ@Ñaÿ¶XÍN¼ÅƒÕ@{ä  R5òÊ Ô
+\Û„‘³@ëÔ&\û´5@A9½ô×]hHã.¹ìy0ÂdÜ|2â”Ø%öÅ‰ëpûJÖıD8 B‘ğÄêÌ8ÆßW  šQQ_„8MõÈT Ì-KA
+Ò0¢+?®(eƒxQŒÒoîÚî´·¡"®bç•¯U Ú­­@¨ŠH¤EgÌ£!¡­;Z—­u"†^ZÒïÔiÜï€ÒóOíÙo4µK%ó&ÇÑPMãş%›Ìöˆ§8À¬1Z *æOhßÕÜ¾«™ª<¡Ğ„Cš64(~Í_ğÅt"Û÷v˜í°"ßÕ%^ 0CN´İ FH`Â· €À$2®òªyùñ§ÖöÑ½Õ6)©¬Q
+ 0òduÏ&i„?{üeŒ2!Åçö6%¨V©'Fd‹+&ûòQˆp3	6R!€ÒÃ<ô®pP^‰ÔWj]æº¥£iŸ†R¢×«Pqá¡£ŠÊwïÜ¿qC ;"Îœ”
+ˆì­izò¯ïºï™İO¼^MÓ”#GqYPè¿ş¦3S¿zıµ?ùÑ“ûÚ5]áœ€”òÓµ»>ùxÃŸÿö¨ªî|@sO·è“ˆØ›7â/¿°dá}Ï×ìiB‰nåc~kÆÌªŸıß•ƒ“…]uÍ¼U+·õ²ñ, ’#œÖÚÆIÃO>gÆ—eÔŒœ`X#ìÔeŒeçó¡&‡”ÂğB*Ìµå°Bo¾®4GíÄ„,)c"|	í0
+J†Ä6qıO\½ldã3ÂelAD™éÎÉ¨qI3Ô<ZZxöêâÜˆˆ¨ÙaüüÜì88L„{ i³|ñz2ïç¤lj·®JH Î$ÓoÆ]ÉBÍ
+Ğü¸ù\û4b×¾š °q³|ú 7ÏÏ\‡P#‚kŸÃWÿ(aã¶è€±dÀ  EC §ê«nÌ ä‡ãï3”SàãÇğ­ûÉä‹É•Ç›uoàs?O0ÔW à*4ïÅõï™W ä•’¡§àòç€2à}zì8VD®y¤ S.€’a±!Ù»AşñZ¨ß„â;Ò«’é_ à
+9í*Ü±Q$ÚzvÚÊ°$¥ÏVBx’Ú…h¨éøÛ}öíÀ8R4_ÌÛ(*Üioo~òÒ0.»Şj,içàÊ¥ÔëÂ¨/ØZxóæ†§ŸµÛ:€q)Ğ3thîÔÉîWÁêm»û·0m`¬uí–Ğ®}C®û2Ó5æÑN·ç…´âÂâ™1M¸¶©ú±7ÌöaJÓú½­[F_wº–ç#”ôŸ6¼mW«KúˆÙ0êØ¸ù•M!Gœ_5hvÙıImíªıLWPÕÛíNÕ´#´öå½‘6‡P„2UI(‰Ì“§p•!IÔn±—½qñ—=›ÍœbŞ€@ñæHÇ± YJ]õ(\uÌÈçöí˜D’¯Z• Ï#
+ rú£æ—­µÔŠ =L¼ED „@æ”HÆ!EÌQˆìaIÏ¶¸£¶¶¹ò!Ä¶H¤æ}º®ö°@DEåy* Î¨?“®¢°¼<_" âîx/!Š‹‹‚ÑÚ½M…E9qİêê½?úş_Ãa#¿ÀŸt¾»vììÏoŞ{ÿuIM;ˆó^eL/½°ä{·=rr¼‰0Ö{ï~º¿¡íáÇ¿UQ‘\¼sÚéãGŒ,Û¹½^Ó'Å–ly†ÂçñÏ™x&%Ôt¬éÔlÇ..pŞÌ¯`wZUµ;×~´ömNy¶èğæ =Œ¦%dyöµ“ú©$"qÛt«ê£Oolg½+ØÌ""ÙøL¢ÃR®Ÿ¸cÁÈZiñxêG 	À½‹G­­ÏÕ¹L«$×LÜU\Q5Óå‘½È÷ÄŞ€‡¥vFõcı:|æ«dè|2ò<R<ò%çƒç°Ò‰ò…oâöwAñ×&r¶)pİuêĞ¶W<ñ6Ø„šbr$ªŸ%Š§«L…îËz¬Û€oßŠ'S¸<a½Ëp=f“ˆ†¸ÿŠk^!3.w|Èèy¸â°L(A†L‰eÛR¨Ù\2znWzñÚo¡n;
+Œˆ|ù7lÌi( R5
+*pßÖn4B±“â!»ÛÁ"!(tGIÂoşÛÜº‘ò;½c»Ü
+
+I11ƒT¢èÀ5”Ø¾´¬ı¯¾n6·QHÇöJÕXÒÒºrpEÍÉE¤ˆ®mí¬Í­ aAQ½åı•œS¦iÍNaI­¨Àµ•‰¶EÛ¶6ôŸ: r+û©¹~+dgn?]X„pB	Œ%ş"DQWP$,ÎWÜôß†`“£x * ì†şJ @Y4L>úg"qb„	RF#Œää0E#ğªpu«Â³·¨LÈ
+Ğ¼Øo°h¯£áVrèÕÉ®r^‰ô  55EÉËó§~
+E{x–Ú¶Ó¯_îè±{¬];vïÚÏùñZÅªiJmmó•—İ—_à/,å”•Zòáûëƒ‘@NãŸ_Û¸aO(õw·Úí×/G×U!DÏšµûj[îıõs„€××Í8†RRPà_¿n÷Â»Ÿ[øÛXwÒ‘Ï§Ïš=zÓ†=Y@$Ÿ5 "œåU%¥–“:U¸ÊGDU!ª¢_§†(5E1p´[†ÿÜ£ÑæFÌú9Z )akshî"èÎİĞ9]]i5ìÄ›§DğprÒ ¯—ÀÎÂqD¿m†“ı1²qŒ‡-É°üĞ”!U»®‚ ·z¨HW”ïZ–;x?ØiUŒIP`ì5ÍZÌœH·GÒ)sX|dü9J`:8®7¾ş$o  e“IùÔ.pD?ÃÚ5`GÜœ#  vÚÿ?{ßgÇQ¥{N…î›çN
+£QådË’Œl#ƒ&Ù³°,»ä…ÍûH›iì²°ì–¸,`‚Øë@pN²$+gÒä|çÆî®ªóşè{ïÜ4#ÉEFõ›Ÿ4Ó]İUÕÕ]Uç«s¾¯u8o#¬}=¶.‡p#„±aX¡éâ©*,u¤²	Õç1ò¼K BÙ7âXX»VˆNî 3{±s= `÷VˆwÀĞ	\qm1^†vŞ‘Fl)hd§èô^D€€€¡ñAÖ»·  †ë©¾Ãô+÷Oô	>9¡ï!ÂªOMç'òúOC0BLø¥×‘-8_øÈV8¡pƒ’1AdJPôTÊ›L¢òÑBc57¯j»i[ë/-Ú dHFòÏ\FB"µâ±bæö­+Z7u2#‰‚$„òpĞ$+†ÌÅw‘UyÄpbœLIı¤Î&·%øõôåuËŸ! ×šM·Xã\1•¬kåÁ³C‰³ßÀ•#":nÖSîosô4Cšp-Ç°0Ôš¿Œ& ~‘!L2ÒÏ–i•À°ÃŸCvˆf…B(©…GÌ3KßÕd0}?-Î]ûòµŸÿÂ­ÿí_~öOŸşq<¾˜§!$2#Ã‰Áq­   ”<U[@Dd4%“YOUöP0hGcÁñ±$Ÿúá=;Z_®^ÊA¼>|ÿ½»ví8±ñŠ%g×®ë²lyqEÍ\D^„ÉİÑ<_p¡´ªìo.ûGN÷ö¦s)ÎX"5yÑùSÇuÈe›#BJy—ºş¹'[°‡Nl×°®#–v=CÄ ƒ’%õÿ¸š*HUAÖ3`Ê pô9-ÁKÁ2—Òÿ<èhĞ%"	´©=2ºš-ˆ§[Â˜Ê…$fh*¸³¯~8e{†!ÂXÖ–ì’ÄÌ‹q<¦fÒÜ}>õeŠ¿ øŒÜ éQš€ÓOĞ¯C¸7¼…½äO}¶l\„ó7Óá»Eµé’ÿ— Ü.»_ö~ìX;»µSV™‚µUéCUWÑ,¾0²IØõ3è\ kÁ®4tWâe&èàƒÀ%„âÓ”"Ê…\Ppßƒ€Qj‹Kr.«âbĞ Ç<XÀËŞ‘ûÑ4ÓµF‘P "ÓPˆ‹à¥t@H,óRu&		|²U0"6Pc5Ì¨"c!‰è´fÕ…g¶¬ºĞÔ`S
+Á¼,”ÉºûÎ2Î”ò§Ä|ÈÆo£2Od„ÜóXëB¹z[°y¾¸sTZk£›İó8RÒ“ıÙ`C 7ãÇm ¢MdÌD?º¼Ğğ™Ò0&fsA  ìË=j°Ù÷8Që›^=O½\Èc–Å*ìw­‘!¥ÖZkc	Áí€|ıíWÕU'›Ê5“ãx<´ß¶Ä,5Éæ²?¿oW5 Ò½l^4ÌåÜ‹Èç òbD€¢¡(«âM²¥½ïÄ®=ø­t6É cÌ–KOìRšP¦ı¯Oœø5s.Ÿ·ÑÁáô÷÷õï¿ ‰™ó˜r*bÔĞ÷w%zñØÄ!"ºd×²».ª¤	c¶Ç-•²)•qaN‡ßûÓËöÖ1Ì[OKYü’“È‹!1¤)GLåäôÀõ‚ú‰ä¸êvö’¿ÈÏé;¿AO}uÀ
+d¥Ù=ôÔ¶—öB ğZŸ•ÄËBÇvû—À.Xé‰>êß“}tj;nx=v¿¬Ú¨Òg	ü9ŸFIÛìÿ9¿áÏ|¶TìŞJ§wcgš¡=÷Ãx?X!ÈLåt|»Û 9Ê£h€*šD¾BJY\ŒÁ|ÈŒoğ*©]>š¦‚@´€¶°"BèCçäÕN(Ì b¹SFÚÃ‡W¸ÊM{éNî=¦²9dœ|€ !’1nZigzkâè€3™AÎ}üÅ·Bì­èLyÈä´ÊLIµ©Ê#Æ?n—!WE(¤è]BeTŠâmòÊÛ"Hşx6Eã& á3zşr1ùo–ƒˆ®—s=GJë·y˜J(±;_Õ8šÏ2óv„š»h²Ÿe&/ |ÆhàêÚM¸€¦¥¨fªöäîÉ¸Åô,§”ššJ× 
+å%õI)ËyZé`Ğ²lŠÙ±ÆÆhCc´¹¥®««uİúEŒªçŸúzÇzÎÅ"ß»ç”Ö¦Bq¦µ-^Wº †—K€È¥ôÂÌU)"*­w}2M†‘KèRš)I;_xòÔâ¦Æ†5‘IšHf\”lVäì>šá¥E@z‘…>!2Ì‹^^2_¼‰ëN´î¬‹ÜÒ•å¥.Ñ$"IÙù.}1‘šWù"õ]y»¢ûf½ık àv>“`²àfJëW³ÒÓt®ÃV¿&†Ñ_3ı+¤'ÀË‚V¸ê••cô9ÁÊ¦’`¥ânÃPø%n¼ °ër¶éõàoÉM»îd€œ,÷aã< €`æ,7û"@ÒD±=Ï·
+¹ŒIŒ³JışIÚdÀw1Ä0¯  Ë•t‘ò¼·EŞIK äkÓ”NŒˆrB2e7X("ï¯á%ŠçÜ™8|Šƒ>øb 22Lt’ÓÆÃĞ“}áÊBdB@ Æm‰RšiÇô#}LEä‹_ó<–Té /¯K„U!3\i˜»Ì.¢!'v«=ºN´G®Cm~w}“é„!óÛ2ã÷â££Moî<ÅáìĞãĞ0ÏÈ &‡˜6çVŸ1ì0Å;ÈÓy1†0sd2~`ªÎf³ÄË€R:•¬áÒÒÖ¿?SrÏq¼¦¦Øæ-ËÖ®[¸´»c~gKcc4²C!û9ªûi``<ÎÙöl€ˆ|xxrltª¥µÌÎ¶eSS]oïèE„3¼°%Cdü§g†ˆˆüñÜ¯u¨4d´Ö‚_0ÉMypÊóÒkÓ·üw`#"-‰€—Yı…«äÈ&Uÿ”Ê¸iÀÙÑéñ9ôCDd@`H—„xOÏš¿¶">O+†ÈŒÑ¾¨p¡ Dz^Š0„şÃ¾nøìê ÿ(>Ìç§ôgı#ô&Eß|ù ‰|†Búƒ.´sŸ÷7ü7ÀÒ OóÓã¡JšAxn#<@ƒ{ÁKƒ Ì»·ü1=ùEÈr Àpù+qñµÓ% &óHJñ-dœ('OwZ7¯°šNÑ£_±³Š
+¨kƒU³ÁxµÁRäIä8…==v—z¢]wû€4wâ5Ïrf|d ÁÉÂ¡Ç`Éf  .øµ o§L¸4#¯{6Îñ¯Ògê‰Qâ6éiãÌÚx½³ç1“š"|îë²—–Ùgàcå³ÀpªÉ’GIxE(Šaş}¨Ü#| |x…Q²§¿Õd š¯ZŸ<=R2."&y×ë¶Fæ¶Qvdêè÷›:3¦sH hİ¸xøÀdR ié+WÕ/n7éøÉa7£óŞ¿TjÔ2'q&•7È}Œ%Œ”“£`À!RÏŠfğá'½©1
+„1E±¡ƒÍ> ¹Y6
+ùë£ÌøÔ(şÖóY¹~|¬q×xÃ†æğä9§@ˆ¶4“ıÌÍÎ¨>ã‡ÉD©®Ípy^ü© Ìü¿ş9	OÆ¤73 ‚Ù¬;6–¬>µ «u@„³ÿâ[¢%“ÙZ_ÿ†­7ÜtÙÂEm/PAccÉsâQŒ³T2;9™® D,KÄêBÆ\LxÖˆ "•qEØ²b¶[2Èo!#zÉœJ:*ã©´Ë»´‰öÜ“6Ú˜<ë)w&ç|TZaaƒˆ¢–T-i­ÑÚh ÜòçJcŒÒŠ1Æ÷%ß/èÖFi­5i†¬X®RÉÈÎxMHBiÏÿ,=åU£§COy@Ó‹à3*Î+cHs&—ÈP)¥""Ág‚-WZ•G(pÆ‹jãÇñ™ü)Îå¬ÂÀÚcLÉ}GYŒÍRmŒ&*¯pD>Û%¤ksQ0ô•t-!@û¡.îŸğ´ïì€®&o†ñÎ¸šLÉ*K°’åéı¨R¨”#"i2Oƒ&°80 àjàù|Ï€Dàz5¡…$IF®AO£2(IF‚Ã®3„n9ëD^n’™ g`H+®aÉb \Í¡ÅŒÅÇ5¡k˜kXÌØ\kƒ®®AÁH¢±¸ykC×°ê-&²¹)i5s5 ‹R†{%#‹›>Cúr¹Ê gdqãcX®æÚ `$Y¼†n.(BOçß¡œâz†‡äj–S¼:î9§xñòŠ”öDVq[M·Úæz&|„\ÍüVXœ$7‚W1OsePr²¸çêACèÖªL±íDy]áb?¤–ŒÀÕÌTl¦0FŸ®¿£˜«¸!°…A$W	ÿw[Ôn—!tsC[h p7„–0³È_€‚2Ø3*@"5‰6q àŒ§#÷áª[óƒó¶ÑÂ«áÔã”K€°±}-.»XŞà¡ÓORï3ÀmĞh&?KbÛJvÓG)Ñc'éÀƒS°:ì0®»•ü–yì†aã‚HÍ#¥Çİé}]\s#ŞòaòèyšÎî÷ÉM*óË{Aû6È9iÇÏ “„P ’êw‰—¿#Y³úZùŞÿ«ÿ199kÕÕâšß™.üÑ;ÉóHuß‰éÖlşÑ?ºÆ`Ø¾lol+|ÖŒ2tÃäƒnÊBH ,¥:d†mLù)$ô£T8 CK¤Î'‰u/ €Æõİ*ë?yHe\+hÛºªù²¥şe‰a­13œİßÛzy Ô/iYvûÆ³ô8)—Ù²}Ã¼y/ÉwĞĞèp.¥˜TBªZ€oŒ.a3_¸¹É
+[D8p8£”·š V¢§SÀŠŒˆœé¸%èZ#²iÏEqÕU²¡­Æ°SÇÚØÚ—YÇõä°a¿W$¢¡‰Kú^)©äWN.üRãGÒçD¤	HC JM]zr€e&Yåş“1À9Ôµ™pã¨É0¡5ü¨onˆëY‡Vô\}öìHõ©ÅKçÔÕ…•Ò5PÈ:|¨÷cşn5“H.ç]¹uùk^»¹²Jì¢?ˆ(•Ê½úµ›ß÷ş[çÎozAËJL¦ÏÇCÇø–K­IóâJ/ b\lÌ»eSx~]°#fÅX|›Hw2çŒ¤R§&Oß±77œfò’PÖsûB€"Á¨-ş:-ëFV°Ö{LñHCs}›F  2*U® O@çP<ÒØÖØÑRß4í" 6:MN¦ÆÆz‡'R™)ÁÅ9]N×s—u-íMóšêZêÂõ–ÌûçÜìTfjh¬op¬w|j”€,a—ˆØkfˆàyn<ÒPsŒÈ`s¼µ‚ `*›ô”[‰¸ uÍóZ´5Ì…ël+À™È¹™œ›è=38ŞŸË¥-i³æsDlˆ60Æ Ü}&ëæ²nÖò”GZêëÃ1@äˆƒ“c}cC3áDTÎË;b2—Ëy«5º¢eE¶¡é,f\7íÖ¾„ˆB–ˆV‰±#‚24™u-ÁšlËKXJ{9)}?Œ§“âˆ-)	ÀQ¦9$±¾){AÁæD…(øÜ @Â1ªc¹
+KfäÈĞQ*í™ö0®ib‹ê 1€IeéxöÂ@úyƒE «CšöVÖ;‹¢NkÀrfÊÃ¬bYq(88ÌIàf&ô'$ôË+_ı"L¸PÀ”‡tyıøåõóC™°PÒât:¼s¢~o¢.¥„ğ|à€Œá­¯ŸØĞ0¹ ’H·\Gó¤#9ûP"¶²®'&ÀĞùİ³fjæ¢mC$eØhÎÖY%8šeñ©-ã‹ëR1K!’£Y:¸w¬n÷hıp&Úb³î\ G†2˜ñDÄòº¦–5&ÆÓMA',"RÊ#»g2rh,Ö3v4I]Š4iÂˆ¥ê®ß¨ÇÙÔ‚Ú#¹…õ© ¬ìñ”+Z#¹Z[èØv5¤b¶*Z#é€§+G "H{‚#uÖ§×´'º›“­Ñ\Hê°­¦r2íò¾DhÿPìà`]ÿT@0
+J=¤zn<SÑA8–¶ÅÅÁyõ™Î†tsÄõ«´óLÃ`ÒŒÚc9[Vv®ãñ±´åãA®ÇºšÒŒ¯h›j8„ÌÉ#á'zÖ!R ¤bvD@šµs&/ïœèjJÇlR9Ñ3Ùu6¾·7î¶ÔÅ;ÏJnNŒFÜŒeq£¾°‚»€€Ì<ø)Ö²[–çu^	WV¿¬”5÷}”2`üÃy— X!¼ò@‡î¥=?¥C÷á†Û}ã¯ÿ»üM`ËAÈMA 6#R³æLPÿapÒ>*ÖÏ…›?ˆ æ§ÿ Ç·CÈªÑdÆ!9f¹›µÿùôm3	Úû¼¿ƒ¢ÁSêGŸ¿÷‰üE«_j­~iå<şèî3@ 
+Æ¸¶ÇYCûİd÷†ü'?9ÊcõşÆ÷tÈL%ë7y(¤/S>ƒL™'"7È /BÜ ä>ùˆ1úì=OvÏi‘  ´^¹ªùŠå:ëˆu‡TÿøÙ£”ìÔ/ÇºZ‚a hY;·yõ/íŠ€,.’³Ùc¿8È•Æø°šƒg§!ªøœ`|N Ããı^ù´Ë¦ÑP9§öWË7	ÿQ­¸R.X%²)Š5¢´Ñs¨¨¼ë÷j:a²I
+×! Â¸öIŠÆú5ûµx‚3Î’éÉ±Ä0g~ëSDx¿nıöÉ…oY|]ë|ph_@·a‘–F2Óğ–Ñ`…¨¾ƒìs¾Q œë¬'?qdù¤'#âÃ¾ìøÑşêã‹µ-ZÔ¶wï©P¨†¬‘eÉş¾±¯íçÕnA“‰tSs¬Æ¦EÚ¹Ø½ÀSÉÜm·¿ä“ÿøçÜ² ¥ôädú™'b±Ğ¦-İZV,:¯y6ë–ío âGÄ ›–CÉæ¾²[ÖuÆ#]>»
+šcÅ–6F6şÁ2B @~	¹0¼Piï¥WŞ´qùV§°]Ãely6 7^yËôÚüh"í¾áÓ_ıégóf«ÒÊ5¿uÑ†e[–Ì]Çœ³¢×“ŸQií)w,1rğÔ]‡MÛ20Ógã*W0±fñåë—nšßº(h‡|Ì¢h3†ÆÒ^*›ìé;²ãğã=}Gc>Î¢Ú¡?xÅEÃqß7M@í¸Ùe«—Î_Y<bKûÛ÷|éĞé½kZ|[í)·³mÑ+®Z2oe4õK1d|×DÔF»Ó?zvÏ±í»mÏ9YÛªäÕF‡á·\÷–¦ºF¥=_]–uÿÎ~öÔ=u¡Øµk®¼|ñê†hg@Aa=rğéÿ|ønÎj3~9ÊÛ¶bÍ¶•kr…PØ’÷îÛ}ÇÓO…¨@\	ÀÓæw6®zY÷¢ŒëE^BRl?İûÅ‡wHÎ«»%çé7nXrÃ²¹Y×ƒ‚4…-şÀ‰ÁÏ=zdãÜ†÷_µÔWì*Ö$bñŸü¿ÛÏ¶Gíl?/fyÚCâªÜE%«ÌúÖÀç¯ocùËÁâğONşêt&b1¬6‡	 Q0Ó•æ«øõ¼%63†Š 4eéŞÓxÇqL8|£ä4‚+š³·t&77ele1ã¿H 10”Ó8¿Œığtã±d (Œ¨ÚèN+±­uø×Ud À ’ÜûØ•w¶
+Â­gßÖyhcÃrJ}eI‹íõÿ~bÑƒ#ÍA®gwI+êöÎ3¯ï<»¦.!,ŒòÙ—ŒE ÍõğpË÷NÎj´ÁbÆfæ¹hÁG/;°¥cX+^¬-çúôTôÍ¿ÜÔŸ	^Ñ2öî•'®jµ-x!€€æ'á÷ÌışÑù–ÏœrE<àİ¾ìä×4%–ÂL›[E¯#ÍÒµk(şÓc÷œhÏ(*˜îSxå’ş½|v  GÒ„21i€oÛGP!^á…H{•/ŸvÄm>şÍ'|C™!ÂşkË¡º"¢yŸ¸ºkäõkÎné‹‡B°h§€Ğ¼o2ô«ã-?Ü3oÿ`,(Œä•=˜vÅº9£_{óSFO³pFšğ~pÙ=ÛW¶%ŞuÕ‰mK‡C.47şêõßÛ1¯.èıı«÷m\4ªİiûÛúÉ£Íïù¯Ë2.o:o{ÙÉÛÖ÷6Æ²Ó‹ Óië¾Cm_|`É©ñPÄVàÌyüªÅ£ïÜzbcç„xùw²p‰Ê‰Çzš¾ôğâ§OÕGlu‘.I-nFúÁ®¦d°ğÅDx}æ·±—ıoì¾q¦í6:õ„ùùÿ¾İ`G|`¼4ıê3øÚÏ@]GÉÛËÀ
+Ó¡ŸÓc_Å—¼#¬!/ÜKO~b­¸âz €@€”Ğp‚V†À€Àp¹ûÓì•‚’yg#í¼¶½‚ynW:ôõ€õ] 1õØ…xÍŸc´¡Úzs¼#ûÓ/·		FSéïıKä÷ÿÃÑ²Én×£îÉÃ±ÛŞ1]4p"–=]Õ"*²¢\KÑoò#­’^âœÙù9Ù!'Ğ>a!c¶ÌLûÖı¯yIhN 0ÁY´¨pGNüt—›ö˜e`.áìÿÎö%¯^ïjğÕVtÚœ88t×‰ô˜Ãmi¦©C¦Y˜Í‡NdNïœì¼,^Ö2B&¬üÒš[¾§ù1‘‰ÂÖc€BÂği½ïoõÕù†‡bŠ! œÜ«ÇÎ•|ú":Úó ·ñF9”ü?sÁäHbx29ÆÙ%bD@ ›™:Úİb;7Î=CJšóˆ\ôÕgêZÄÉ~æå  A¸âíç&SDCáG¬z|¼)&Î­ÿ(¥8|¨7•ÊE"e‹mÛ–Wo[ıôÓÇj"D$¯©ŸÂ8®YÛU}Iÿ8¿˜M÷\Î[¾rŞÿşè›f ‰tOÏà©¡³gF'zÏ:5t²gğ¯ÿöÏin®;çdm´‰FCÕJÆ«¦Ù‹Ë%çy;´£‘³ãÏÙ\òLobbï`ó–Nãê¯±#ùÈSg³I^ °%C< I•vyP^Ô.(qÆ¥E¤`&E%ÎDñı–B–ÆËxÊX¡ë6¾jÃ²-A;ä)Wíx¼*·sD lmè˜Û<ÿ²î-¿Üq÷C
+!Y• ¹ãåZëÛoÜrÛ²ÎÕ™§\m”Ò5ÆGD£—-»rÕ¢»>õóí?KfVÁŸVp)ó 3¨u0ÆxÉNVÕÇS®òº¯Şºöå¡@ØU®ÒÊ«ëE@†¬«}ÉÂ¥ë–lºÿ©;Oô±­ˆàB
+‰ELA
+ID¶´ß´í¶‹Vz£µ§ mÎ­C{l¨ÿe«ÖZBø´&şmÃÅ­mA)QÅó5Æ„m¹¬­%çÓª·6Õ7„ƒ™œ,‡µ¡°-—4×	Æ,Î‰(Y 1ÄCÃS&hqVÀ9	Èæ¬? ³ü?ˆ ¨vw ˆ‚ƒ
+²8Ì20 Ctoé÷m0ëš¤£ÉQä”š¢ 9ïZi®h…Oìà=SÏ2Ş.é±zÏ²É›æ¦ÂÂä48sšå·Øóˆ#Í	»ïX2üê¹ãßìişvO‹c0À*¿.`1Ã	}Cb@ŒÁ¤cä[;üÉÂg÷@s£d©¥ ŒÑ¦–áËÆ¿plÉ/%|&éÉµõ“\yhSË €æF	‚J£!ÔYŞ«ºÎÜ8·ÿ»'|áğâ„'ƒ\_èS²˜\*©+7’™´oXtæÃ›ö‡m”0 UV†ÔOı¯¯Ÿ?ø‘§Ví‰GŸ›k ¤<qÕÜÑ÷_qxeû8‚â¤™)%ÒÇéw/lyWu^µ`è•Kú?ıÄò#cÑH¡œ‘Zhæç7ÓÚ•Öo9Ï ”òÚ˜Z‹}ÉÌôƒX¹åštEG4÷'[Ş¶º—Y
+<Nš›¼©ø?2šSŸş½+O¼vuï7Ÿîú÷'e<’•cCÒ”™ÊŒaÖã+Ú_{óöyíSà
+Ò±Ü@µ„²¤s@jK˜´+–·M}òÖ=«#Œ'È-{a[İºéÔ¦cøáº§N7¥6ÿìÚcïyé1a)p…qÊŞIœ®Y5py×Ø'ÿ{Å÷vÎÉ‹áHYùL_}Wk<şüˆËÌ–ŸÀŠ@¢ßüø=Ø¹^sÖA°íy9ÈMÁÀ^:ş0õ<n:†äÅ\ÂtâQı¯Ç%×bób@Fgwù1,æ¿Ç3;qùõĞÚÈ`¢—ÜK;ˆ—¿2“@nrIAš¡íß"`œÎìæs-­ª¤‡¿nNîÄ¥[¡q>0€Ğ{ „=cÓ¸ƒ'¨ï0.Ş˜ŸÈvş7$@—cdKïá;TÏ>~Ù|Ù&Œ52Ê¥õ‰=Şî‡ÔÑİ$l²  D;ô¿ı•½õrÁ
+@4Ù”³ïéôCw‹9³O=@DÀ¸×ß2Ld÷îT#ÃDD:›îÓì¤â»$¬ôñSÄ"Dgl
+¸MÈÖ0şô~ —Ì¿!%8³ƒS§‡ış†µ‹ãKçØ&„vUªo|üğàø‘£-Ûnx@¤G2{¿³³yUGÓ²æPc˜[\¹:=œ9:>th\9†ÛV‰N¡ ,TpïôÊ4Î¢È@6üÔ\ Ê —!¥ YcaïQN ‚\†¸@d°ïo|ĞÌ[Æã-Œ1È$©ÿ˜>şŒš¿œk—ƒs²Ä80§ö«Ä°n_$"qä&†ûu2d§¹Ê-İ ûmN39Ã>¸uJó×uæšis@ ÑŒ‘´õDs¦°®ÃDš	àBĞ¡9ûcWŞ907ÊÏkŞ—’÷÷ÜúŠÍ•Fû«^³é?¿õ@2™µ¬ó5W]Wµ·7¬[W	ˆ8:urˆ‹‹q]ïoºº6òÓàÀÄ×¿úóØÛÛ;¦”ò<M†¤B2)ÅìÄ¨3¥Ö¶x(ğ<Ågş•6M±†ÆhÕ.µM\\$/Ï!Ri74/ŞıŞ-‰ÃÃ=ßÚ%Â–o˜¬ßİßò’ÎÊÕda×ˆˆÆvö’)¸Ğé¬·ä]›ê–5ù·Ç'÷ñDv‰áòü»‚fŠã*ÏfŠ–œ)Ò[ xÊ¢oxùÛ–u®ÌºNÖÉÌ^ yÊõ”Ç_·í-‘`äÁ]÷Ja•¢››ÛºàM×½³©¾5çdgE#"­UV+ÆØ–U×´6Ìùş/şc"9êG¬˜|ãÌìw(-ÂS*êá*7ŒŞºí÷Wv­q<w–ú*'—CÀ®Å¿ó{öè;=fI»)Öªˆh­=íİ¸áÚõ‹Veri"SØ)£sŠ~ÎO&&›£1­¼" â*j‹Å[b±ŞñqK”}°6KZê›ÂaWiS4ã‰\O7†BsãÑÑT¦QÆÌ‡Û¢áœ	ùl $FÓÎ¡á)‹3Ğ”¯sÑCD—Tßi"—¤Û iú£×çRXq5¶éí«Ôêšr2¼å<#èjp5¬k2ß¤Ş÷˜É‚}á²)ÅÖ4:]?¶"î$]6å1„ZÉ7ÍuR½eßêxúïötNy<T¾cO †PçÁÊC˜3ß›ä/–îJI¨*ˆ ´Ağ$gæO—òûÒ‰E5]L¼©cğÖí©äŒ–ÓoÖ¨3—I¤ß_v|Uıä_n_?†…º üHát2g˜òÄm{ÿæ²‚íÊ‚â¨øêÖñ¯\ûôŸ<tÙSCÑsú‰Ì>“rÅ—ŸùÛ—XÊ8’`Æ¶ç›o¸Œ!]³hpicòî¹|ßp¯A`PŸK‹@1±šeÍÀ fª€òN:bCÇä§nŞ³°=Ğ99Ó}òŒ¤ŠƒâQ[ıñµ‡×Í™üĞ]k†“vØÒ•Ä™ÆÏ8€£XPê¼âÀ¼Ö¤ÎX%PI™Ôµ6˜Åkf\Ñ^—ıÜíÏ,™7iÒVMnM­d¬9Í©ÏÜşÌïcÓşşºÿıŠƒï¾î8<ß¨êKBV†mõ±×îK:âgû:¢öÅ;ƒ†ğá“Í·®9Ë€L±ƒŸ_Áİ
+LDÀ:ñ0x¸LB0N¼,hŒ®ôÈ!˜è£Çÿ˜È»N!/zÚóSÚ{7p	€ (¬0íø!=õ½<'«€ñ³æï+°´r¡üÈ^VU¤3{¨g'ğ‚5·À
+M«Ûÿ5È€“ÁæØ¶0ƒ‘SæÈ“dGò*Xäeª7ÃgôÏ¾÷~ƒ‚Q`‚²iRŠ Á—†Š 2F½¾“î÷¾Ò&`ş¬€7Ğ7ş__@Â‚@ ÿø¥ ´IX0­Y‹Tå|R&öœ|æ€
+¥V€ ‰!)ê¿ï1"ŸÈƒ¡”Àe9+½œxôĞÀ“Ç˜e1KzYeBnI”eX³¤ÑĞ·£¿ÿ™!&·¥—ÓZƒÑÈ-Á,Ë”¡6ÅjÈD8áĞñÜàqÏßSp@¾ÿ¡Lëá’/:¹ C8ºSç.òäšB@ïQÕwL3`MBâ™CúÔ]™YÂÄ0¸Œ! 0ü×â®ÁeİÌñ³‡ª÷ä~{-€ 3a³õ‘dô/—	JO«óê£3hXhtÈÈ#¯:šjFÈ„Ú=Öøñƒ+wMÖÇ¤w&c,™L?øÀ¾j@¤««õ­o¿îşÏ¤Ÿ§èA&í\÷»ZÛê+wöõõ]¼R¾Jé¦¦ØæÍËªO=ÒÿŞwÿÛÑÃ}¡°mYR+Ä¢eäºêœ¶aÍÔ1§±sAóıgjzèäkåé•«æQ¹L$2W(Í³¯+i£Ò^ËÕ/ÿçWvÜ¸´ó¶Õáõ:§Šk‡ÄÁaíj±EØ!É’$I²¬º€7‘:4Ì
+XÊªøª¶97w7^>ç²º¹ókŒ§§/k¿†dŒ–BŞ¶í-İ+Ó¹Lu@
+"²<İiåxä)×SŞõ›^»né—+1¼U4TwËÕ¿ÛoÍæ2Ut(¸°¤]íÇaŒIç2]‹oİö{¶Ğæyx”ö‚vè/ûÊ®5Y'««hY15TB97+¹¼íš7nè.kİFzJu¶Ìİ¸t}ÎqüP*#›d|2:=2,Êƒ`µ1Ñ``^Cƒªz†ÌÂ¦Æ -Ë|4H
+ÖİÚhª mhqS<l‰ŠSgÇÆ’#©œ`Ï“²ÊÌ­®¶f€dğöUº»’5æĞüİŠN¹¸¬Ş½JÓZ“³T+­pM½û™+F—Ôy“.×T»VÕwuK{üÆñO­?“Ú™a¿¥Ô¨ñŒØÖÜ÷ç‹ö’aÊœ¹Ñ†æÒ}tSãxZUfNzòÆöÁÏlx¦Îv´'+Z¾ßrÕ×„Æ•—µ~~Ë®–@.«/=¢Š±‚Ígß·öˆ`¤Ïu7Ğ®lç>{õ3ËâÉŒz–Ñİ)W\=ô#[÷„Ö® ª>eHœÕw1„:'ÛãéOnÛÛtg"C}ÖçzëR®XÛøÂ­;¶Lé¬ÔçMw«539¹uÙÀçoy¦1ìæÔ¹›õÄÍ«ú·tš
+x‚ÎİxÿË,™;©3röì:'ÛšÓoÛròæUï¾ú88\Ÿëñj#£İx¸«1í¨‹Òt	Jóto}ïX¹©Ôš©şeö?Ïÿ82°" Ã€È@j<ƒäµ¯6Øu B ‚ ÀeÙİD |u.Á2`dddÀß³` 
+G„œÖ¯®ªA 2˜ÏÏD>sE~nB¸¯Dóé®ûÍÔq›ĞZñé<8!d Ã¬#a“ã˜l†˜$;L¨OüQ`6õad…ÁÄ0àq2H2V¸Ì»Tp¬ XA”ABAÀMµòùß	2 –V€˜ br”J¥Ò2X¸Ê¿°POà’(,£ÑÍ(B–Å61aühÂ…pÁ
+iˆ¹YCÈQH°€‰Òœ”ó)Tµğ 	9·%·%“…`Rã„œIÎ„@É™…Š•à¡DáK‚:¥…ù#Œƒ´0^+3€`PH~m¦²oôÌÀèY).¹–—÷>_ûWO.|ÛÓWLÄ¹ôÎ‹ÙZ…»•\­i‘›à<àkÎ0óı“]ïÜ±qO"^wŞhH~hX÷İ»kr2]}êmï¼şú7Ô<UY§’ÙÅKÚßõ«Ï>ùÄáÉÉôÅ+L£”niÏïl®ìh¢ùç;îkhŒc•r™ˆGÍ|´6oYæºjfã‘„ä/{ùÚêS'{†Òéìo BÊÏt½yıº_ìˆ:c»%²àwÖ’É‹Şs›§Nïìß3pæÇû}õéCÿüÈO?tì+ÛOı`Ïè“g‡=H2‹ƒÏ9ÂY×ï®“QÛÈñ\şç[WüåULpã¨K¬Ñç‰‘sÎ|å>³ºJQ†3Î9÷ı/\Ï¹bÅU+®­  )¤-œq×sĞ’V1Œ¥ÄS °mÃ+êÂq] ·WÊÛ¼êšùm]Õ¾–´²‰äØÙ¡“Ãƒ†Lu@J&—Y:wùæU/õ” EÎÄ,,§…<ùÿD†ˆnÜ|ËÒù+2åĞ"ZÒ¶eÀ¿P°‚å±¨´ÄW½äõó[øl¬U†ú4€¢^Ô¾0q,IçF¦Èê?SíHÂµ´pd¥§ˆÈâbIksM]+"ZØXeÀ0†K[âŒ•m^ûP‡†®öÕ÷Øìµåc‚¡`Èk(€~ÁgL°J‚W*{… 1H‹ëÈT€!Hlæ]ü”‡/›«7¶PöB3GckPÿİú‰öNz¬Úpp•&"MD‹UPS€!H{âÚö‰­8kf åÀi‡ğÚæ¾W>Â#ÎÃÚ3Ú0KxïZxB2*úÍh¾¼nêëöVoòpF\(Æ5CÃ˜aBs©J#n|Tbmóè‡×`Hæ¹© aÔòÂBùÖ/CâBsËã–Ç¥âŒj™Á¢5–ş»+ÚÜè/]Œ¼n<$¤Öå
+CâR1©‰0ëqÆ5—ŠWßG.mŸxËêSYå÷7œÎç3JŸpFœçóTş°Y/á†sƒşOş­c­‘Ü§oÚÓR—Ñ¨Ä ¸Ô<àq[qÛã¢,!“µ6,şÈ|kPÆ´…~y÷Ã<Vè‹13ôå2f<±~ŞÄÍ«LN  †ÛŠÛªºJùüYyóê¾r? hÍÏ}‰vy[sêw7qÕEÉ}È™Hï;Ö
+Ü U‰Ñ¾p˜HŞMƒp`÷ePÎ]Jq8"¬:Î TšT6pûòš…–âà•œ,»æ-ü}?âs/^ó–ÂŠ£Ÿ¾D ÄÈ/ö¥°‚ n·‰	BQLS¢r¢$ÄÄ4hRö'#àÄüœ"Y ƒR(¤mñ‹…ûWädùSe%²TÁJğîg!¡˜¹ˆbä›À¦1Æ	à‚P VçäåÅU=@ä€°ÜÆ ğx/`#}¢r›Yv=ğ×J Â8ñLÎÍá%‘ê!©NzÛ'ßº}ÓO/@®ù,êo@´X® Jä4X¡ Á€RG .½	×úĞu{`uJ‹s²¨V'Ë–='tÇ£5NYâÓÿô¶—n[=>–ô¼ÙŒóÉ‰tk[ı'ÿé­mUî!Z›ûîÙeÉçsŞ1Æıú¤ÓˆÀ²j¿x>tèlÍ8 PÊD£¡—/~v…¾şW55Å\§&Ñ$“Ù­W­Øre§•İÏôd³î‹ŸC„”1Ê,ıÃM]o^orJg5 è¬×qıÒ¡Om?Ëƒ9Ó9µÿğR®Îz…q”ü&¹I,¸‡hG·_»°ùÊ:ã‚q5)3ïÖUVCèÀ'ôRˆKÒ¼³£—KgRëø–¹%,!dõ·šs2†Èip•›uÒÚ¨X¤şòe/QJUä·­ÀÈÄàÎÃŸ:™s3BX-ñ¶İ›»:–zÊ-ÍìzNkCÇ’ù+wzŒ[Â×­^tY5C‡%¬ş£=sßÈÄ€ãå—ñHÃÆå[7,Ûb´.õtğ´Ú°tóöh­Ò¹4g\i@Œ1KªÑ¥=ÏKçaOyZkDt<gıÒMW,¿*çäÊ—¶œ1vªÿØ‘³†Æúsn¦.R?§¹sE×Ú¦ºÇuŠ6«§¼H0zÃ¦WóŞ/2³¸e"¢%% ’Î™ÖÊ§ØB~±X0Ş3<8‘IÅì€*@K ŒYĞÜ´,e¦ÍMTÍ­kc¨Œ  ÀÕfn}¬%îO$­B¹Ú˜º€ÕYUå\1é¨C	Á-n–²5pH9:‘SÑ@Ä ¦uf
+AàiJ)ƒ£Áf 4Í³_‚&( ’.d„%Ä¤´ReY„%l›«·‰ó*! EğÎîÔÊzwÊ-Ã„ À™
+ôLY.ëxİuÙùa×Õ~Å
+¡} OÜ:ôÉÑè{›¢BW­¨¼] ’i@šM¸Sg¹œk0¼†q«Ä–¦±å±©‰º ×ş$Ò–®fµW6r¡²®õóŞ9OŒ4öe‚‚™®HzKóØËÚ‡8×ºÄ'Å¸Öuóúolù¯“ócÒ{.cMRáBƒaFëûÒ¬³¼Õ‰pÀ1ZT<äŠÍs†_³°ï»GæÇ.L$«ø­Kú–µLWTîG<ØÓvwOÇ©DÈ5¼!àn™3zû²³ñ£Ÿ¦ü  Å^±xàÛû;{“!GótÆv	 „Ú5 ­¤#=“¬*ı¶ˆ@rSºâ/Ò®ptøóqMèÜşé•ÇÏ™ĞÙJBe.0:>;:M8²5š[Ş2ÕŞ˜†r=` œ¼auïëN6ıçÎÎXÀ›å%·¥	 iƒÀ¤Fàûn 0œÍ¸‚#‚hÀ@d B†ÏN„an<ÓÖ”ÅµÆŠü[Eö—õ„A@˜Ït4¦A³n#{éÒá¯<ºp*'$¿ÈæuÜüôĞœ7®9’yXğÙkë^½Ès,å<¿@¥€1Ô8;Ê\âÕ}ÿnÎ¡`|odÁ&¾C‘&£V<ÔaJ¸?¦Åbògk³¥æ#t°­3MÉQ™3_b1B§šgÊU{Ë¨=JøYE”U¶UÆïœÎ*šÕB4Mie^T{ŒRX#“ƒû{v‰Kî!3§˜ğ¦”øĞş5{uïë>±ÜJö1 Ğ `†6“ÿ €Ğ­¡ ƒ©ÜF÷Ãdv6}äàª½‰º˜PÏZ^=ßùÖ¯yí–j˜ú†È—şı?÷™;tÇcc£S–%-;¯ah”§WY’_³mõ_ıííİËæVßü÷?³gwO0h=Ë‘¿Öâµµ¥µ¦‚Ú$×Æ§6®ë¹î¼®ŒauLJÉYªµ‡ıÑ©Dúï¾qá¢¶g×ğ…‹ÚŞû'7ìÃßÄ2‚©d¶¥¥îõ:^U7¥ô“O>Ú—‹!CF™¥ï¾bá›×«¬¯  @ÚØMáÎ×­ßÙK†!"zS0Ì‹”w’v4rôoÈ8¶_¿TÆlg,S,E¥œ¶k1{?ö+ãj&/‰iÍø¡
+!ÙıóíñAŠ¬›¹ió­—/¿²Ôãƒ!3dîzìÃãCA+¤Êz­=cLgÛÂ–ú¶
+ğÂ’öáS{üàw&’cœs†ŒˆNõÛ}lû«·şÎÆå[]åT,ÍéŞyøq ğ´· qI<Ú µ®˜ºÎüî}_Ê$,a3D×u¦R“§'3‰k/{…Sâ‚¡´×k^Ğ¾èàÉ½ß½ïËÈxÊmoš÷Æëßéû}”Ô6pğäîûºSpéÛ®ˆ˜Ê&9;xõº¨œû“1N ÷<ùã'ö=èzcÌ‡êvyâñ½¿º~ÓkÖ-İäznqY—ssKæv¯ìZóÌÑ§ggí""H{hrd÷ÉıcCJ+@ŠÂ©)1kL­à|d*qztxıü.eTÑÎ×Æ4E"íñxÏÈˆ] q•^ĞÔP)­K–8”_|Åö‚†øÙ‰©¢, 6ÔµFBªC)ØÑÑÄÀT–3dÌbŒÏd3	†®2Ÿ{ò¬¯^ã(³ øË-m6ÇRW”€`÷f¾º{‚ö”`Ê1Yé¬‚ÍaÇ¹÷”:9ir‚–×ã«ÁŠzÈTÙ€ÆµTgAFÁùğde®kt_1/“ö”£!aAñÅÃõ†'\N„©=èİ2ò‹‡-F)Ãn àm‹®K+.§Ij¨×S®øÁÙ4çlDhänn¸en¯`¦‚êÌZÒ»¬ab×D½ˆ¤5¿unßÕmC¦
+98ÿÈ¾Õ;ÇâşÓ€‡Z¾ybÁõs†>¶v_S(WŒjñ«øÖÅ'ïïoÍ(!™yNc “jßHÃ¿î[²c¤~Ò± (ôâXêİ+OÜ¼¨—4/uE1„àÍKÏÜsªİ1LÌ²`¢Ê¿$7×/„òcŒ\ƒŸzrÅ7÷/0„‚DĞuºåş“mÿrİ®9±LiDiÖOw7&‡3‡Ï4ßşƒ­~õ|ÿ–Ã·¬>]J†Â€áï^ñT_}P”£@ÊÛ}ìú½Æ+[P2K}ùñ%?:0·DvGÒ–!¼lÎÄ-«zÉ‘e¨! —z<möáî{´el àŒ:bÙ7¬;ó®-=‚›R4ÁrboßtòçG[“9)¹™yBdŒPègëï=Ô~j<lBsÄÙ×_f´‹“qÅîï¾k_ÇDÚ„úûš5}ïyéñ Ô ‡6€\šDF~î—İ÷jMæ$ ÔİW­îÿãk…,­Ë£cH³y™égê%¿ø¢b\İs¤ı¶õ§ ´iÏ/x`ˆßÊpô¦q9­Ÿ¸SİÿdGD•_ög	(Ö„ª„rkA	Èª Rğ¥¨\[pÌFØQ
+Fk2“TMIÎRŒKÑ˜‰-µ|)Ğ¬T–^
+¾n¼ø^|`ÎÅîcÛ'“c;tÉ˜(gF}ãô‚ƒS±¬<°¢~œ”˜¦@˜`¡†:ªt1 0Ï@ ‡A‹†#ç ¾İ³è³G—&•Œ?·½Û–§OÿËgïüø'ŞR}6²ÿúïŞğºÛ·Şù“'ví8~úÔp&ã @Ğ‹Ú/í¸á¦/{ùºš1™ŒóÅ½{&\ã|Œ,ÏSD•xÇ²•ón~ÕßûÏ‡¡àLZÂ²ä9K…sšÂáÀù¢!ˆÙ¬“LfÃT*79™®t‚½êÕWìÚyB.K,e×UéTîº7üù_¾æ¹ôËÛŞq½çé/şëİ)!8çLyš€–-›û‘¿ó²åóª/yü±Cûö²mëâúL.Qi·ëMë»Ş¼AeUAÎDP=Øsâ;‘a‘g0S°D»Çc_~J¥Üöë—§Ê+)zS¹¶k;c™CŸ{Œ8]âXÙ>ÁT69•NøÙé\*çf«¿|L¤&Ç{ãá ÈxiO9 0¿maÀ.‹œO¥§îzìDj<(ûö\ÏùÅŸ-šÓ6¨22¦!Úd	Û‡*‚VHp¡ÊÙ:c{oŸJM†‚ÑâˆË¹ğ”÷è_®^tYGS‡«¦—È‹Ïm^°÷øÎñä( ‚ë:Á@¸æ•ór#“Ã’¸x	J{İó/ïhWí‚€‚‹{Ÿüñ;ï	XÁ`ù<:™ÿáß²­àŠk/G’P†ì²¥›ö÷ì©U)8ùhKë™“ûî|ü¿G§&8ç>@CDœs9+ ‚ˆJë#ı½:•bÚ˜X ØÙØxlh¨X"CXÒÒ,÷”ª…Ë g¬»¥á‘g¦?^c–6×¤Èz^9Æ†i×‹lÁ3phL7v8å æ”	[56y!«¨/é‰’P!Q4ƒ Øï<î}q·›UdqD ppœé‡of—7C¶¼¡Ú@c€ÚCt4çÈü>ºuA&*)é•-ÌgùÿÚŞºk<&"L¾™9ñÙC-Yñ‘µ}©Ô‹ £ØòXúº¶‰ïi‘LÏR¢àf8ø‹gV=2Úd3Ã™Àã©È#ÍÏ$â^¹ß*cñ™g–G“’Ÿ\3ÈõíóÎV¥p®ûR‘?Û±áX2Zg¹XnÓŞu¶=íñ/mÙª¸%×'¶µÿèôÜDª<p˜Tö¶şÅãëGrVD¨˜åùåœˆıÅ£ë®|ÓŠ“X€âİSZ&èm‰œ·
+¯gXkÈYÖnxi³­îŞ³ğ«{F-O”°<Ñ×ø}>xÕÔ%!ª³.ıèÙ¦”+&
+9kÊ‘y®Ñò6¤=‘¢^o1M9re*QË«œF3ö‰ñH¼Ä}Ãâ ^·ê¬ğ´SgéÉ´ıÇ?¹ì‘“M1[ÅlÏÒC©À'µ|8ø»+CœŒË´Mİ´lğ›O/˜ DBa¾şØâÏ=°$‘•Ò7…@Phkæk#Oãßİ¹úû;çEäDÃIûŸÙ=š²?~ËŞê¨+ÆÈQìƒ?^w×¾öXÀœ`4eş¥‰à'oÛc12¥Ş.„BêxöéÓçp¤ÿØÕuİâÁ˜íéßLä7
+y)?‡ıË¯ë'~’7×Sfb¬0qIyŠ¨jD ¶¨íúQáQï(ûs¼£Ú¥«œ/Š G•»JÉ…Æeª)USôT”^qa¼£ş(Â+µ`…ïÌ‹0Ia÷o?øˆ\JçâÒÛ9YÿÖ§¯ø@÷¡ÛæŸá†iÅ€ š,Ğ`AmºĞ §8Œ#r`RçŸ:¼üG}s-f"HÙ^3E"Á|ï‘µë¾îö­53,íó½ÎóÔÈpÂuÁëëÃ‘Èlû”ŸÿìO÷î=UW÷,!3!ùĞĞäÔT¶âœ±â÷®¼rù‘#½ñúˆ1æ+_ºG)=;qÆu7¬Û¼¥ûüíY¸çîÿè÷¤äCƒ§N­[¿°³xç©tî¿¾óP"‘6Æ  ¬¥%ş‡ï}Å»ŞsÓ³ö‹)¦w¿ç¦­W­¸ëgO÷H¦²­-ñ—/~Í-›c±Úô[ßø¥ç©g'msÑ "*í¶l™¿ä«©àŸƒ‚1ÉO~w÷ñ¯íPYW„.øÑ#g©Sãû>ñ«©c£KŞ¹‘Y</ÖK 2îü[W%ùÉµ/h3tŒó¹†%lá3¨U÷7D@RXKã”ãæ2¹ôÑ³Ç<Ï-™fäÿgï½ã$¹ª{ñsn¨ªÎ“ãîÎæ İÕj¥•€H(„Á€I†÷lğsÀş9`Û<?Û<'à0ŒÁ€D”%”Ó*Kµ9ÍÎNÎ3==İ]áŞ{~ô„Î3wî§?ÒÌlUõ­[U·ÎùŞóı~»OO¤Æì’j!¬T&965R—h„|@„H)¥åûnql”×j£õÈ•/"…Ìzé½'rıËs¬ŸÜŞåd¼4c|N×ƒ„©TdÁI!%—s)8	.¶®¾
+ óËI¤´:ûO<ñÜƒâ%Š$–´]?ûĞŸ¯j]'„4³Ô_+šV6Õ¶÷Ï³f
+Jê	 ,!»Gún{ôöél&â„Ïı:²SƒSÙŒ#E¾ ¬!ZÓÔüğ±c3 QÈ²Ö45ª<íhDd s•Ú˜Õ5qÇÊZ0$ ÉÙªºxNY%~ÎúàÀ„`h‡`á*vÉgàC(Y!£ ï°GQ¨RYtlGÕ×øš fÍïâ0–…/0ÿô:ŒHĞf>C' ‹ACˆN.üj	¶EôÕ¾§1Ï¶ "~ùXİ¾ñP­¥óûdsLßv¶nkMæ¬*°ŞÜ:ñ“3ÿ‡ânäXş_8¾v×hC½åçÿƒ&üÎÙm‰É÷­:…¥`°ŞölfˆĞ5l{íäu”Wï€ €ôÍÓ«§buù‡yªµü‡‡š~tvÙ¯¬ï„Y@$;½±}ğg=íteÓœ›‘éğgwoğd­5oÊÍ¢Ryšıı¾—7LniœĞJÌšÿÚÖÑ{šh!À%ÿŸ®ŒÆ£©™uF$dæg§Ú%7¢DÎÃæàhBû‚s*Ò.­ù¹ Ï¡+	‚XÜ8B;Å”(ğ5«FHV¼K Y{<{İÊQ(¬’` €ğ»6<v¦¡>ìç_YGh‹›o=»rSsê}×œAWä˜oŞ4xÛeÕµ`˜¥ºgÅ_ß½ÉâT*^µ«"éŠRÿ÷3?Ú·¬.âÏT>#pF"âÿhß²·_ŞÿªÃP(ƒ‚–ºã©•÷i®ø³Ö¾ÀÉˆûsmo¼lè–í=/ïJ  Í1ïåû¶I}t$ş½Şy#¸0–
+\$îÌK±eÅ`HÉ1Éù™EN|T—*–"”¡}(¢º”«.)„-*U—äU[°êhËœ2•gÓî˜_ëQÂ»)ÂPJy7Åc[¦© òÊXDäŒ?öÜı“©ñĞRyÈ¢[\¨)%>}pÛÁdÍÇ6‹…<ÓÄ¨5&S1¬W¼ŸÁ˜Ù7ÜğG6HÖäh2…ıÈ
+Îÿú/¾‹…ßtË•CP)ÚÚëyÌïÿ×®oıûı•$6…»IŞ}väÄñŞ«¯Y_'Xâí¿ôê™ØÀ~ö“§Ît:Nµ,Øq¬ê”¶šÚ(qÎR©ì®G•"B°~üïz÷µöwO3†ííõÛ¶¯nhˆ_Èå8z¤§­­.Q€Í[:6oé € PÕzî¸ı™]
+‡—İ£q€ˆ	t¨9ºşww2GèÙúõròkOw~{/³øy !3ñ“#IÓ™ïìs‡R›?õzîˆ&BšŒ¢u¿õªé3É#CÌKÓYõF@–°«â@^åL0Æ6d:´ëéÃ»Š7"šAOÈåZI(¿©¶µ&ZWjF3ç,‹€¾òJb‚Àß±éÚá‰Á}'ŸÎ¸iÎ8cœ1ÆIi=ñÜƒO|¨Ìôaçs¥ª5´4,Ó:(@í?şt*3v"¦œ‹"ë8yºïØÖ5W¹³Ë†LÈ¯lYÕ7ÜÍ¤Uá ğÈÁ'¦2Óa;t>3/ƒÉ‰ş‰ñõ­­ù¨Œî¨oˆ9NÆ÷9cÖËjkZâ±|ëmŒ¯µ[Õ´i‰G[ãÑ“#‚qmLmÈY]Ÿğµ™7ÁFœuMõLN‡mÇâ¶«Œ6*§ByÀT+ÄêYíBwìŒŠêİ]j* „…EÆ¢NOÂşQ¸qdò©+ ‡„]	g)D`sMĞàYWaH˜½cÎİ½ÑX9GHßëªs{2Â•¢yÔ# ¶.–mû½»ÌxPÔÇ’±û‡%cÉbæ®ÁÖ÷-ïa ßMXgù3ašğšú1)”Qbn|3CÓ‘Û{ÛP%ãeğ'İË~ye·d4¯Tbğ²Dª%ädm‹›ó¼Z\ïäŠSÉX­í—¼ÍÍ¤'¿w¢ãóM%z*lkC2"Õâ…]-n†³Î=|EÑ
+'‚¨T†0WGc4a ™§Ùæ†$ÚÌq‘èEcÍ»ŠomN6Å³Tx™Pêã‰Û´•UaH–0ÿñlÇ›7$¿€T¥ØÆ¦©e5Ù³ãáÊˆ¥ÓÖ×ŸXÅlqœ†Šİy¨U”hÍr$eğ‰3õ¯Ú0\¸PÀ<Ş„ˆEÊD¤>ÛU{Ë½åß—·*˜#ô7ö®º®cdSëøLíÏ9)q”İ²ØQy!¸¡tûü–²Ç?×o™­.1b&W7…ì"Ë¬0ŸKì0¿ø¢<Õ¥ŒÎÈ<ı¤ à8gğ¥ 4)E10(@1æN•)ıÈëvŞÍüUæ
+•"#¥²)¯äªjÇ
+êÜ·çØ“¶åÀR;—w¸ÍŒFúÖÙUG'ãŸ}ËËÖŒRFšÅxŸià–†Uú?O¬ıÇg6Mq4™2/}[¸ÙàSÿwßWo{û5x´ïşçCı¹pÎ„`çÙ0ÆÒéìm?x¬)GdGGÓÉã}p±ïG5[8ï8Öo{ü—ß]SsMéf+›:V6•şıÄñ¾ Ğ›·¬8×ï}äáƒÙ´÷GŸxgUe—S'ûÿÏçoeŒ±—!¥ã\ _·Ü¼®fksšYÛA†Üâ'ÿí™ÎoïåÀs3B2fÜ{9Ûú™P0R˜@«.ßĞ8qppIBz™H
+	ŒQeÊjÒ~à:VXrË‘¡y#˜\Y5mcˆ8ãRZRXRXª‰ÖµÔµo]{U}¢IéŠó àbxb0íNÇÂñ|ÖŒ!#…õë?°}ı«N÷ï›I¥'³^Vi‘1dœñœ\È~q~¬? ĞZ×'ãáD¾”	fı"®nß`U.³tı¬ëe™ùì–ˆ3ŞZ×NÕ2
+>1=yfğìyÛ¿!bÖ÷ôljoÏÿ³6T´ÖÔàŒic–×ÕÅ'ãy@ç‡F<¥®éhw} QHŠµµG‡ÆlàJS["Rqô<~€ À;:œÌø¦!ADmO½Ğ¹
+CHp&©%+sã"€6Ğ™„–@0s\›EM_„ëJ2òó„!ˆ#<9J)LÈò ÃM×´}p"t]Ó”2ó9¾Ò¬%ä¯ˆ¸]éÊo?¤£©hÒ—eI"’™LxÈušÃĞ<ÿL8Î`pY<¹å—¹ÄiÈµWEÓ«¢éJfšXX¨¤o5„\˜ Èğæ°ÛÎdœóƒ®£é¬ı@_³SYıÁæ™áºÑépCÈ-Hæ5[K×9şpöâC ˆåC!aÊ`
+qruR……nŠ¸í±ìÎ¶±·¬ ÃˆÏ÷1-v«)´”ÎZw*£‡:›’®¬$’úôXt_oíë7€—wúã!mÃôÉ‘hÅÓãú@oÃ™±HHêsœ|h*cõL„Ê–À ÂdÖ‚Bİ`df:+û’!«ÜıÀ¸ŠƒAÄb{lz™«¤[ÜŒe­¿ytã×~q·ÃµÖ%3Wğ’ªş¸èôœ‚ÂÒÊ@f
+•5JôA°´Ö£BÉFş¯HÀ‹ù#åÅYY%¾ÌÔ2§ERHŸ)ØröæP˜²ú Õ˜5s Gq‰J!Ø<”¤ŒZê,|S4€¯ìXW
++9=qïÓ?ÕZ•Z.µGª‘şîdí¯İşšOeÿÒ.®™®ê† ÌQÉ”ıw÷nùÁ¾‹›˜¸øÁ"8!é¹ê?ñÍ#‡»÷Şz~Å““é/şÓíßù‡„ä–Å/ğÛwÜşÌu×oyë/VÃh6]¶ü¾{÷>ïKôöŒşùŸ|çŸ¿ôaÛYT–15•ùìŸ}÷Ã¿sËy|]$âüÃßÿäÊ«×^ÿú­‹Ùşô©üŞ×'c1çåøŠ?@„‡äÀ½'ÈPÇ»·†Ûã*ˆìşÉ¡Óÿ±‡ÛŠ†ÌÅ\2n÷ß}"Ô[ÿÛ¯&nP²‰ßŞ;¾¯_„–ÊCªßÄwDÄ¨FF@_{\sÉ›‡Œ4¾öPi¥t²Â5ÍÍuí5Mñh]4Ù‘X8¶ÃBH[:¹:‘j·
+çS£G»¼vÛME2"ÚhD\Õ¾~íòM~àùÊ›˜IL÷÷O¤Æ<ßµ¤Í¿ğ©‰Ö	!‹@ ¸å5ïZg!ğo^ IÇ#	ÇræH%'>šÌøY~öoˆxjp ëûŒå„+€QØ²VÔÕí  ÎØúæFÊÙÛ€äüØÀˆ«üWu´Ïå,qU}-gDšÌÊº¸Í¹›' ‚ ¾Ò‡'#v”#×¤³A†(ö<SXàŠC Œ¥Í”G¼ÂEA„Œ‚¼÷ÜæZ"àmaÍòœG€!¥5;<iËÊ2ŸaZ±Ã“¡Z’ 8J Ôöf½M<(çNoĞµ©’5a@˜V¢Rº­	cBµ8Y(<€Ö|S<õŸ;ŸÆ"€¨ğçÜİ1IÌ|º5ìšó—‘ë®ñDg*R¥ÀDrİ7:3iˆf @2CB7†ütèœî•œ‹°!Ì(@­·#‘Y_›ZÏ4…½º_çxMa/,•”„†@hƒ/zF@7ËEƒ @÷÷× V­A<<”xı¦"\[A{<«ŠJEŒ:G#¾æa¦Îõ¹t«²NX}ó5Ë¢ÒlzŞ/ıµÔcİ_~jİÇ®;Â4À@ã¢íş¼|Î¡!ù¬Šˆ@E¾LÁ¯Uø23€Â¼M9J!Ë–l”XÃT+­(ï:À"ğ¥ >¥ºXI‘ÆjY¾L5ğåë2d€p÷S?îíY"Ë\H‹K•ÌXŸşÙö£ƒ‰Şt$
+Šáç‚[F`Ï4~îÎË÷ôÔÅœ‹F“)ÿê´…Vú+ÿïçO>qôCÿëæ7İrÕâ…0Ü¬Ïİ{¾ño÷|®+ñÊÎj²ÄÅ²DÙÈs¦µù³?ùï¿ôîk+}õ•;Öæ¾.˜s~qÆ|‹™h,tï={?şG_ÿó¿ü@cc¢úıãŸùä·xìÈæ=eÎ´0ï°J$?œåfıÿá×?ÿ>øÆ7_Yı»¸oÿçÿòİİ#Ñ¨ó2]ğ8ˆ)ïÌw÷<ÖÕñ¾Ë—¿cóÔ‰Ñ“_}š	ââMÁˆ",»¾ fKKÍææÎÿÜ×{çQ5åñˆ\U­Š† YQÜ­Zp{7È"pÉe8“vSuñÆmë®Ş°bssm›m…re†cÈ" rıì¢®"cx`İòÍ5ÍE»QNâ¥°[–/k^DJ7İ?Ú}øÌş#g¤2IÛr.$­AÄX8Qê=Œ€œóƒÔâf@ùr€d[g<aÁ¢Óv}WiÅ. ‘‚÷ŒNN,¯¯ò$BˆheCchŒ‰ÚöŠúz=û¯ˆèkÓ=19™ÉxZã,#Ğº£.^rR®'9_Y—@ÄüSœ¥2CÓ`ËqƒŒ6**B8O¿k\èö+Ğ,U<Î"°…%•’5<ƒYÁq×ó@ÖRT¼Ğ ñj‹ğ šZr©œ1aXè˜TPÒmÄAU@ t™AM{!.æCYÛ×Ì©ÌÅ` fÃY»ô2XŒâçB™™;¡¬âˆtıò‘·­î¿¦u¼%ê2®›™4Œ!4|ÉÌÉ(˜iŒx`JTH}1‘µªÓF ?é@Nµ`Âú¨W&Æ£,ì|çÌs~Í"¾’Qê("Õ×÷­^W—úÅ-İèJzyµ3%Ù{ œ5V°Â]P¼‹#xek˜9<‚W±†© F”¥¨TiÊ UŠb*ãÕJ?*»ğ¼Â92sÑm9î¾cÏ±'«[ş-µÅ„FĞÚà¿=¾öÈ@â³o}n}û¹¢èÍ…¤[Ÿ\û…û/ÏX‰PğôH„îşÄG¿ñÿ~ÿŞ´ıu×oéXÙTIÈsj*s¶køÑ]‡ï»gß¡ƒ]1‘ˆTymÁÈĞd<Ê/™J’¦²/AÛëæSÿñÈC‡Ş÷şë¶\ŞQÔ“lÖ‹…}_qÎ8ÇT*;6:Eü¢™œ˜Î_ÁÅÂwİ¹ûøñ¾_ıào|ó•eé3£#S÷Ş½÷›ß¸ïÔ©x<<::•ßœ$š9ÓœÎ@ßX>&‚ É‰t8b§RÙ~äß~éİ×şò®ß¸iYf:•İ·¯ó¶ï?zÿ}û1/ÓÚsD  9“1;;0uäÿ>:òÄY•‚iŸ;¹p#_ÿâÌS'F…#DtIAzA4D„¬ˆ`ÂÉimtõ¸s["FP2kçÖ_»íæÆšfct m”òÊÏzŒ±³¦ZVÏåXrøG}û½7}¨¾¦Éó]cJÌYr²$³õ&ˆ²Ã;¶nì¸ü5[zØıß‡:÷YÂÆ Â*YÓ2$T)GÍŸ—àƒ#›öÜƒı«ššó½µ¡¶ššˆmOe³«ê£‘œ¢*Æ&2™Ş‰I_ëáÔt[< e¨1nEÆÓÙš³¬&!3ìË&=íî™@ù8;AÎøªC‘5L%Ø£@©´Ê
+À‹q–çq4s—À“¦Ô© ƒ…ˆÁÕX6wf
+%(ÙUìó<Å1z1°B¹Mä…¥¯š~"!åËsy°ªµé@tÄ3¿æØ›W€Ğ 8ÍIñÒsD ÆH›—Db€eU<Ò¾˜ö¯z!`,cU˜"„s—Ú?1RDŸ}dKCØÛ¹zHgåó…V<OJ¨§“HU­pKõA
+•5Š|jÏC«‰³"ŸuŸ­^l’_BR¦Éãİ”7‘Éƒ'ÊV—T²†™G[*S‡J¹BEİÆKä¡GDÇ
+={ô±û½C‰K«¤%ædT
+<Óø¡o]û™7|ëön®ØœÃ:·ƒé´ó·÷nşşî•‚›¨­^È¾…Ã69Ò}àÀ™¯|ùç«š;:šZÛëâ±p,âœMN¦SS™¡ÁÉÎÎÁ³]CÓÓ®”<^ q‚û^ğÉı»<&ĞÚ¤RÙ²2D`YÂºó¿Ÿ¹ÿ¾ı«×´¬YÓÍ@rÓÓn_Ïhgç R&WO„ôÃ'î¹k¯¹0„ g»ë8ów;"Dc¡î³Ãñgßıú×îÙ¼¥cåêæ¶¶:Ç±”ÒıãgÏØ¦»kXH‘sÆùÜŸ×²Ä\GrgšI{¹ÚÇ‘]Cÿóı_`ye«ˆÍø¶-Qkóİo?xÇíÏl½¼cİúöšÚ( (¥úÇé=y²ß÷‚pÄfL¼¬É°çƒe0[0‚Ñ§º!‰ÅD¸DË‡c‹™Á˜Í³C)0$¡"BÀ¥p¯(É”\:"Âåù•öqQ¹Ò?%¹ıúíozí7k£çõD
+HÆcŒ#"f¼´R-ªzímËéì?ñÍ;şåæk~qÓÊm!;¬´ÒZUBRˆH“Ö¾€ÖúeïãoİñØ­OzØ–ÖÅ~Ù£]ş€3d²¤œó»y¾Ûñ¾/Û‚ˆse*Êè†X¬%I¥–××E,;;ãÈC‚ñ¾É©)×ó•îO®¨MJç;GŠ55ûz‡c¡úH¨@Mt|d¼ ã+wŞ çB¸üÊ…¬CmÒÄEn”İÄ²Îb–
+TmrÂ=#œçéE€åSb‘êU¨)¨Îı]hÎ.ìµ¸/JÕ ¤__›úòÍ{V6&É“3 Xpi03“ ¦³–U"ú"Æğ%ˆI0Zç_±„déøRyù‚ÃMFñOÜ¿í_Ş´÷ªå#ÆµÎ¹Nä¥è³Èİ±,A%ZUbx9ÿ—æK%ÿ—buÒ2J•À—*â¬U¬p«Q]T),Ká¥ğÍÂ¾¼%º°³Ö6—DCÄzöèã?Ûõ_ pá¬ê¹æj®†…æHt©Îf	'ÏZûñ#ƒ5¹áˆ
+@3úğÙú¿¼sÛ3]Q;xQÄ°1²C!0Æœ<ÑäĞY"@†Œ! cÈ X–´,^©~¤lÆ122UTB¸€h(c…Œ¡“'ú:kf%ùC)…e‰9š"N§²ÉÉô… c˜ÏšÉ5Ç±È†‘‘äİwí!"!xnSkCDcE¢¡¹Àu|4e*Ÿi®Bdp`¢$a\0 àœÅâá PO<vt×#‡9›!‰cl[Z–´¬W‚¢…Xä}£³
+˜-fÌ“xH.&8ÖÚd³"F£çl*åiml[X’W4XŞ¤ñ5b’£ä/•Á#0Ú€6€ˆ‚á‹ ©KhÇ!DFd²A:Ğşâ‹0ëf.ß¼ãÚ+nò•WTÄÁË¹»{;•œÎ¦Æ’Ãc½]§^»íæË×îğ+q,g49üƒû¾¾ªmı¶u×¬hY]­·¥3ãÄ©µ6ŠÊ½€¼À\üÂµï™H;{Ğ–Îù] ·ßAD­ÕÀØ1zÑĞÚ, "ÄÈäĞp]-!Î¦R±˜šÅ0AØ²[j‡úz×46ærd'†F|¥ ğäğèÎÕËaÖ$VÕÕ ÀŠšxØ¾Ry“LfƒÎ±t`²DşóºØB@‚IK„%çå˜çMÌY$¤ÆtPæeH¡…ô¶ADÁÈSEû“o˜#C–#&Ÿ§Œ«ÔC‘Æ}khÊ™Ïù+"¥ÕBº¿ °À¦@áµB«s|¸`H" ŒJõW×ZY?U¬K
+À…F`0íY£Yk :1}¦¿>f©Ï½îGÒô"§
+Æ`Úç¥ã¶TD*m¸i#e'Xòf/ñ¹dÿ‹ı„†…ÉØ¿Ï•sÃÁëW'æõD^’Ë‹¼”qH) x‚QŒ¼£Tgdx§ª¾¼¥N1åÈ5H™~E%ƒÛ¢d•jgòğVé“_eS‘és©4Æ¸-íg>öÓGşË¾ˆKSÊ°Íu“­÷ÉÁ†@³K“ yô™İµşè@ü#7kLd;ÑòÏmšr!ÿ%p0Ça3“{Î®Èè*Ï7dG:ÉšrÎ.–ŒH¨¤9\c.#(;b¡3EÄAÎY$êÀ¬&ú+¯<ka@„”±ëÃmØ8±¯òÈšöPğÅĞd!“	[¼ım[n¾qıŠµ‚³¡¡ÔãO¹óçG††§#‘…ˆ0¤I»JÆìØº†ÚË[ë¯jïºíàØ3=§sÎ‘®§I»1"ã¶ñTv8­]Åñ‚Á"9Ñ[†$³ Á•2ÊçT?£G¯Ùz¡!RH?ğOtï;Ñ}x`¬7ãN§2S^à’!Cæ5[oXä$$…ED§úŸê;'Mµ--uËjšëâõñH-m@¿¨rDi²Ã¯ÙrÃé¾ã†Ìy¨rĞt6UÔOD¦ŒşÙ£ßíµÎİ†ˆV°4Qd:{n †˜ÌfN´ÖÔ(­òãĞœ¹L[Mş8Ã´ïŸeŒ!àé‘‰iÏ—œÍ™ïvÔ%!»5Œyy¹¿ÅÙ™ñt÷Ä8€bsnÃ¢«€€¶ÙÂ!À<e–<8ƒÎãşÏsšYx<!£00†‰<„8­ˆG“V¥# c´,ì³rxdÊÄm@3ãœ‹1ÑdHÓ˜¬¢Œš	õÌ@Ë'÷_n1ÃÎıÚ(Â°Ğç;ïà²H&.ƒ¬â¢¢ÁÆ¤j»3Úyæ8bãäŒŒÆò—³°eÇ†¾+ÛGŠ”AIÕ=»¿»é™úÁth,kfíÀà´/n^9t>Aí…¸óRù×—2lxÚ™¿Sq%–j¹ÕµTpyM&_©sv®Á‘iû" "Kíâ%©Ç²öGîİş';÷l.ôkxˆ¡+&RÅ(­•(©€(Â;ŠQŒR]ÕÅXá–u´­„bTÅ;XK‰‡î¹ëª–”{œw±É¥à#S"àıÏŞñàî; àâ¢!©şæÕÏ­oÿø×üôt{YK¸K§qF‰ÿxgÓ¾Úx(H†8£¸¼ä^6KdDãü®Wæ.+˜@‡WÔ¬ıõÚUÉ#C£Ov>İ“éŸZp¼Òi¿cEí_|ö–k_¿6 ´a[ûuoŞôş÷ïøÜçîÚõXg,VÍ.ËøÚiŠv¼o[ÍeM‘å	³EØš<48òØ™Q™ º²¶ã½—×nk!Ë(“íOöüôÈğ£g@0äÏ+lOÀYÜ±„ÍQ }7È:gg¥ƒeÍ—5×µ¹ÆH.G'‡ïxüÖ=‡1œñeÆ–i£ÌŸµQùËî‚qJgSÓ™©3ı'HpÖÄÂ5-uíVl^»ü2Î¸6yš¸Ë›WÕÅF“CìÜG'ScïåÊgf‡Ï„¬pØg½4P¸rúŠ†ô,H4ŸA3Æ/ÀÔ¦µ91Ø÷Úõ3lj‰'–ÕÕÖGÂsŠªÙPjªo2)CÄäTÿäÔº¦zÏ Ğ†jÃöŠÚxk"ªò0/$Àı}ÃÙÀX²BîL•`¢Ì­h”æÀ#B°˜´DHp	@Jk_eŒ‰Êó.`& Ş4×…ö*†À´¹ÆûyO¤òó†a¶ÔfS â €oØEO¹^-×?<ïîæ ‘´ıY§¸ÄÀ°eá,NR0Så •¡ÇØÜˆó-&ÍVÄÒ›k§lˆV01ñ4[W7µ6‘"Ã‹cÊÃY‡#‹H7¯†ÂóG ÆÌ­‡VşÃîõCi‡3âH‚‘Å´ÍdiYï‹Í!‚¯ÙÙÉHÑåËIË\Õ>ñ³Ãíß}„¶ĞW´%K12òD_2$¹¡%<ä¥„‰„…v5ûÓ][NOD~Ç‰ˆ_Ğb`ˆ+2à±æ]Üf³P[ã£„âQ–ñQ[,V-5÷kŞQ^¿c1Ö-%LŸâb“J.6%xGu¨ïÈù/¦Ø¤Œªë¥…äDC&§Çï~ê'{?)¹¼ˆL P„Í!·-’Í¶6NÜŞÙNK”D€°¥Í†S#4âR5áR»$Ú" e¢«ê€ ˆj·µÕ]Ù¾úW¯Ü÷§÷íî¡Š0­ëªÖÖøÿû—÷¬Û¶RÙ¢ØmåúÆù—wıîïİöÄSgcQ«R`GšdÌ^ö–<,u6PÓ> „—×pGÑ‹RéLPwEëÖ?½)¼,a<EÆ bxY¼îªö3ÿuàÔ×FDxêDˆ0…Ø·ã hŒöTÖ×Ş`zîq\SMC–Ï[AdÊ¨¹³{ +ªŒoŒ&š`  Jî-ùï°x¸±(Á@ù®Ÿ9Qrzrbj¬«ÿäS‡Ş±ñÚ·^û^ÁE~ˆ!\&bµÃpî/AÁÅhr(9=QŸhÔ B–´Vµ­?ræ cAcŒc…;œwš„È”ò³^ò<VŸ§f	qjhp"=wœ9 #0¦>Ù¾b…--=»È.9?9<’r][DLûÁ‰‘ñÍ3'dq¾}yKS4¬fL| 8ƒ)786<)[Ü²¨m°`üeX:· ‘ˆ”ö3AÀ¼(.G8<!}Ê©²ÌCa7´f¿{Z{ÌæeÎ2­ØëšSÛj2)À}$Ó}ÙğÙ´­u*ãû†
+e</R¥"í¯}ûò‚ã¶.–ZO˜¨q*—	hÀVÇ-bÇ0¤I_úæ<g(C(¬à:h¬8úšß´l(äø¦HW•™Îd4å‹E–6(ƒu¿<–)vi‘úéÆ¿x|³&LØAi-n=ÿt’EÎœÑ±‘ù¢˜¿£ÙMk‡¾úôš‘´åSŠ¢¥}şªã[Ú&((œø¦œ“#Q‹O]Bó/LÄæF~uÿš}CµŸ¸æØöĞLç¤_şu"¥D˜JbŸ³ù?¯J`©1ĞŒƒ/+g­²)Ó2ÉıÌ+XÕÌö¶ª5oQ	Iá–óî0¥\¡rT—ÒÚ™"™òU6—Ô3%…Å;Ô¹ï§~:0ŞãÈĞE_×„±´Å5\•H34°„ˆÌ¾¼ø²Ô.1@„ª¿ä‘a¸-I“ÎÈ ª´_%l4J™ßığµë¶-3SeD:Í”kˆşÙ§ßø~'“ñ¥,?Ë3‹¥{&§NÕln&M @Ê„Zc<$Œ¯qáùâÏj¹¢•Ë>~}¨-L¹ùGÁÖüÊöôÙ‰¾;‰ÈE±Å™÷ù@d‚IÁ…`V.7DJ{rQx¾&¯Ç‹™ùŒ&‡úGºÃN”3n‘­t˜@›€ˆå7Õ¶6Õ¶j­*\}#‘½ç¦_«O4æ›¤ØÒ>Óòû÷3ˆˆ(¸ .rèÃS‡YÓ¾aÇÆÙ"[_DKØ´ˆÅĞY.F~îÇ“Ó=CMµ­Ì÷$ĞşÖÕW=uè‘‰ÔhYu"£tğë?°aÅ/ğ È±B?÷à½ÏŞiIûB2©Å4ÆØøôt×èğ•+W)¦pFiS\½j•ñ—A†sd`ØÌ"Vˆpt`øM›Ö  !ì\Õ–\çUˆXœšêO¦åóPĞDDŒIGF%ç ¤tà«l`CÀ/N@sÎâ#’Ññ¤è›æ+¢ÊÓóğ‚¯au,x÷Ê©>R'˜.ôß%O£ÍÍ×Œ:œ¦UÁJ‰ät`"|f*p˜ .Bõ&•‘üH{'j3æZÓáGÚ–ÿ®å½»Çë*Q'R¸¢vò‹¯Şk13gıË™ñ4ÿ'¯:1õÇ9÷n*ş¶U½÷t·Ü××\cûE§=åËËj§Ş·¾t	&ÁèÀhM:1+¨¡ÎŞEÆ%†P\?ŞWŸòe}È+£¼ªuŒK¥=y!×D]ŸG˜ÃCñî‰HG}
+Ï[f`­õÓ¿¶ãÌçîß,Y±R§™ÅÍo¿æ´í(í.ZH½§·®o*ÚËeGK!ëK*‹@JØÁÁÚß¸ûêlêşà–3Íñ4Üè¼Z­—‘Í¬b`1Ÿ¥BAGQ%H%#oK^–REg¤ŞQİš·:¥,èPŠw°* rÌ—ê\¡jÏBE7—Ì"¸ëÛuàŞıÇŸÖF‡¬ğóñEÊàÊØ´Å1¬%âÖ:AÊb‰¸Ô–Ú%ˆ˜Lµ°˜¡A+îäğ `’M÷&İzTÉ.ÄÍëÖ7¾å–ËÀõ*¥3”òÖmm»áÚ5?üÁ~^‰8C ²®;Â­-sı±jB¨ĞLk”l¡¬Ì\äÑ"Pù;7ÇÖÕI·$O0ÆĞò·oy´Kûê‚‰3ˆÈ2dœ#ç,§ÚšKqÒÊ×®2
+Î™Ë]KÿâX!ƒ&“„bLrKrËñ”K†^·í±HÂóİJ=T@dêbu^0ÏÄá\¬[~YkÃòîÁÎ.:UD$ Ò„ÈdÜé:Fë¦ÚVÉEÖËÌòKI
+I ‡:÷^±şš|ÖŒÒª.Ñğ;ß}ëßôO
++ÙAíz™Wm¾nûúW#@ÈÏ "ˆœ±ÁñB Ì¯ˆ¿h!CÌ*u¬¿ïª•«şXÌGœÈdºÆÆ,ëZBô'Ó£ÓÙ¦¨“3”Õ†jB6!˜_¤FÀ£C®Òø2‹¿MËœ³&h	‹ã¤ëùö›çYÓ9ö.^x78çxE2É²Gì_ßxz^ö… ³?´.9ìòœI¤\zF„8|rsïëš¦ÓŠåû
+s eØÏûj4é²kVùàÆ…Ü63'S±ÇGŞĞŞÌ›mÄ»:ºŸ«ûa÷ò˜,VPW•Ñ",ô^v¢-gf©ã£u}™ğ9;ïæ1Ì‘ú¯_ıœûÄ4ZÜä¾]f¾®fúowhgµE‰bàÉGû›AJq`\×XAÒ“I,_ˆEØñ  "€	×º¢iòz‹+ªŞÀeÎU˜µuÓwlÕ0"àH!yÎÂ+‚™‘´}ï©æßlN¢âùÉ&âWvœéšˆ|g_CrDÎ
+³ŠKf>}ãÑë6šB4„!€awkÖñr»ZjçÓb–
+şëş5÷vµ¼ãÙ·¯ékˆfÀ0PlÖ„—&RÅÜ¤\D¾7mEµÔ"€£š;Ì\IE%w˜*hK!RÖ(·ºÎHY¼£ĞS]-µ¼'1.¤«Ê.5(„!“ÂBÆ†Çûw}lß‰§'§'lË±2p¤åÑ, ÄëC^KØÏÆÓK“ØR[j— ²êWTM4	D;jÍì5iâ_şÆM¤¨1$ã×mk‹Ö„ÈUUòpTæÆwnÛG<\I„€”5ÄL0÷íFFí•o¿\gğ_¹’‹‡õeZo\§³åW8¯#Ëâµ+[Ó§ÆÙ…¹å0DÄY1eÊıŸ Ñ!°la>L¹ßlØñœw ”ça"Úèx8qİo¸÷©Û³^Zr ‰Œ6&Š½ñš·_µqg©¿LNÙ$,£­@İƒ]k–mRyU$J+ÛrŞºó=·ïúÁøÔ¨à"å£5é®İØ±5@ d,“Mù~Õp& Àâ¶d–x–°òMí/kêx÷:İw<‡Ô0dCãıÓ™ÔÀH_×@çêöuùç»[×\)¸|xÏİ£“ÃÚ¨Ø„Àâ‘š­ÛŞğº+ŞHd‚Ùş#%eïp÷Àh"\GDa.§óJyÈŠ2Ä¯íÌéKN»îœBêL*Eó¸†ä¼{<é,êÄæ¾=ez&¦[ãá@ëÙç¸@¿‘!duzÌÙ1»P}š1c§0—Ÿ¹û—a+²xÈEˆÒ7äˆ‚(?Ğ°"Î{{hw¿›ô¡Ãº§Ìx–D.àL)ÉHØ¢²bØ„(y à=ß d	;lÙ!¹ğcÎ8Ş;`½­ÃË È[ÿW„šOoİ\£îì«ëË„Ğâ°.yïŠ×6ggŠh–ú‰‘Ø“cñP1Ë&_éõ"D±ˆ¤	¿×µâÆæ!†4'Ã™#†|şŠçZCî­İËG=X®x„ëMñÔ'·{]ëö¬|±_Fx{wÛ„/ã2¸^iÅ["Ù¯^·ûÖÓ+îímî™kÂzÛMËè¯n<»<‘Ò(>{©ényn¬Æá:×Wñ2oÂßØÒéjÖ;Nù"éYiUìÒBø…µ}÷u7İßÕbq-XN<˜ÀµmcyİÁÚˆ«ƒEM¿h,ym üğU§ÃR™ˆzš	fÒ<0˜8w‰äæ‡—½{KOmÄÓ:¯HÄ äæ/ßtp{Ûä÷,ïšˆhƒ’›-£¿º£ëuk‡ÉçEÒ#h«ı]õl
+ÛzAÜj©½ˆ £„ôN‡ş÷Ó—}ïXÇVŞ²r`K}’[hÃÈàÌã\
+C,ˆ˜\L¤ô[
+şUå6TóO™Ê Er€Ìä~(ÍQfx~)Jß…¼ZŠDOÊXæÀ—B1D€¹¾U*Š™;‹"6ãI¼°ÈkÙÎäïøÊA1Ác,ë¥O÷;xzÏÑ®ç&Rc–°ŠÏ.n3ãVĞM“AXçøÍ÷¹‘ÄÒ¶Ô–Ú¥ˆlø“kÜH¥<ã«ÜRšñµİ]ÿéXÙSÑºÜ²ÁÕ„^°êÕË.Û^gWô!HyÆ›ùvRÄ±öc¯B¶(UÀü|®ÂáÏ5A•öu6(¿+r&m[ `A{¾ã˜—_!"ãÕÖ?—XPD œ	ÁåœF·1f|jÔ=§¬0“qè`Ç¦×Ö'šušL)­ÃN¤©¶eÃÊ--õí
+*pXPpAùéŞã×l~­%lmæ1?ğ:Z×ş7ÿÖ“»Çú2Ù4ç"­l]»eív)¬"%¬ãC]Ó™”-œÜ€#` ”ëeË1y®•9ºÌ¶õWo]{•Ò ZÒºíşoŸê>b=yğáåÍE¢­®ïnìØº¬ie÷Àéá‰A×w9ç5±úÍ+›êZµVùhNœÚsìé På(“s}+M¥ ‘Kn³9<¤L¾Œ‹Ô—Œ&3^ÿääÚ¦F/WÁ_¸gî·3#I ‘ç˜Ctjdòš¦¼f~ÈeL’±îÉôÈ´
+Û¡¢ê"“;5šÇ,f:Ì[Â–y÷c”Q,P­Í4¬ÕkC;Û­íÒ×Ä€$§/îñwõ(‹#b™‡·,e¿!gDà—K<„Åm‹/<¢‡Œó£³õ¿³a@™ùéÃÒ{WNÜ²,9”µ\	4Ù®ÃuVq‚Y²
+ HFÅ¾r²5£x´¼]Ëâpna®i¸½·ı«ºÀŸçâiÍÂBrëáw,ï{z´®7
+«‘ÁÆDêÚ¦Ñˆí™Â&ÕéñÄÎ.ñZşÂYL$"Õ¯m>õ?×Ÿ
+„2,*U$äÁR0‚!‘fß9Şá)µLî gSá<ˆi6BÕlC}ò‹7íõwuµüú};:“ÑÍ 
+¢Ø„|éæ½·[şô@ı˜kIfÚ¢î«ÛÆŞ¶¦ßr”	Fs¤©0hVÚÆˆûÑë@ ŒAféS#ñw}gq~² ÂæäXìëÏ®ùÄM‡Ğ°|dRkÆ‘Ş¹ıìÛ6õ÷§œ´/jB~kÂ©gô8óÎ¹	şÏ»Ö¥}µ/i„—Qs¸v¸î›v¾rpÍ÷O¬ØÖ0ymëèUkâÓ	;à9\Ò ä—œÒq¥lÃ ±¸onÁeVŒ aF‘¨T¤¤Ü#ÿ×ügñSl”Ë*H{H·Î(•‰°îIqõJ‘Ò+­^)A4Já¡‚_Í,TÌÇÁ<.Íî…œ(ÁbÖÏ+İDÄÜ’’ëgÓ™©¡ñş¡Î“½GF{]?û|C!3ó<`T¨öp&0œ Òªši„æ¥‰k©-µKéûï#Õ2rDHli±ëÂ¤  À`Ê~ôª'd=°¶^³üª‘·äã§FºŸ<®ìl4%66†Zã3ßÎĞºÿî&Ğ‹39C6»?«ûN¤M@¹z‹EK æúnK¥ËNñ:Ğ^&Ÿ)ób]Ô@¹DåG^é PnŞú¼îêhmX–_ôADZ«5Ë6®nßà	&¤´ŒÑ~àqÆ`®P ı@ùŒ±Ş¡Î=GŸ¸aÇ›ÒÙ‚Øİ¼šXı;nñOkˆB)¬@ùEhˆà2ëe9ò˜_ĞaKõ6Ô6©bò|gÃ8ÔÚ÷•kYÎ©#í¿ÿ¦«Áó½|—¸¶å\¶æŠÍ Ú†ˆÈ”VAàSáı²ÃÏylÿ‰g—¾ò´ÑçT’!‘”Ë¹àÈgª|æıÒÁ“Cˆ°0Æ¬Ô2¾w¼¿}Ks)€ È0ã'†‡AŞıfŒ>9<:•]²¸6e’sÆØÑ¡ÉñL:,‹zOi¥Ë*à !í+×b"ÿŠ»úô¸³*-~Ö²Šä‚gB€@{ÙÀç€Dá’ò$2¾Êºèr€ˆ« Ğ%Kù€,ĞA6È.Rı‹|÷Tx},ò†öôT¡ü…"˜VL YÉ )iÅ±è0_8Üşøp<VÈ¡ ÅæÈç8gô…c.¯™\S“ÔjiÕ†¡aëÉõu „€ ÁğbÆ
+×n şæ¹M#®—êB M(¹1Ú00L2Sïx€ „&T@AKıèèÊ{›Â³†éĞxÂ¤Å‹åhµæŒ‘mP pÿÙ¦[ÖöÎTÇÌ®Ö,"Õ‡¶ŸúĞÖ._3DB7 „	8c¤'İ+¸Ù?X£|)¸ÑÅİ`h"±™øüÇ,,Õ·÷v\Ù6qÓ–>“•ùÅQš<!¸YQŸ©Q38¯2{¾	,õõ‡6íêl¼˜hÈSşi6767Êàãı»ú£RµE²kÓ+bée‘lƒãÕ—hñTƒ6°2Ò•ë>Ê^î’oÉÓÅY¥Ï¹„FÔs/˜-ëÈA!3[Î8Ìgõ3¹}ZêlUaaşŸ `¶0[CC €È±kÁÌã„:‡¿äu{¾“×™Ù¿cá¯óe3ù‡e„ÅÉû,¢1[ŞRfó‡±p4æ“Ü¨¾²ÒÓ™TÚMM¦ÆG&‡F&Ré)/p9ãBÈ 
+™	Gëˆ¥ëC…×ÔLÓR•İR[j—& rğ?T-^2„ WüÕC×¯Òi Lro4sä»TÚGQ~âN§ıèÎUÿëÕ«CcÊÇ\ |êöCû¿¸+VYCD»ÁåŸ}CteÊø €‚©Éì‘/ìò“.“‹m CÆLp&òÜ*º6ÊS®2Ğb=œUÚ_ñî­[?}ƒI•A¸#&ï ^´Y5¤•	°D |•Íøi‹æCêdfâñƒ¼÷Æ_cŒ™<ÑMòs&g”£œXÂLe’+[ÖåWäô>²A&<Æ¸2êÁ=w6Ô¶l]½-ãeóÑ¥Ğ€È¤d@@D¥r$œÎùİOıøX÷s¶tt0ÿEïî>şøÆ•——ÚôÂŒ$
+ ‘ñ”›	Ò1úşİwDÂ±×l¹Şõ=“·—1ÚóuÌ*[öÂ9¶sğôŞ;¿ÍS® 	 ÚhäÅ®¹àF“Îi¦c,'ş’ûäÊ"r·™¯=mÔbî:_‡ûÏŞ´e³`Ì”œ¬ÅÅ‰‘Ñ®Ñ!MF›ùÇÁuez&“›[ó…Tç`;eè@ÿL#ÈèA{Ê‚RÓ]¥ƒŒŸæ˜Ÿi“˜;Ç_·""*SF"7H†ÀSd2"€¬9"€«²Ù€t9t4ëƒ2€˜¢{Ú×«±¸§\…ŸßJ½³)›
+°¨ËšĞPN.„°„p'…¸şæ©æoœj‹ñt˜v?Ú»ıKWïYO™@æg:ZsĞ3bµ”sc*’IÚhöWû¶<8Ø—Á…dÁœ™Áéğ‰©ØËâ”Ó@%,˜eŠ ;88Pÿ…}ÒÉÒææèxü©úëW÷ƒ[ÀBn˜&t¸¾¿»ew_ãåÃàÜ«Ú0ğC²¸2Ìh Lê‡Î´lnH6EÜ95ÙÊ™ª>4’¸ïLÓ-›{ k¡Y+èà„†ºÃ*«`ä*ş'÷n©{ÛW+‹¦MŞ–^>F`©ï^õÅG×†¤^ŠÖ_¦#E¤" Cx6>•Œ*ƒ’“ÅŒ@33á.]İ™I_§‰—&$™#Éj£µQÆhÆx/ó‚á ³±"ßĞ6â*M ”Á«[ÇÚ£Ù¡´}ŠQKm©-µ—uc(ª}˜dF“?éâl$KÚXu!«>œƒ'Ê~BûàáÁƒûû bUšğÑ™±ôC»N[¬ØÎ¸#¦È<«•¡7™%CL.ĞóÂã 1R¸&›5i²†&¸e9Ñp"Š	K"GäJD¬¡‡;Ç÷õËD±;	·…ñM×mµ«½lâ[:û?ığŞ»léˆš2†L.ù·¤íşß6:9,DµºtÁ…¸?|è[ûOîv¬ĞœjIŞ‘1óGÎ{Y¢-D¼ëÉ?và~[ÚE¨%íc]Ş{—%mK.ÊÍ‡1 ·?úı½“1VÁY†J^ÛhI[pñÄsİúÀ·\ß-Ÿ|ÑL,ÕĞ$¢À®Êfüé´Ÿò‚¬!ÍYÂX±Œ0Æh¡xHpŞ7>>49É/aãÉ¡á´çóB5†è+}bx¬¬­äl`*İ5>%9_(nY8¶q$ß?˜şîs£g!ÁÊJ¤Î’vó4X©Lxˆ?3ëre{‰‹ÿ `HÀ¨Ë>³»öÎpHÃiq1)E…!Â<Úöw‡ÛGZÄˆ]œy€ "BŠÿŞ³W¯cVÀ™)ƒ=•ËÁ¸†3ÎG¹òû]+b&2—ŸÿÓsëŸh`U ÄmÿĞPİîÚ>æZù¾6Iüû={ÇãÜñ9–£LÀ?÷äe}“Qn¥Óª!ÔµÆœÀ*ùv5}iïÚEÚ0ø‡§6œJğÏÙó•Ÿ8BOd­ÿïgWİõÜr´4_\´ÜVÀè«løÓ»¶ ‚dKE/ûl#ÙÜD¥ª±ƒ°PÉ Â™ÿ¾$?´À^’Ÿ—f3Dfö‡K±" âŒ[ÒÙ[:|VQîkÊ°qß¾®yä½Şì"Œ§yGMú·wœ4€i_,‚/µ¥¶Ô^AM,°FHÊwGÓÈJYQY–HwMTÚWHœö¿ú'¿¼}9s„ñŠK|gàÈoÿë£GE+;Ô£¦¨ÓS‹@ŞHÚø9;ÑJœÿñ_pËgÜb!Á¥§\_{Pr5íş»‡·|æÆÚË[Ii2ˆL2Ò=ùµgF?+B/¾ çÂ’ ”•ú3šuf-¼ÂˆŒİûôÏ²^æuW¼!Nh­´ÑÆ˜\‚€È3!…™¾ó±[ŸÙ¿ã²×Z’‘±òp
+!EÁ‰Ka¹^æü{×à©[olH4CJsG.êg\pID=ÃgÚs×Ñ®ıBX¥¯ID\>¸çÎéljçÖk[rz¨@¾B–äù¢§œmôİOÿ¸{èÌ;Ş²¼i)­ŒÑÅˆL^OúF»wí½ç`çDVtv  …´„Åf$1€,i‰<9ô¹ä_¥BíI.-îpÆ-á&=•­~×qÆÒwbh`c[›€€rÕûÄ4Ñ‰¡aÎX¹jcBRÊÙuÌ°wÂ’Ÿ™œÈx²D´Ÿµišá8‚sV°8şğÈhÒ~icİò¸5³Ír!Àæ0G>‘s
+>`1°òã1³¸4kS~dˆwÙgv×=;bp]²#ß6efÉâÚ<;şÊ‰¦]Cñ°0EhHN¬sÃs‘8Ì~¸®Á"€Ã5ğÙˆ,wb\;åd>bBKÅ~ãÉk>¼îô{:ºc¶ÄÀ°\Ü–¯ãÊ€`Æ¬{Î¬øò±u'SÑ˜¼8Ek3©@üşãWşí«Ü°|  AsSXàÀ˜¡â?;¾òÿîÛ0œq"%<°ĞÇ'b¿ıÀl?şúe#Ò
+fºO ´Í „„>6ÿğ=WÿÉ«¼fù0g š‘AÊS‹eh@ ¸ÿDû?¼­>ä'ì „æ&¯üYjÉÊÔ+†„>›ÿæWÿŞÕ'ß´v0ògËô1_g–[–»Ö 5£ÂWjÁªka©'³òcw^ñTwÃo^szYC
+ A3£YÑåCä¸bºë¾òÄÚûO4Û\ËBğrZjÆò`)°´\„§²-Xºà±ã&$+rQsB¡`ÍøÜ.ş"va…À™¥ÅbÈW>>‚KŸÏãè.õj©*BE¨gß•	¡Ş×qö£›E¤ri~e(ˆ÷m>w‚¯í]sr4›ÛA0#1¶„‘,µ¥öÊD¼9K÷L"C±üI7ujtêÄ¨;œfVµååHÄº÷Ÿÿü=ŸúôDÜŒOš ‚#³[¿õÔ—¾ò¸cWë€	ŒÓµÆ˜%1ã),Ó“TÙ@F­ó=å™à-Ğ2Åm[ØŒñŒpÆİ Kp¹5$Òg“{?uWû[64\³\Æl£ÌtçxïíG&ñ|ÑßwÙdj¼g¨ßõÜü™r,˜’¬›Ä‡÷Ş}¼ûĞë^µvÙÆšX]ÈÌméùîèäĞ‰î#Ïyt$9äX¡‰©ÑŞ¡^?ÏF
+94>P´^,¸4Æ<ºÿ¾Ãû¶¬¾rcÇÖÆÚ–X(X\G N¦'Çzwî;Òu ë¦-éTÂ¼cHøÄÁœÙ¿ªmı²ÆúD“c9RÎW$YÂrƒl>Âgè>³¯kğÔe+·mYsekı²X8Î
+hI=•ìí9|fßñ³‡¦³)»\Oˆhp|Àó]mÔ b9š+åR,ò•èÀâ¶%œÙ»N¸A¦Ê]Ç÷öllm£™jš9Ép"“>;>.Ë<KÎz&’ûz£¡Yõ·$c»{†°‚¢0"duz,@dh‰X|,”E-¢ÍñSÉgûÒ[›BêÖ˜ˆZÌÎ‘ÁÈb
+(gÕ3¥Â¼Í†\—h4kTeò.Cwáè8j¾®,†Sş"ü¦Jò4›“&øAgôÑAç¦¶Ìu-Ùu1¯ÎVg	ˆù²òp2zß@üÑ¡èT ¢å8a*Ç“QM9CŸ¹³ÖC®U©\áñTlÚp='‚À™9Š•M’Â\§”øü¡Ë~ÒÛşöe}×5vDÓv®î#ï[ü@v¥¢OÔßÕ×¶w¬†!Ä/FmH>–q:ıƒG¯|×êŞw­îİX›’V 0C6bCgïHí­§V<1PÏ"åTK "ÕÉÉè<|ÕöÆ‰+›Ç7×§7*5cÄ…îšŠä¦‰ˆT'&£¾oÇÍƒïXÛ¿¶.ÕvQ¨µ_Ã&]ëØ@ìÇVÜ{¦%ğ¦°wh4¶”18§ÖÃ¤Î8¼œ×oDêŞ©ğ§îßöŸÏ­üÿÛ»×»®ë>àk­½÷9ç>æÁÇ¢†z‘zØŒZr•¨Nb£‰• F^Z4ı` mò!©Ñ~)‚¢E[¤mŠF @ ­Í×IêÀAvâ$pmÙŠiEeJ")8$g8Ã™¹sï9g?V?ÜjÈyg.9äÿ‡‘@Qsï=wß}ÏÙk½×şã×Ÿ›?Ü¬†óps
+—±éâlkù‚Î×î­+£ÉßRÈ×äa¦—m03E‰r›¢òo½òØ¿}ä'Ÿ™|é©«O-Œ¶*â[»~’+s7®ÿß³Ç¾ò½#ó•kgW%şk·¶o½7š’Üv$“sÙ,Ì~gºÕjÆpKäÙnæ×ŞHšëL7{kb4­ØşFDzÎ‡µbYgû	²2c#.M/d‰  ØËÌS™ŒOœI:œW‡óêx£{²İ9Ñ^|¢Õyftõ¢Y9 T¥*˜Ÿzæ½>1õÚôèÛ³íó³­w®·§:ÅT'Ÿ/5\4Œ|.À}wÆ8}êÓÿFò©9>üØßşĞÜ›Sóß›î]óó•É-;ÙøÎlJÚíÖûá“¿ô‹/>ÿáãÅPNDZ†7Ï]ûÜçÿêw¾ğfÎ²îiRSØ‘9ğÜÃ>ôĞĞS‡²‘Æwşå\şoÚ'Dn¤ª[Ø¦KD>ùÒ/&M¼YV#…”ª`
+kYò1.Ö$l
+{|®"ıù·7n\5!b%ê˜b«1t`è`³h·CFl§7ß-gæ§ºsÖØş²#käheU‘•B!úÌå‡Ç:82Vd¥#aZìvfæ§f¦o,\1d61[y›1=³0‘5.sùÊ·¼Ş›)úP[ã:|`è`«1Ô_Ï»Ğ›]˜™Ÿ]¸Sp63ë‰1†×ØhFWW6Y§×5¬8b
+É÷ênÒ¸^¯SUgÌŠ'Kû˜RÔuoY$UgDø–íTú“Õœd"+ÒÏÑ,ß¸VbNIã†Ã€´ÊLL¼4dÅ¯Ç~‚…ÈÊm5e•˜T×(Ar[Nduâƒ‰‚Rºƒ±I¸ŠÜ°úXË?ÔÇş@‰()M•æJÏNtİ{İ,*F7w…Éò¥ãò]©õ›:ñZÁ³OM!.£ñ‰æõc­î#Íî±FÙ²ˆºÁN–Å¥nãb§u½ÊkÃî¤êDRNJÿåG¾ıÑ‡¯¾_Ÿ•ÉHš)óOıÉ¾=ßv’ºÁ¹ğôèÂ#íîá¢.Lœ.ók½üùÖD§™”›6nz<)—Q–Ö¼µ²`X™(*‡m•»Şd&k•ÇÚ½y} ák;SfS½üâ\³LËEae&·jI…´Ñg¡Je0Q¹ÿCYX™SĞå}‰HXİªÉ Läoq–u¥
+¦áÂc£İGt•u¿ìµN19_\œm½7×ğ‰ni_áõ²ûÎ¤ÛNóÌÇ´É‘XIFè–·ÁDJ>®ûzÂêŒ®ñ´îÜaµF×8Â¸Ñg p‡ê$§GoüÌøÄ£ÍÅ#yu¤(G–o$å’Œ"Kd–VüÙfšç‘,‘PdªSL/f—çšß¾tà‹ß=^#ÈçÜ/z½úÇ>qzó„H?1ËĞßSVœá-ßU¥n·Îs{òÄ¡ññQçÌääÜùó×gf{­V&[(´±ôÒIm;zòĞÈ©£Sq¡¼ÚY¯ëÎr"L\¸ffr&öÉ÷|g+9‘şáQÒşb÷ÔDH]U›ci$*›h'”•V™Ù»25°öó/ï£¶şQ-­R¹%¦¥FL¿øèßñ­Kf–‡7ˆ4¦c¼-6ßú‘¤´Ff’-¬†í÷ºÜ6r[0sH¡ç;1­Ñµ^‹–6®ãCÍµÓ_²áÃ”hÍZÈÌ$[ûtúµTUueÃŞÜŠ8õ—•¬î ¼ÉÉdÍe ²“İ³W7Õ«¢åå-ŠÕma¢ìRyÑµoã‘SÔµ"måşyP®——ÌÜú¢š™dï`Ä¶•„H]OT®âíÇà$e&ñ¶OÅK/½”)å5A•|’["p&Ëš™t³µ_¦t­¤ÕVF±K‡‘ø¶Àÿf…Õµ?kÃÛ[ş”ë(á¶/½1e&9Ù|§œõd+ï4¦u:ŞúùUë”zÙ‹# Ø™ş…õ³/|óÅñ	ª²”ŒW+'Ó­J‚¬÷guF­I”"úûÿí‡ÿì­1ì}pŸ%D¶4£…móö
+±
+,,ÙFû]2S«•¥¤gß¼öÚWˆH˜³Ì®»­ÌªpäæKkÔ¯^™=3i
+·éä”méW èùÅ¤1·M+®áÚ½º“hóœÓ=Y?u³Hy#""’íÅó3³³ÈíÉ;fb6Ûz€5nuÙm5Ôô:"-CW5å®aØ6İP·îD«{™½–ğNòtLdî¬W/áµ7ÎÕuWy+Ÿ™=û¾SaôNjş3ÑÎw²pÀ²Z³—ÅğuKÇß´»s|³Ax£n™”mX#ƒ7Ñ·zÎË°»Ìka#İÁ´Â;9’TeVËƒ;B €Ÿ]}’ÿ}y¼mÃ‘¼qŞIÊ'åÄkc§ÏuFSÎû(Ò^›n¿>9r~º•p9 ŒŒÅ’©Š#<ëŞÕqf³¸‘Û¯3šê Q¥°ı[Ø°¹ù$»=¾êGU(I5w-ge­®ï¨*£ìf¢*”IS#k6¬Õ­;¬   €Gõ”IúİK|iòØ¬~¸Ñ}¢µøxkñ‘f÷ñÖâÃnË†™5Ó"…‹dhª[L,4/Í7/Ì¶.\o]œmNwŠÙnÆ¬™IÈòÜg¶—Ñ˜B×GÚüÌ©Çşôô7ß=ó¯şPìú.³±ëÿÜ)Všø?gcLƒÙ·…‰«Xsa›Ö¸B›¥_D½íuÌ>Öä©áZ–m#ku«…M+û   Àz
+Ë$½ÆÅnóÏ§$¥–#Î?Ş\üùÇ/şä£“)Ş:ÖjºğÚÔÈg_yòÌ•Ñ…ÊÍ•.D¶F…ÕŠQAEU€ûÑ6"ªj
+wì¥§ÿ»§‡<”êxôã'ÿôßı_íFŠ]LK„…zôÙ£OÿÊ‹n¨8ôÂñwşÇ+sg¯IádWWÊ¬óâ\…’Yr[d6O)V±Dh
+{Ûë˜}¬™¥a›Vlá=ßE³    ì<Èá›ÕĞûåÒùF}£,¾qıĞ[‹çşñ‡ŞT–›óDZ.|ûÊÁô¥\^h4mÑ¦œ¡€sÅVQ)öÂÉ_øOıÒ¡Sû…Š”$7Oÿò‹İËÓßx×m¥,È±ë‹£íS¿ú1ÛÊÂbıĞ<ğÜÃ_|ıİ/¾îoôØÈ^·W¾+,Îd™k1fäD`o{]J¡~&®ˆ)Ô¡F¯   ØÂ*¬N’Oò›o>ùì¡ŸxôJW-YÖw¿ñõL.4F¶x°NÛˆØOÿåÅòZgióL¦TE;”ß?ıøè³Gû)’;k7\<ûÏÿÖğ3c±ëIÕwjÛÎOşƒFKuL£(Qé{I“°¶¸€‰ªĞ)Qn›"«6«   €;ã$•/\|Ä'éO>ÏmüË‰Ã/_>4ŒlÀƒg.Ln¯û½w~ëÉÍÒşL±ç=÷ë?1öÑÇüB©1íl}‰ªú…ªu|ôô¯ÿøØ>:õÊ×½ôÅ×§¾vÑäv0ÂÄIcå{Djs&W¬„½ïwJZ…®ªŠ˜Üh   €]—›xnnh¾v7w¾{cz8)É<ˆ¶·Å6³‹¿óêäsÃï/‰=Ÿµ>üo_:ñ©ç%³·;Ğ¨±üÈÏæ“‡>2îWdCl;»ñ×WÎıç¯“Ò 7¸ebëk"Îl~'¬l½×…êP©3™‹I"pe’ÈFc–$’‰…‰/ À¾fXçjw©Ót&õ/jççÛr<˜¶7ç‚-kIgÿã_‡[Ÿ÷UÿïcÄšSÿäcn(?÷_¿yËş¸›5©ÉÍÓ¿üâñŸı Xynˆ’m¹ŞäÂkŸùj5Óµ­lÀ±¡’V¾4âŒ'YJ¬½ÆÄU¨¬ÉŒØÌä!Ü­€»Ôi¢Û82;ãû«‹Ñ¹Êù„S!  ìcBÔñn¢Û|g„d¡v—;…ÙÖµM‰ª@NÈ
+î^ìkÛ\„¢$…©o”gşõWNÿÚKŸØÏW7OåôâôË´<TÖ¤©
+ı‚#,Ìı½ªT—şÆÊÒ%U9uÄ62?_Şÿl++¯-|÷×¾2vÊ¶³ÁŸk˜8hÑ;›;›ûXãv=€jªCÕÈŒ5™5UHûÁ GŠ¬ÄôïÏ|Àòíg=%*£ÉMD+ Àş½Ì•Q.-4‰ÈIšì6®.VÒÖ"²,ß?®oèlIã4€}Ì<4öÛ>‰8ñ7Êé—'†Ÿ<Ô~â †DJ®•]øü™K¿ÿºmfD”|,ÆZ'á#Íñ7”ç›¶™åc­ÖøHûÄÁ±>Ö8:Ô9?ÃFX8tªz¦wôãO,bˆÜPŞ½4÷İóG3ß¹¼;û×ì8:%uÆ‰HÔ5"4…½ÆÌJÉŠ1D¢ÇÔ$¸+êdzÑÔQª?uÆy  ö¹äh£üÑã×¬ÓïÍ}îìãV¶<ÒGÊ~õ‡d¦Œ¯OqfĞ ûò<â‰í¨L©’i¹jzñ;ÿâËÏüÃ¿9şSd+óg§.şö«7ë¦:?}øÄ§O>¦*ÆÒ‡®+¦p¦°v(Ÿyå½k_»¨IYØ4ÜÔ×ß½ú§ï<üÒS±¦é¦¿qéßø³Î…Ù»›aâ˜BLÁšÌ™ÌÇı i
+Ñ±Fœ°`jÜ†Õ0ú  Ü‡,ë…N«Jb9Ÿkû$Öny†HHt¸IkÆš„2ƒ ûÜN¿ÄJ¦°¡ã_ûÌW_ÿZ]ë\øŸgÊ©8Óÿ¿Ätğ¹ñTÇĞ©5$Él~°i‡r¶ëèoôŠ#íÖøpò‘ˆX˜T/|ş»¡ªôÖg_ş«ö¥ÅwoØVv×HU}ôDjÄFÄ§Z56Æ ´*   À®†@¢W{Å`)¯ÏÏµ·»O¦µ”ÈiqÃRÂ8`»£l%7šôÒï½6ıò„Ÿ+]{)¡)¹¡bäÔ‘ş3ªJQuÅ’ó4;ØhŸ88nšr""Ópç®¿ùŸ¾Ö»¼0õµR¸÷+³Ş]L1UaµÂlqØûNÇ)Å¨Ñ‰³â05	   `9ÖUöÙ×N~ÿÑÙ¯^:’›í1¬G[ä“k±3ZBt °oÙ;|<›¦+¯,°^Ş7Vqäû<¤13©®øÄÈ?<ùçnş8¹ô…×HØ¶ó{§˜8iŒ)8“Y1>¡ÏÀ ¨jŒŞŠ3b‘ƒ   ØÍ>«ş÷³OĞ'œI¹Ùê4®£¶\|t„êh5íøpùêUÓÎß ö'»+Ï"·b¦|´áçKÓp¦á$3”ôfV„kHš´kIn()-gRLÓİƒm¤ªQ£#2‚%308+¦&™¤¸ù    °k˜¨i£*1o¸8Y•ƒrRŠ‰˜ca{?ñ¤kS©•ø{š¯Ê‰ùaÃb…*‹ ìŸSÁéSŸŞ“ç6­¬9>Ü<>Rjº‘F¿P1ûNU_ïö®,tÎÏÔ³å½å)©3Y3k§”ºõBÒˆĞñådnåÃÂÒ«ëPa¯   €A‡†ãp7ëÃ°1Oj[Ó¶fh(Ïç«ğúTººØ›\X|o¾¼Ú‰UÀ„€{_¯WÿØ'NÛ½:{ÄTÏt«këßš Dbåf!…DJlE2#v$PSJªÊÌÌ¬Štä¬šR2Æã>   À Iæ~è‘é¿sŠ˜Ô
+Ù*¶|¤åÙñ©
+ö@qø“OBd+ï}ù­3ÿî«&· ö…½Jˆ³8CÎ,-té"2û-cÊDJªª"ÂMa€TSÿË„k*   À GbNŠ‹s¾üv8Ôğ‡›¡éh¡n9Pb#l¤ºÚ‰º¼Òé^éÌœ™d‹‘À¾aô:Lûy™	“ªR"2(o	ƒ»“&JDÄÄèx    ƒŒYÉ®tòKójY‰-W=6ZòI&"r’zaòs¯v_½Z_ïÆ2&™Ù4-a+^€}Â¢	¶u`€aê×"F¯   ¸;ƒ1+j…”(©«Ü×'ê¹2~újçläÆo¿:÷…7¤iÙ¶l­ëÏ-€ı@¶™*áF=ºë   ÀİÅDÂj%eöüóö,6İ({ßºlÚNrË†3zö!$D      ¶‚))_]$'ñzW»56ÙØ×ğŞâ™™Y‰wì    Ô¨€’òµE2®,h/`VÀ¾†„Èöôk: æŠÛßÕi8   €{&~bîrÔt½§>j½ìg(ªºJ,LB¤ª‰”	†x¿fÒp    ÷'|m1}sBß¼NÖ = ö5$D6§DBÌ,ªª¤È†À °°QÒ¤¤¨Ó   p÷¡…*üæ·()çHˆ ìoX2³J"†™T—öš6Jšúó’    à£1%%AX °ï!!²%F'Q#ÌÀ (©ÃÌªš4¡Ó   ÜKQg ÷ÅWM°)f6bˆ(¦ˆÖ€Q2b˜%iŠ)b½     ÀîBBdÓ°TEŒa«¤143[±D”R$Jh     €İ…„Èf”¬XfI)EÅzL§Sa±D“Ç&3      »	‘M0³5…ä“bÉ„’+,ISH±¿=     ÀnCBdã°T­XÃ–TCôhŒå4Ç¢b½     ÀîCBdÃ¸TÙÙœ™£†<ÖËÀ ¨ªgÅ‘ªO5aÇ]     €=€„Èúq)©1ÖŠ#RjE!fÎlNı4\D     `O !²~\Jœ»‚™cŠ>Ö¨ã  ¤ÖdF©Ö¾B     ` !²N\ªêlfÅQÊ„:0€^G*,…-˜)$ïÒp      {	‘µâRUcLnD¢¯c…¸#·£ªU(ÕC      ö"k`æÂ6ELÒTú.@I3“e&'¢:T(â     °§Y—ª®iMF¤•ïEˆKaÏ{©[¸&3‡è«ĞCŸ     ØSHˆÜ—ªæ®Ñ¿K_…²²!°ç½Ô°-\KÈÄKßURBÇ     ØKHˆÜ—æ®(lƒ™}¬JßCå@¯6¼eØ&J¥ïbR     À X4A?(e¢Â5sS0që_$Ü¥‡½ïxFlÃµÕT†®O5²!      €„Èò^§®é$#¢:U¥ïª*âRØÛ§êlV¸¦¨jé»uÄ-     €yĞ"JjÅ®aØ‘OuÏ/"{İë˜¹pÌ¬¢{¡ë#æ†      Îƒ›éOÉm#3¹°$Mu(«P*!{ØëˆÈŠËmÃG¤Q}é»!ô:     €Azà"ıˆTX2“g&±DR¨|×'ÏÄˆKaï:›™Ü™ŒYHµUzIz     À€=(	%%%f6l¬É2“‰"VMu¬êP"(…½êxDLlÅ9“Y“	‘Æä«PúX3:     ÀàÙ~Àv_F¢ÔD‰‰ÈŠ5Ë?ÂBDªêSU‡2ÄÀÄÌ7°Ãî¶ò?˜™‰+Îˆ3b˜…ˆRŠu¬|¨!     p×X+îş{Wı³0±ˆ6ÂÂÌı‰"ªSğ±É+‘lµwŞç–[113Ë-˜–z]å£O)2cq     Àİd›YûşO‰–âMíÿKUß¿‹/lrÛ n (…=è|¼Ôçˆˆ(¥äS£)¨*3/ı      Ü=ÿLf%Ñ0Á
+Î    IEND®B`‚
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/rss.37214526d7308d0c.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/mastodon.1a5c0fde8353f680.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.82 6.76c-.27-2-2.04-3.6-4.14-3.9-.37-.05-1.7-.25-4.82-.25h-.02c-3.13 0-3.79.19-4.15.25a5.15 5.15 0 0 0-4.37 3.77 13 13 0 0 0-.2 3.14c.06 1.47.07 2.93.2 4.4.11.96.27 1.92.5 2.88.43 1.74 2.16 3.2 3.88 3.79 2.04.68 4.24.73 6.3.13a5 5 0 0 0 1.4-.62v-1.41a.04.04 0 0 0-.01-.04.04.04 0 0 0-.04 0 16.6 16.6 0 0 1-3.69.42c-2.13 0-2.7-1.01-2.87-1.43a4.4 4.4 0 0 1-.24-1.15h.04c1.19.27 2.41.42 3.63.42h.88c1.22-.04 2.52-.11 3.74-.33l.08-.03c1.9-.36 3.72-1.5 3.9-4.39l.03-1.3c0-.4.13-2.83-.03-4.34zm-2.92 7.2h-2.02V9.1c0-1.02-.42-1.54-1.3-1.54-.96 0-1.43.62-1.43 1.84v2.66h-2V9.4c0-1.21-.49-1.84-1.46-1.84-.88 0-1.3.53-1.3 1.55v4.87h-2V8.96c0-1.03.27-1.85.8-2.44a2.76 2.76 0 0 1 2.14-.93c1.03 0 1.8.4 2.32 1.18l.5.84.5-.84a2.6 2.6 0 0 1 2.31-1.18 2.77 2.77 0 0 1 2.16.93c.51.6.79 1.4.79 2.44v5z"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/x.4c7e68bf52af030a.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.61 3.16h2.98l-6.52 7.48 7.68 10.2h-6.01l-4.73-6.18-5.39 6.18H2.65l6.97-8-7.37-9.68h6.16l4.27 5.66zm-1.06 15.89h1.66L7.53 4.85h-1.8l10.81 14.2z"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/bluesky.a9421882d093c829.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 10.93c-.97-1.87-3.6-5.34-6.05-7.07-2.34-1.65-3.25-1.35-3.83-1.1-.68.3-.8 1.34-.8 1.96 0 .6.33 5 .55 5.73.74 2.42 3.3 3.25 5.69 2.97-3.48.52-6.58 1.78-2.53 6.27 4.47 4.59 6.12-.99 6.97-3.82.85 2.84 1.83 8.2 6.89 3.82 3.8-3.82 1.04-5.75-2.45-6.27 2.38.28 4.95-.55 5.68-2.97.22-.74.56-5.11.56-5.72 0-.62-.12-1.65-.8-1.96-.58-.26-1.49-.55-3.83 1.1-2.45 1.72-5.08 5.2-6.05 7.08z"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/github.4d94e1bf436aa7ed.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.98 1.86a10.33 10.33 0 0 1 2.8 20.28.8.8 0 0 1-.24-.56v-2.86a2.7 2.7 0 0 0-.72-1.92c2.28-.27 4.67-1.13 4.67-5.12a4 4 0 0 0-1.06-2.77 3.8 3.8 0 0 0-.1-2.76s-.86-.27-2.81 1.07a9.6 9.6 0 0 0-5.13 0c-1.94-1.34-2.8-1.07-2.82-1.07a3.78 3.78 0 0 0-.1 2.77 4.1 4.1 0 0 0-1.08 2.79c0 3.97 2.43 4.86 4.67 5.12-.37.37-.6.87-.64 1.39-.59.27-2.08.72-2.99-.87a2.13 2.13 0 0 0-1.56-1.1s-1 0-.07.65c0 0 .67.33 1.14 1.52 0 0 .6 1.84 3.44 1.22v1.93a.8.8 0 0 1-.23.57 10.34 10.34 0 0 1 2.83-20.28"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-footer.a2850e459e2d290b.css
+
+@charset "utf-8";
+
+.footer { background-color: var(--color-background-primary); border-top: 1px solid var(--color-border-primary); color: var(--color-text-secondary); }
+
+.footer__mdn { align-items: start; gap: 2rem 1rem; display: grid; grid-template-areas: "intro" "socials" "links"; padding-block: 2rem 1.5rem; padding-inline: var(--layout-side-padding); }
+
+@media (width > 480px) {
+  .footer__mdn { grid-template-areas: "intro intro" "socials socials" "links links"; grid-template-columns: 1fr 1fr; }
+}
+
+@media (width > 640px) {
+  .footer__mdn { grid-template-areas: "intro intro intro" "socials socials socials" "links links links"; grid-template-columns: 1fr 1fr 1fr; }
+}
+
+@media (width > 1000px) {
+  .footer__mdn { grid-template-areas: "intro links links links" "socials links links links"; grid-template-columns: 2fr 1fr 1fr 1fr; }
+}
+
+.footer__logo { color: var(--color-text-secondary); }
+
+.footer__logo:hover { color: var(--color-text-primary); }
+
+.footer__logo svg { display: block; fill: currentcolor; }
+
+.footer__intro { display: grid; grid-area: intro; justify-items: start; row-gap: 1rem; }
+
+.footer__intro p { margin: 0px; }
+
+.footer__socials { column-gap: 0.75rem; display: flex; grid-area: socials; list-style: none; margin: 0px; padding: 0px; }
+
+.footer__socials a { color: var(--color-text-secondary); }
+
+:is(.footer__socials a):hover { color: var(--color-text-primary); }
+
+:is(.footer__socials a)::before { background-color: currentcolor; content: ""; display: block; height: 1.5rem; mask-size: cover; width: 1.5rem; }
+
+[data-icon="github"]:is(.footer__socials a)::before { mask-image: url("/static/client/github.4d94e1bf436aa7ed.svg"); }
+
+[data-icon="bluesky"]:is(.footer__socials a)::before { mask-image: url("/static/client/bluesky.a9421882d093c829.svg"); }
+
+[data-icon="x"]:is(.footer__socials a)::before { mask-image: url("/static/client/x.4c7e68bf52af030a.svg"); }
+
+[data-icon="mastodon"]:is(.footer__socials a)::before { mask-image: url("/static/client/mastodon.1a5c0fde8353f680.svg"); }
+
+[data-icon="rss"]:is(.footer__socials a)::before { mask-image: url("/static/client/rss.37214526d7308d0c.svg"); }
+
+.footer__socials svg { display: block; }
+
+.footer__links { display: grid; margin: 0px; row-gap: 0.75rem; }
+
+.footer__links dt { font-size: 1.25rem; }
+
+.footer__links dd, .footer__links ul { display: contents; margin: 0px; }
+
+.footer__links ul { list-style-type: none; padding: 0px; }
+
+.footer__links a { color: inherit; }
+
+:is(.footer__links a):hover { color: var(--color-text-primary); }
+
+@media (width > 840px) {
+  .footer__links { grid-row-end: span 2; }
+}
+
+.footer__mozilla { place-items: start; border-block-start: 1px solid var(--color-border-primary); gap: 1rem 1.5rem; display: grid; grid-template-areas: "logo" "links" "legal"; grid-template-columns: 1fr; padding-block: 1.5rem; padding-inline: var(--layout-side-padding); }
+
+@media (width > 480px) {
+  .footer__mozilla { grid-template-areas: "logo links" "legal legal"; grid-template-columns: min-content 1fr; }
+}
+
+.footer__mozilla .footer__logo { grid-area: logo; }
+
+.footer__mozilla ul { column-gap: 1rem; display: flex; flex-wrap: wrap; grid-area: links; line-height: 2; list-style: none; margin: 0px; padding: 0px; }
+
+.footer__mozilla p { grid-area: legal; line-height: var(--font-line-normal); margin: 0px; }
+
+.footer__mozilla a { color: inherit; }
+
+:is(.footer__mozilla a):hover { color: var(--color-text-primary); }
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-breadcrumbs.d06ce8d09f42feb8.css
+
+@charset "utf-8";
+
+.breadcrumbs { align-items: center; display: flex; justify-content: end; list-style: none; margin: 0px auto 0px 0px; min-width: 0px; overflow-x: hidden; padding: 2px; }
+
+.breadcrumbs li { display: flex; place-items: center; }
+
+:is(.breadcrumbs li) a { color: var(--color-text-primary); }
+
+:is(:is(.breadcrumbs li) a):not(:hover) { text-decoration: none; }
+
+:is(.breadcrumbs li):not(:last-child)::after { background-color: var(--color-text-secondary); content: ""; height: 1.25rem; margin-inline: 0.25rem; mask-image: url("/static/client/chevron-right.a81fc439dd5e4839.svg"); mask-size: cover; vertical-align: middle; width: 1.25rem; }
+
+@media (width <= 769px) {
+  @media (hover: hover) {
+  .breadcrumbs li:not(:nth-last-child(-n+2)) { display: none; }
+}
+  @media (hover: none) {
+  .breadcrumbs { justify-content: normal; overflow-x: auto; scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); }
+}
+}
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-breadcrumbs-bar.02910e49bb8b2372.css
+
+@charset "utf-8";
+
+:root { --breadcrumbs-bar-height: 2rem; }
+
+.breadcrumbs-bar { align-items: center; background-color: var(--color-background-primary); border-bottom: 1px solid var(--color-border-primary); border-left: 0 solid var(--color-border-primary); border-right: 0 solid var(--color-border-primary); border-top: 1px solid var(--color-border-primary); column-gap: 1rem; display: flex; height: var(--breadcrumbs-bar-height); justify-content: end; max-width: 100vw; padding-inline: var(--layout-side-padding); text-wrap: nowrap; }
+
+.breadcrumbs-bar[data-scheme="dark"] { color: var(--color-text-primary); --csstools-color-scheme--light: ; color-scheme: dark; }
+
+.breadcrumbs-bar mdn-toggle-sidebar { display: none; }
+
+.breadcrumbs-bar mdn-color-theme, .breadcrumbs-bar mdn-language-switcher { display: flex; }
+
+.breadcrumbs-bar mdn-color-theme, .breadcrumbs-bar mdn-color-theme::part(button), .breadcrumbs-bar mdn-language-switcher, .breadcrumbs-bar mdn-language-switcher::part(button) { height: 100%; }
+
+@media (width < calc(65rem)) {
+  .breadcrumbs-bar:has(mdn-toggle-sidebar) { padding-left: 0px; }
+  .breadcrumbs-bar mdn-toggle-sidebar { display: block; }
+}
+
+@media (width <= 769px) {
+  .breadcrumbs-bar { column-gap: 0.5rem; padding-left: 0.5rem; padding-right: 0px; }
+}
+
+@media screen and (width <= 480px) {
+  .breadcrumbs-bar { column-gap: 0.25rem; }
+}
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/shield-check.07bdc37f20ac5cc6.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/circle-play.6ed4ac1fb3c93a04.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m10 8 6 4-6 4z"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/chevron-down.7c923b7054da305b.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-menu.c41c14be9597dcd9.css
+
+@charset "utf-8";
+
+.menu__tab { --menu-tab-background: var(--color-background-blue); --menu-tab-text: var(--color-text-blue); }
+
+.menu__tab[data-section="learn"] { --menu-tab-icon: url(/static/client/graduation-cap.c7aa0f3430c53718.svg); --menu-tab-background: var(--color-background-orange); --menu-tab-text: var(--color-text-orange); }
+
+.menu__tab[data-section="tools"] { --menu-tab-icon: url(/static/client/wrench.a3caa7312a364b47.svg); --menu-tab-background: var(--color-background-purple); --menu-tab-text: var(--color-text-purple); }
+
+.menu__tab[data-section="about"] { --menu-tab-background: var(--color-background-green); --menu-tab-text: var(--color-text-green); }
+
+.menu__tab-button { background-color: initial; color: var(--color-text-primary); cursor: pointer; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; line-height: var(--font-line-ui); margin: 0px; white-space: nowrap; }
+
+.menu__tab-button:is([aria-expanded="true"], :hover) { background-color: var(--menu-tab-background); color: var(--menu-tab-text); }
+
+.menu__tab-button::after, .menu__tab-button::before { background-color: currentcolor; height: 1.25rem; mask-size: cover; width: 1.25rem; }
+
+.menu__tab-button::after { content: ""; mask-image: url("/static/client/chevron-down.7c923b7054da305b.svg"); }
+
+.menu__tab-button[aria-expanded="true"]::after { scale: -1; }
+
+:is(:is([data-section="learn"], [data-section="tools"]) .menu__tab-button)::before { content: ""; mask-image: var(--menu-tab-icon); }
+
+.menu__tab-link { color: var(--color-text-primary); line-height: 1.25rem; }
+
+.menu__tab-link:hover { background-color: var(--menu-tab-background); color: var(--menu-tab-text); }
+
+.menu__panel-title { margin: 0px; padding: 0.7rem 1.4rem; }
+
+.menu__panel-title a { color: inherit; }
+
+.menu__panel-content { display: grid; gap: 1.4rem; padding: 1.4rem; }
+
+.menu__panel-content dl { align-content: start; display: grid; margin: 0px; row-gap: var(--font-size-small); }
+
+.menu__panel-content dt { color: var(--color-text-secondary); font-size: var(--font-size-small); letter-spacing: 0.05em; text-transform: uppercase; }
+
+.menu__panel-content dd { margin: 0px; }
+
+.menu__panel-content ul { display: grid; list-style: none; margin: 0px; padding: 0px; row-gap: 0.5rem; }
+
+.menu__panel-content a { color: var(--color-text-primary); text-decoration-line: none; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: var(--color-text-secondary); }
+
+:is(.menu__panel-content a):hover { text-decoration: underline; }
+
+.menu__panel-icon { align-items: center; display: inline-flex; }
+
+.menu__panel-icon::before { background-color: currentcolor; content: ""; display: inline-block; height: 1.25rem; margin-inline-end: 0.5rem; mask-size: cover; width: 1.25rem; }
+
+.menu__panel-icon[data-icon="circle-play"]::before { mask-image: url("/static/client/circle-play.6ed4ac1fb3c93a04.svg"); }
+
+.menu__panel-icon[data-icon="shield-check"]::before { mask-image: url("/static/client/shield-check.07bdc37f20ac5cc6.svg"); }
+
+.menu__panel-icon[data-icon="mdn-m"]::before { mask-image: url("/static/client/mdn-m.70aac857e4a908d0.svg"); }
+
+.menu__panel-icon[data-icon="chart-no-axes-combined"]::before { mask-image: url("/static/client/chart-no-axes-combined.aee09a7064cb8b35.svg"); }
+
+.menu__panel-icon[data-icon="users"]::before { mask-image: url("/static/client/users.f7e6f1f213744762.svg"); }
+
+.menu__panel-icon[data-icon="github"]::before { mask-image: url("/static/client/github.4d94e1bf436aa7ed.svg"); }
+
+@media (width <= 1006px) {
+  .menu { --menu-button-padding: 0.9rem 0.7rem; }
+  .menu__tab { border-top: 1px solid var(--color-border-primary); display: grid; }
+  .menu__tab-button { align-items: center; border: none; column-gap: 0.25rem; display: flex; padding: var(--menu-button-padding); }
+  .menu__tab-button::after { margin-left: auto; }
+  .menu__tab-link { padding: var(--menu-button-padding); }
+  .menu__tab-label { order: -1; }
+  .menu__tab-label[data-type="short"] { display: none; }
+  .menu__panel-title::after { background-color: var(--color-border-primary); content: ""; display: block; height: 1px; position: relative; top: 1rem; }
+  .menu__tab[data-section="about"] .menu__panel-content ul { row-gap: 1.4rem; }
+}
+
+@media (width > 1006px) {
+  .menu { --menu-button-padding: 0.5rem 0.7rem; position: relative; }
+  .menu, .menu__tab-button { align-items: center; display: flex; }
+  .menu__tab-button { border-top: 1px solid rgba(0, 0, 0, 0); border-right: 1px solid rgba(0, 0, 0, 0); border-left: 1px solid rgba(0, 0, 0, 0); border-image: initial; border-bottom: none; column-gap: 0.125rem; padding: var(--menu-button-padding); }
+  .menu__tab-button[aria-expanded="true"] { position: relative; z-index: 1; }
+  .menu__tab-button::after { margin-right: -4px; }
+  .menu__tab-link { padding: var(--menu-button-padding); }
+  .menu__tab-label[data-type="short"] { display: none; }
+  @media (width <= 1065px) {
+  .menu__tab-label[data-type="long"] { display: none; }
+  .menu__tab-label[data-type="short"] { display: block; }
+}
+  .menu__panel { background-color: var(--color-background-page); border: 1px solid var(--color-border-primary); left: 0px; margin-top: -1px; position: absolute; right: 0px; z-index: 1; }
+  .menu__panel-title { background-color: var(--menu-tab-background); color: var(--menu-tab-text); }
+  .menu__panel-content { grid-template-columns: repeat(3, 1fr); }
+  :is(.menu__tab[data-section="html"], .menu__tab[data-section="css"]) dl:nth-of-type(2) { border-right: 1px solid var(--color-border-primary); }
+  .menu__tab[data-section="learn"] .menu__panel-content dl:first-of-type { border-bottom: 1px solid var(--color-border-primary); grid-column: span 3; padding-bottom: 1.4rem; }
+  .menu__tab[data-section="about"] .menu__panel-content ul { row-gap: 1.4rem; }
+}
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-logo.aea5ff6edf1b9cfb.css
+
+@charset "utf-8";
+
+.logo { padding: 0.5rem; }
+
+.logo, .logo__image { display: block; }
+
+.logo__cursor, .logo__letter { --csstools-light-dark-toggle-01b8d18f-0: var(--csstools-color-scheme--light) var(--color-blue-80); fill: var(--csstools-light-dark-toggle-01b8d18f-0,var(--color-blue-50)); }
+
+@supports (color:light-dark(red,red)) {
+  .logo__cursor, .logo__letter { fill: light-dark(var(--color-blue-50),var(--color-blue-80)); }
+}
+
+.logo__text { fill: var(--color-text-primary); }
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/menu.74ccd9bb64dbf543.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12h16M4 18h16M4 6h16"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/cancel.7362f2cdf3515e0d.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-navigation.013b4a4ed330892a.css
+
+@charset "utf-8";
+
+.navigation { background-color: var(--color-background-page); }
+
+.navigation[data-scheme="dark"] { color: var(--color-text-primary); --csstools-color-scheme--light: ; color-scheme: dark; }
+
+@media (width <= 1006px) {
+  :root { --navigation-height: 2.9rem; }
+  .navigation { place-items: center start; column-gap: 0.25rem; display: grid; grid-template-columns: 1fr min-content min-content; height: var(--navigation-height); }
+  .navigation[data-open="true"] { align-content: start; height: auto; inset: 0px; overflow-y: auto; position: fixed; z-index: 2; }
+  .navigation__popup { display: none; grid-column: 1 / -1; justify-self: stretch; }
+  .navigation[data-open="true"] .navigation__popup { display: block; }
+  .navigation__logo { padding: 0.2rem; }
+  .navigation__button { background-color: initial; border: none; cursor: pointer; margin: 0px; outline-offset: -2px; padding: 0.7rem; }
+  .navigation__button:hover { background-color: var(--color-background-secondary); }
+  .navigation__button::before { background-color: currentcolor; content: ""; display: block; height: 1.5rem; mask-size: cover; width: 1.5rem; }
+  .navigation__button[aria-expanded="true"]::before { mask-image: url("/static/client/cancel.7362f2cdf3515e0d.svg"); }
+  .navigation__button[aria-expanded="false"]::before { mask-image: url("/static/client/menu.74ccd9bb64dbf543.svg"); }
+  .navigation__search[data-view="mobile"] { display: block; }
+  .navigation__search[data-view="desktop"] { display: none; }
+  mdn-user-menu { border-top: 1px solid var(--color-border-primary); display: block; }
+}
+
+@media (width > 1006px) {
+  :root { --navigation-height: 4.125rem; }
+  .navigation { place-items: center; column-gap: 1rem; display: grid; grid-template-columns: min-content 1fr min-content min-content; height: var(--navigation-height); padding-block: 0.75rem; padding-inline: var(--layout-side-padding); }
+  .navigation__logo { margin-inline-start: -6px; }
+  .navigation__popup { display: contents; }
+  .navigation__button, .navigation__search[data-view="mobile"] { display: none; }
+  .navigation__search[data-view="desktop"] { display: block; }
+  mdn-user-menu { height: 2.125rem; width: 2.125rem; }
+}
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-a11y-menu.5796ee87cb69f93f.css
+
+@charset "utf-8";
+
+.a11y-menu { --offset: 20em; --outline: 2px; left: var(--outline); list-style: none; margin: 0px; position: absolute; right: var(--outline); top: calc(var(--offset)*-1); width: calc(100% - var(--outline)*2); z-index: 1000; }
+
+.a11y-menu a { background-color: var(--color-background-primary); font-weight: var(--font-weight-bold); left: 0px; padding: 0.8em; position: absolute; right: 0px; text-align: center; text-decoration: none; }
+
+:is(.a11y-menu a):focus-within { top: calc(var(--offset) + var(--outline)); }
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-page-layout.e9b295138adbd4bc.css
+
+@charset "utf-8";
+
+.page-layout { display: grid; grid-template-columns: minmax(0px, 1fr); grid-template-rows: min-content min-content 1fr min-content; margin: 0px; margin-inline: auto; min-height: 100svh; }
+
+.page-layout__header { position: sticky; top: 0px; z-index: var(--z-index-sticky-header); }
+
+.page-layout__banner { background-color: var(--color-background-primary); border-bottom: 1px solid var(--color-border-primary); height: calc(1px + 5.625rem); }
+
+.page-layout__banner[data-scheme="dark"] { --csstools-color-scheme--light: ; color-scheme: dark; }
+
+@media (width <= 769px) {
+  .page-layout__banner { display: none; }
+}
+
+[data-nop="yes"]:root .page-layout__banner { display: none; }
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-playground.1f1ef7cbe95b622b.css
+
+@charset "utf-8";
+
+.playground { --border: 1px solid var(--color-border-primary); display: grid; grid-template-columns: [content-start] 1fr [content-end sidebar-start] min-content [sidebar-end]; height: 100%; min-height: calc(100vh - var(--top-banner-height) - var(--sticky-header-height)); padding: 1rem; }
+
+.playground mdn-playground { display: block; grid-column: content; height: 100%; }
+
+.playground .sidebar { display: flex; grid-column: sidebar; justify-content: center; margin-left: 1rem; min-width: 12rem; }
+
+@media (width <= 769px) {
+  .playground .sidebar { grid-column: content; }
+}
+
+:is(:root[data-nop="yes"] .playground) .sidebar { display: none; }
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/external-link.4f3a2dc8e402cae5.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://developer.mozilla.org/static/client/styles-global.7d58ee2ce6a1b83a.css
+
+@charset "utf-8";
+
+.badge.inline.optional, .badge.inline.readonly, .badge.inline.secure { border: 1px solid var(--color-border-primary); border-radius: 1em; color: var(--color-text-secondary); font-size: var(--font-size-small); padding: 0.25em 0.5em; vertical-align: text-top; white-space: nowrap; }
+
+mdn-button { display: inline-flex; vertical-align: middle; }
+
+mdn-code-example { display: block; }
+
+:root { --csstools-light-dark-toggle-79030429-0: var(--csstools-color-scheme--light) var(--color-gray-40); --color-border-primary: var(--csstools-light-dark-toggle-79030429-0,var(--color-gray-60)); --csstools-light-dark-toggle-79030429-1: var(--csstools-color-scheme--light) var(--color-gray-60); --color-border-secondary: var(--csstools-light-dark-toggle-79030429-1,var(--color-gray-40)); --csstools-light-dark-toggle-79030429-2: var(--csstools-color-scheme--light) var(--color-blue-80); --color-border-active: var(--csstools-light-dark-toggle-79030429-2,var(--color-blue-50)); }
+
+@supports (color:light-dark(red,red)) {
+  :root { --color-border-primary: light-dark(var(--color-gray-60),var(--color-gray-40)); --color-border-secondary: light-dark(var(--color-gray-40),var(--color-gray-60)); --color-border-active: light-dark(var(--color-blue-50),var(--color-blue-80)); }
+}
+
+@supports not (color:light-dark(tan,tan)) {
+  :root * { --csstools-light-dark-toggle-79030429-0: var(--csstools-color-scheme--light) var(--color-gray-40); --color-border-primary: var(--csstools-light-dark-toggle-79030429-0,var(--color-gray-60)); --csstools-light-dark-toggle-79030429-1: var(--csstools-color-scheme--light) var(--color-gray-60); --color-border-secondary: var(--csstools-light-dark-toggle-79030429-1,var(--color-gray-40)); --csstools-light-dark-toggle-79030429-2: var(--csstools-color-scheme--light) var(--color-blue-80); --color-border-active: var(--csstools-light-dark-toggle-79030429-2,var(--color-blue-50)); }
+}
+
+:root { --csstools-light-dark-toggle-5e0f49fc-0: var(--csstools-color-scheme--light) var(--color-gray-05); --color-background-page: var(--csstools-light-dark-toggle-5e0f49fc-0,var(--color-white)); --csstools-light-dark-toggle-5e0f49fc-1: var(--csstools-color-scheme--light) var(--color-gray-10); --color-background-primary: var(--csstools-light-dark-toggle-5e0f49fc-1,var(--color-gray-90)); --csstools-light-dark-toggle-5e0f49fc-2: var(--csstools-color-scheme--light) var(--color-gray-20); --color-background-secondary: var(--csstools-light-dark-toggle-5e0f49fc-2,var(--color-gray-80)); }
+
+@supports (color:light-dark(red,red)) {
+  :root { --color-background-page: light-dark(var(--color-white),var(--color-gray-05)); --color-background-primary: light-dark(var(--color-gray-90),var(--color-gray-10)); --color-background-secondary: light-dark(var(--color-gray-80),var(--color-gray-20)); }
+}
+
+@supports not (color:light-dark(tan,tan)) {
+  :root * { --csstools-light-dark-toggle-5e0f49fc-0: var(--csstools-color-scheme--light) var(--color-gray-05); --color-background-page: var(--csstools-light-dark-toggle-5e0f49fc-0,var(--color-white)); --csstools-light-dark-toggle-5e0f49fc-1: var(--csstools-color-scheme--light) var(--color-gray-10); --color-background-primary: var(--csstools-light-dark-toggle-5e0f49fc-1,var(--color-gray-90)); --csstools-light-dark-toggle-5e0f49fc-2: var(--csstools-color-scheme--light) var(--color-gray-20); --color-background-secondary: var(--csstools-light-dark-toggle-5e0f49fc-2,var(--color-gray-80)); }
+}
+
+:root { --csstools-light-dark-toggle-5e0f49fc-3: var(--csstools-color-scheme--light) var(--color-red-10); --color-background-red: var(--csstools-light-dark-toggle-5e0f49fc-3,var(--color-red-90)); --csstools-light-dark-toggle-5e0f49fc-4: var(--csstools-color-scheme--light) var(--color-orange-10); --color-background-orange: var(--csstools-light-dark-toggle-5e0f49fc-4,var(--color-orange-90)); --csstools-light-dark-toggle-5e0f49fc-5: var(--csstools-color-scheme--light) var(--color-yellow-10); --color-background-yellow: var(--csstools-light-dark-toggle-5e0f49fc-5,var(--color-yellow-90)); --csstools-light-dark-toggle-5e0f49fc-6: var(--csstools-color-scheme--light) var(--color-green-10); --color-background-green: var(--csstools-light-dark-toggle-5e0f49fc-6,var(--color-green-90)); --csstools-light-dark-toggle-5e0f49fc-7: var(--csstools-color-scheme--light) var(--color-blue-10); --color-background-blue: var(--csstools-light-dark-toggle-5e0f49fc-7,var(--color-blue-90)); --csstools-light-dark-toggle-5e0f49fc-8: var(--csstools-color-scheme--light) var(--color-purple-10); --color-background-purple: var(--csstools-light-dark-toggle-5e0f49fc-8,var(--color-purple-90)); }
+
+@supports (color:light-dark(red,red)) {
+  :root { --color-background-red: light-dark(var(--color-red-90),var(--color-red-10)); --color-background-orange: light-dark(var(--color-orange-90),var(--color-orange-10)); --color-background-yellow: light-dark(var(--color-yellow-90),var(--color-yellow-10)); --color-background-green: light-dark(var(--color-green-90),var(--color-green-10)); --color-background-blue: light-dark(var(--color-blue-90),var(--color-blue-10)); --color-background-purple: light-dark(var(--color-purple-90),var(--color-purple-10)); }
+}
+
+@supports not (color:light-dark(tan,tan)) {
+  :root * { --csstools-light-dark-toggle-5e0f49fc-3: var(--csstools-color-scheme--light) var(--color-red-10); --color-background-red: var(--csstools-light-dark-toggle-5e0f49fc-3,var(--color-red-90)); --csstools-light-dark-toggle-5e0f49fc-4: var(--csstools-color-scheme--light) var(--color-orange-10); --color-background-orange: var(--csstools-light-dark-toggle-5e0f49fc-4,var(--color-orange-90)); --csstools-light-dark-toggle-5e0f49fc-5: var(--csstools-color-scheme--light) var(--color-yellow-10); --color-background-yellow: var(--csstools-light-dark-toggle-5e0f49fc-5,var(--color-yellow-90)); --csstools-light-dark-toggle-5e0f49fc-6: var(--csstools-color-scheme--light) var(--color-green-10); --color-background-green: var(--csstools-light-dark-toggle-5e0f49fc-6,var(--color-green-90)); --csstools-light-dark-toggle-5e0f49fc-7: var(--csstools-color-scheme--light) var(--color-blue-10); --color-background-blue: var(--csstools-light-dark-toggle-5e0f49fc-7,var(--color-blue-90)); --csstools-light-dark-toggle-5e0f49fc-8: var(--csstools-color-scheme--light) var(--color-purple-10); --color-background-purple: var(--csstools-light-dark-toggle-5e0f49fc-8,var(--color-purple-90)); }
+}
+
+:root { --csstools-light-dark-toggle-cb2b76e6-0: var(--csstools-color-scheme--light) var(--color-white); --color-text-primary: var(--csstools-light-dark-toggle-cb2b76e6-0,var(--color-black)); --csstools-light-dark-toggle-cb2b76e6-1: var(--csstools-color-scheme--light) var(--color-gray-60); --color-text-secondary: var(--csstools-light-dark-toggle-cb2b76e6-1,var(--color-gray-40)); }
+
+@supports (color:light-dark(red,red)) {
+  :root { --color-text-primary: light-dark(var(--color-black),var(--color-white)); --color-text-secondary: light-dark(var(--color-gray-40),var(--color-gray-60)); }
+}
+
+@supports not (color:light-dark(tan,tan)) {
+  :root * { --csstools-light-dark-toggle-cb2b76e6-0: var(--csstools-color-scheme--light) var(--color-white); --color-text-primary: var(--csstools-light-dark-toggle-cb2b76e6-0,var(--color-black)); --csstools-light-dark-toggle-cb2b76e6-1: var(--csstools-color-scheme--light) var(--color-gray-60); --color-text-secondary: var(--csstools-light-dark-toggle-cb2b76e6-1,var(--color-gray-40)); }
+}
+
+:root { --csstools-light-dark-toggle-cb2b76e6-2: var(--csstools-color-scheme--light) var(--color-red-80); --color-text-red: var(--csstools-light-dark-toggle-cb2b76e6-2,var(--color-red-20)); --csstools-light-dark-toggle-cb2b76e6-3: var(--csstools-color-scheme--light) var(--color-orange-80); --color-text-orange: var(--csstools-light-dark-toggle-cb2b76e6-3,var(--color-orange-20)); --csstools-light-dark-toggle-cb2b76e6-4: var(--csstools-color-scheme--light) var(--color-yellow-80); --color-text-yellow: var(--csstools-light-dark-toggle-cb2b76e6-4,var(--color-yellow-20)); --csstools-light-dark-toggle-cb2b76e6-5: var(--csstools-color-scheme--light) var(--color-green-80); --color-text-green: var(--csstools-light-dark-toggle-cb2b76e6-5,var(--color-green-20)); --csstools-light-dark-toggle-cb2b76e6-6: var(--csstools-color-scheme--light) var(--color-blue-80); --color-text-blue: var(--csstools-light-dark-toggle-cb2b76e6-6,var(--color-blue-20)); --csstools-light-dark-toggle-cb2b76e6-7: var(--csstools-color-scheme--light) var(--color-purple-80); --color-text-purple: var(--csstools-light-dark-toggle-cb2b76e6-7,var(--color-purple-20)); }
+
+@supports (color:light-dark(red,red)) {
+  :root { --color-text-red: light-dark(var(--color-red-20),var(--color-red-80)); --color-text-orange: light-dark(var(--color-orange-20),var(--color-orange-80)); --color-text-yellow: light-dark(var(--color-yellow-20),var(--color-yellow-80)); --color-text-green: light-dark(var(--color-green-20),var(--color-green-80)); --color-text-blue: light-dark(var(--color-blue-20),var(--color-blue-80)); --color-text-purple: light-dark(var(--color-purple-20),var(--color-purple-80)); }
+}
+
+@supports not (color:light-dark(tan,tan)) {
+  :root * { --csstools-light-dark-toggle-cb2b76e6-2: var(--csstools-color-scheme--light) var(--color-red-80); --color-text-red: var(--csstools-light-dark-toggle-cb2b76e6-2,var(--color-red-20)); --csstools-light-dark-toggle-cb2b76e6-3: var(--csstools-color-scheme--light) var(--color-orange-80); --color-text-orange: var(--csstools-light-dark-toggle-cb2b76e6-3,var(--color-orange-20)); --csstools-light-dark-toggle-cb2b76e6-4: var(--csstools-color-scheme--light) var(--color-yellow-80); --color-text-yellow: var(--csstools-light-dark-toggle-cb2b76e6-4,var(--color-yellow-20)); --csstools-light-dark-toggle-cb2b76e6-5: var(--csstools-color-scheme--light) var(--color-green-80); --color-text-green: var(--csstools-light-dark-toggle-cb2b76e6-5,var(--color-green-20)); --csstools-light-dark-toggle-cb2b76e6-6: var(--csstools-color-scheme--light) var(--color-blue-80); --color-text-blue: var(--csstools-light-dark-toggle-cb2b76e6-6,var(--color-blue-20)); --csstools-light-dark-toggle-cb2b76e6-7: var(--csstools-color-scheme--light) var(--color-purple-80); --color-text-purple: var(--csstools-light-dark-toggle-cb2b76e6-7,var(--color-purple-20)); }
+}
+
+:root { --csstools-light-dark-toggle-ae61ee91-0: var(--csstools-color-scheme--light) var(--color-blue-80); --color-link-normal: var(--csstools-light-dark-toggle-ae61ee91-0,var(--color-blue-20)); --csstools-light-dark-toggle-ae61ee91-1: var(--csstools-color-scheme--light) var(--color-purple-80); --color-link-visited: var(--csstools-light-dark-toggle-ae61ee91-1,var(--color-purple-20)); }
+
+@supports (color:light-dark(red,red)) {
+  :root { --color-link-normal: light-dark(var(--color-blue-20),var(--color-blue-80)); --color-link-visited: light-dark(var(--color-purple-20),var(--color-purple-80)); }
+}
+
+@supports not (color:light-dark(tan,tan)) {
+  :root * { --csstools-light-dark-toggle-ae61ee91-0: var(--csstools-color-scheme--light) var(--color-blue-80); --color-link-normal: var(--csstools-light-dark-toggle-ae61ee91-0,var(--color-blue-20)); --csstools-light-dark-toggle-ae61ee91-1: var(--csstools-color-scheme--light) var(--color-purple-80); --color-link-visited: var(--csstools-light-dark-toggle-ae61ee91-1,var(--color-purple-20)); }
+}
+
+:root { --color-scrollbar-track: #0000; --csstools-light-dark-toggle-6623eb4d-0: var(--csstools-color-scheme--light) var(--color-white-alpha-25); --color-scrollbar-thumb: var(--csstools-light-dark-toggle-6623eb4d-0,var(--color-black-alpha-25)); }
+
+@supports (color:light-dark(red,red)) {
+  :root { --color-scrollbar-thumb: light-dark(var(--color-black-alpha-25),var(--color-white-alpha-25)); }
+}
+
+@supports not (color:light-dark(tan,tan)) {
+  :root * { --csstools-light-dark-toggle-6623eb4d-0: var(--csstools-color-scheme--light) var(--color-white-alpha-25); --color-scrollbar-thumb: var(--csstools-light-dark-toggle-6623eb4d-0,var(--color-black-alpha-25)); }
+}
+
+:root { --color-area-background: var(--color-background-blue); --color-area-highlight-border: var(--color-blue-50); --color-area-link: var(--color-link-normal); }
+
+:root[data-current-area="learn"] { --color-area-background: var(--color-background-orange); --color-area-highlight-border: var(--color-orange-50); --csstools-light-dark-toggle-6ee7be61-0: var(--csstools-color-scheme--light) var(--color-orange-80); --color-area-link: var(--csstools-light-dark-toggle-6ee7be61-0,var(--color-orange-20)); }
+
+@supports (color:light-dark(red,red)) {
+  :root[data-current-area="learn"] { --color-area-link: light-dark(var(--color-orange-20),var(--color-orange-80)); }
+}
+
+@supports not (color:light-dark(tan,tan)) {
+  [data-current-area="learn"]:root * { --csstools-light-dark-toggle-6ee7be61-0: var(--csstools-color-scheme--light) var(--color-orange-80); --color-area-link: var(--csstools-light-dark-toggle-6ee7be61-0,var(--color-orange-20)); }
+}
+
+:root { --color-white: #fff; --color-white-alpha-25: #ffffff40; --color-white-alpha-75: #ffffffbf; --color-black: #000; --color-black-alpha-25: #00000040; --color-black-alpha-75: #000000bf; --color-gray-90: #f7f7f8; --color-gray-80: #edeef0; --color-gray-60: #c3c7cb; --color-gray-40: #51565d; --color-gray-20: #2d3034; --color-gray-10: #212426; --color-gray-05: #18191b; --color-red-90: #ffe6ea; --color-red-80: #fc7d92; --color-red-50: #d31232; --color-red-20: #b7102c; --color-red-10: #4b0b16; --color-orange-90: #fef3eb; --color-orange-80: #febe8f; --color-orange-50: #e2782c; --color-orange-20: #c2570a; --color-orange-10: #3f220d; --color-yellow-90: #fef0c3; --color-yellow-80: #fae49e; --color-yellow-50: #e6b30a; --color-yellow-20: #97770c; --color-yellow-10: #574405; --color-green-90: #eaf6ef; --color-green-80: #70eba3; --color-green-50: #089141; --color-green-20: #065b29; --color-green-10: #0c311c; --color-blue-90: #ecf4fe; --color-blue-80: #a4cefe; --color-blue-50: #0a5dbd; --color-blue-20: #044c9f; --color-blue-10: #072446; --color-purple-90: #f7f0ff; --color-purple-80: #d8b8ff; --color-purple-50: #863ae4; --color-purple-20: #5f1fad; --color-purple-10: #260e43; }
+
+html[data-theme="light"] { --csstools-color-scheme--light: initial; color-scheme: light; }
+
+html[data-theme="dark"] { --csstools-color-scheme--light: ; color-scheme: dark; }
+
+.external::after { background-color: currentcolor; content: "â€‹" / " (external)"; display: inline-block; height: 1em; margin-left: 0.25em; mask-image: url("/static/client/external-link.4f3a2dc8e402cae5.svg"); mask-size: cover; vertical-align: text-top; width: 1em; }
+
+mdn-dropdown { display: contents; }
+
+mdn-dropdown:not([loaded], :focus-within) [slot="dropdown"] { display: none; }
+
+@font-feature-values Inter { @styleset { disambiguation: 2; } }
+
+@font-face { font-display: swap; font-family: Inter; font-feature-settings: "calt" 0; font-style: normal; font-weight: 100 900; src: url("/static/client/inter-latin.9a3b1bc220d426ef.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-display: swap; font-family: Inter; font-feature-settings: "calt" 0; font-style: italic; font-weight: 100 900; src: url("/static/client/inter-italic-latin.fd2627ec16333c05.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-display: swap; font-family: Inter; font-feature-settings: "calt" 0; font-style: normal; font-weight: 100 900; src: url("/static/client/inter-latin-extended.02dc98170ff37b88.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-display: swap; font-family: Inter; font-feature-settings: "calt" 0; font-style: italic; font-weight: 100 900; src: url("/static/client/inter-italic-latin-extended.0a7409875db33654.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-display: swap; font-family: Inter; font-feature-settings: "calt" 0; font-style: normal; font-weight: 100 900; src: url("/static/client/inter-cyrillic.eecfbd79d522303a.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-display: swap; font-family: Inter; font-feature-settings: "calt" 0; font-style: italic; font-weight: 100 900; src: url("/static/client/inter-italic-cyrillic.d153dcd2916c4842.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-display: swap; font-family: "JetBrains Mono"; font-style: normal; font-weight: 100 800; size-adjust: 95%; src: url("/static/client/jetbrains-mono-latin.119994ed445212c7.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-display: swap; font-family: "JetBrains Mono"; font-style: italic; font-weight: 100 800; size-adjust: 95%; src: url("/static/client/jetbrains-mono-italic-latin.55b330522e5e3ed9.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-display: swap; font-family: "JetBrains Mono"; font-style: normal; font-weight: 100 800; size-adjust: 95%; src: url("/static/client/jetbrains-mono-latin-extended.01c891f9c832ce28.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-display: swap; font-family: "JetBrains Mono"; font-style: italic; font-weight: 100 800; size-adjust: 95%; src: url("/static/client/jetbrains-mono-italic-latin-extended.c25d5e1f309ed948.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-display: swap; font-family: "JetBrains Mono"; font-style: normal; font-weight: 100 800; size-adjust: 95%; src: url("/static/client/jetbrains-mono-cyrillic.577e793cdf179ae1.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-display: swap; font-family: "JetBrains Mono"; font-style: italic; font-weight: 100 800; size-adjust: 95%; src: url("/static/client/jetbrains-mono-italic-cyrillic.8d00711fdb1702e0.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+:root { --font-family-text: "Inter",sans-serif; --font-family-code: "JetBrains Mono",monospace; --font-line-content: 1.75; --font-line-normal: 1.5; --font-line-ui: 1; --font-size-largest: 2.5rem; --font-size-larger: 2rem; --font-size-large: 1.5rem; --font-size-normal: 1rem; --font-size-small: 0.8rem; --font-weight-normal: 400; --font-weight-bold: 600; }
+
+*, ::after, ::before { box-sizing: border-box; }
+
+button, input, select, textarea { font: inherit; }
+
+button { color: inherit; cursor: pointer; }
+
+img { height: auto; max-width: 100%; }
+
+a { color: var(--color-link-normal); }
+
+[hidden] { display: none !important; }
+
+html { color: var(--color-text-primary); font-family: var(--font-family-text); font-feature-settings: "calt" 0; font-size: var(--font-size-normal); font-variant-alternates: styleset(disambiguation); line-height: var(--font-line-normal); overflow-wrap: break-word; --csstools-color-scheme--light: initial; background-color: var(--color-background-page); color-scheme: light dark; scroll-behavior: smooth; }
+
+@media (prefers-color-scheme: dark) {
+  html { --csstools-color-scheme--light: ; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+.icon.icon-deprecated, .icon.icon-experimental, .icon.icon-nonstandard { background-color: var(--color-text-secondary); display: inline-block; flex-shrink: 0; height: 1em; mask-size: cover; vertical-align: middle; width: 1em; }
+
+.icon.icon-deprecated { mask-image: url("/static/client/trash-2.73b28bc66fb8543c.svg"); }
+
+.icon.icon-experimental { mask-image: url("/static/client/flask-conical.c16b3d71f14f31d1.svg"); }
+
+.icon.icon-nonstandard { mask-image: url("/static/client/triangle-alert.cff4c57ccef57da3.svg"); }
+
+:root { --layout-side-padding-min: 1rem; --layout-side-padding: max(var(--layout-side-padding-min),calc(50vw - 720px + 1rem)); --layout-full-width: calc(100vw - var(--layout-side-padding)*2); --layout-sidebar-min: 14rem; --layout-sidebar-gap: 2rem; --layout-content-min: 31rem; --layout-content-max: 48rem; --layout-2-sidebars: [full-start left-sidebar-start] minmax(var(--layout-sidebar-min),1fr) [left-sidebar-end] var(--layout-sidebar-gap) [content-start] minmax(0,var(--layout-content-max)) [content-end] var(--layout-sidebar-gap) [right-sidebar-start] minmax(var(--layout-sidebar-min),1fr) [full-end right-sidebar-end]; --layout-1-sidebar-left: [full-start sidebar-start left-sidebar-start] minmax(var(--layout-sidebar-min),1fr) [sidebar-end left-sidebar-end] var(--layout-sidebar-gap) [content-start] minmax(0,var(--layout-content-max)) [full-end content-end] minmax(0,1fr); --layout-1-sidebar-right: minmax(0,1fr) [full-start content-start] minmax(0,var(--layout-content-max)) [content-end] var(--layout-sidebar-gap) [sidebar-start right-sidebar-start] minmax(var(--layout-sidebar-min),1fr) [full-end sidebar-end right-sidebar-end]; --layout-no-sidebar: [full-start] 1fr [content-start] minmax(0,var(--layout-content-max)) [content-end] 1fr [full-end]; --layout-no-sidebar-extended: [extended-full-start] var(--layout-side-padding) [full-start] 1fr [content-start] minmax(0,var(--layout-content-max)) [content-end] 1fr [full-end] var(--layout-side-padding) [extended-full-end]; }
+
+mdn-live-sample-result { display: block; }
+
+html a.only-in-en-us::after { content: "(en-US)"; display: inline-block; font-size: 0.7rem; margin-left: 0.5ch; vertical-align: super; }
+
+html[lang="de"] a.only-in-en-us::after { content: "(engl.)"; }
+
+html[lang="es"] a.only-in-en-us::after { content: "(inglÃ©s)"; }
+
+html[lang="fr"] a.only-in-en-us::after { content: "(angl.)"; }
+
+html[lang="ja"] a.only-in-en-us::after { content: "(è‹±èª)"; }
+
+html[lang="ko"] a.only-in-en-us::after { content: "(ì˜ì–´)"; }
+
+html[lang="ru"] a.only-in-en-us::after { content: "(Ğ°Ğ½Ğ³Ğ».)"; }
+
+html[lang="pt-BR"] a.only-in-en-us::after { content: "(inglÃªs)"; }
+
+html[lang="zh-CN"] a.only-in-en-us::after { content: "ï¼ˆè‹±è¯­ï¼‰"; margin-left: unset; vertical-align: initial; }
+
+html[lang="zh-TW"] a.only-in-en-us::after { content: "ï¼ˆè‹±èªï¼‰"; margin-left: unset; vertical-align: initial; }
+
+.page-not-created { color: var(--color-text-red); text-decoration: underline wavy !important; }
+
+@media print {
+  * { print-color-adjust: exact; }
+  :root { --csstools-color-scheme--light: initial; color-scheme: light; --layout-2-sidebars: minmax(0,1fr) !important; --layout-1-sidebar-left: minmax(0,1fr) !important; --layout-no-sidebar: minmax(0,1fr) !important; }
+  body { font-size: 9pt; line-height: 1.5; margin: 0px; padding: 0px; }
+  .page-layout { display: block !important; grid-template-rows: none !important; height: auto !important; min-height: auto !important; }
+  .page-layout__header { position: static !important; top: auto !important; z-index: auto !important; }
+  :root { --sticky-header-height: 0 !important; }
+  .article-footer, .content-section.article-footer, .footer__links, .footer__mozilla, .footer__socials, .navigation__button, .navigation__menu, .page-layout__banner, .reference-layout__sidebar, .reference-layout__toc, mdn-collection-save-button, mdn-color-theme, mdn-placement-bottom, mdn-search-button, mdn-toggle-sidebar, mdn-user-menu { display: none !important; }
+  .reference-layout { grid-template-areas: "header" "body" !important; grid-template-columns: auto !important; grid-template-rows: auto !important; }
+  a { text-decoration: none !important; }
+  details.baseline-indicator > :not(summary), details.baseline-indicator[open] > :not(summary) { display: none !important; }
+  details.baseline-indicator > summary::marker { display: none !important; }
+  .code-example, .default-example, .example-container, .interactive, [class*="example"] { display: block !important; float: none !important; height: auto !important; margin-bottom: 1rem !important; overflow: visible !important; break-inside: avoid !important; position: static !important; width: 100% !important; }
+  .footer__mdn { row-gap: 0px !important; }
+  interactive-example, section { clear: both !important; display: block !important; position: static !important; }
+  interactive-example { break-inside: avoid !important; }
+  [style*="position: absolute"], [style*="position: fixed"] { position: static !important; }
+}
+
+:root { --radius-normal: 0.25rem; --radius-full: 9999px; }
+
+@font-face { font-display: block; font-family: BarlowCondensed-SemiBold; src: local("BarlowCondensed-SemiBold"), url("/static/client/BarlowCondensed-SemiBold.199288b668a15dc1.woff2") format("woff2"); }
+
+.table-container { margin: 0px; overflow-x: auto; }
+
+:root { --top-banner-height: 3.375rem; --sticky-header-height: calc(var(--navigation-height) + var(--breadcrumbs-bar-height)); --z-index-sticky-header: 100; --z-index-sidebar-mobile: 90; }
+
+.visually-hidden { border: 0px !important; clip-path: inset(50%) !important; height: 1px !important; margin: -1px !important; overflow: hidden !important; padding: 0px !important; position: absolute !important; white-space: nowrap !important; width: 1px !important; }
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/html
+Content-ID: <frame-BFB8873E755E0F2B38D09E84F4EC4F2D@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://fb2e9a4c-910c-44ab-a3b1-5bf45b6ab741.mdnplay.dev/runner.html?uuid=fb2e9a4c-910c-44ab-a3b1-5bf45b6ab741&state=q1bKKMnNUbJSUtJRSi4uhjCyoHRJRmpuqpKVUk5mekaJUi0A
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-3e114f9f-740d-4cd4-98e8-c224ef0c8c3f@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-6ae743b6-caee-48ee-b056-1ecc6704ba83@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-7d2e0e29-b8e4-4f7d-b0bf-d9819a988e54@mhtml.blink" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        
+        
+        
+        
+        
+        
+      </head>
+      <body>
+        
+        
+        
+      
+    
+  </body></html>
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-7d2e0e29-b8e4-4f7d-b0bf-d9819a988e54@mhtml.blink
+
+@charset "utf-8";
+
+
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-6ae743b6-caee-48ee-b056-1ecc6704ba83@mhtml.blink
+
+@charset "utf-8";
+
+body { padding: 0px; margin: 0px; }
+
+svg:not(:root) { display: block; }
+
+.playable-code { background-color: rgb(244, 247, 248); border-style: none none none solid; border-top-color: initial; border-right-color: initial; border-bottom-color: initial; border-image: initial; border-left-color: rgb(85, 138, 187); border-width: medium medium medium 6px; color: rgb(77, 78, 83); height: 100px; width: 90%; padding: 10px 10px 0px; }
+
+.playable-canvas { border: 1px solid rgb(77, 78, 83); border-radius: 2px; }
+
+.playable-buttons { text-align: right; width: 90%; padding: 5px 10px 5px 26px; }
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-3e114f9f-740d-4cd4-98e8-c224ef0c8c3f@mhtml.blink
+
+@charset "utf-8";
+
+:root { --text-primary: #1b1b1b; --background-primary: #fff; }
+------MultipartBoundary--vuS9xBboQbQQW46DrxB4ERhptcQJdcAbop7N5Q7KhB------
