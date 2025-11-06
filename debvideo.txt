@@ -1,0 +1,2424 @@
+{set:offset|1}
+{set:b|{js:let user = discord.user.username;
+let bannedusers = ['isaq0095','blue.l0ck','mpgarv','samsunggalaxys12','kitokopocki','mtgsheothegamer0982','mtgsheothegamer','btot15k5'];
+console.log(bannedusers.includes(user))}} {set:bta|{js:let tag = discord.tag.id;
+let bannedtags = [789151810588886399,789151833988908416];
+console.log(bannedtags.includes(tag))}}{if:{get:b}|=|true|then:{js:console.error(`You are banned for using DEBVideo and all of its tag aliases.`)}|else:{if:{get:bta}|=|true|then:{js:console.error(`This alias is banned for using.`)}|else:{if:{argslen}|=|0|then:# HollyVideo v2.4.5
+-# Last updated on <t:{unixs:10/14/2025 11:31 am}>{py:import json
+icon = '{avatar}'
+icon2 = 'https://cdn.discordapp.com/attachments/1124758334805909509/1380887507264208896/hollyvideoicon.png?ex=68458335&is=684431b5&hm=daa5ab1e57e8fe4fca4d98088ddc2abb2491481560ab997b0348251faa852af9&'
+authname = '{usertag}'
+
+embeds = []
+embeds.append({
+'color': 0x609cff, 
+'author': {'name': authname,'icon_url': icon},
+'footer': {'text':"DEBVideo",'icon_url':icon2},
+'fields': [ {"name":"**Normal Usage**","value":"```.t {tagname} <effect> <effect-args> <subcommand> <subcommand-args>```"},{"name":"**Subcommand List**","value":"- `raw <medianame> <oldpitch?>` - Shows the MediaScript raw code for the effect.\n\n- `ihtx <powers> <duration> <notrim?> <oldpitch?>` - Does an IHTX with an effect for a set amount of powers.\n\n- `multiplier <powers> <oldpitch?>` - Does an effect on a source for a set amount of powers.\n\n- `ihtxbuggy <powers> <duration> <notrim?> <oldpitch?>` - Adds an offset to each export.\n\n- `ihtxreverse <powers> <duration> <notrim?> <oldpitch?>` - Reverses each export.\n\n- `oldpitch` - Adds the old pitch system without having to use ihtx commands.\n\n- `ihtxkine <powers> <duration> <notrim?> <oldpitch?>` - Adds a Fade In/Out effect like KineMaster.\n\n- `ihtxrandom <powers> <duration> <notrim?> <oldpitch?>` - Shuffles each export.\n\n- `ihtxpgrender <powers> <duration> <notrim?> <oldpitch?>` - Adds p&g render to each export.\n\n- `ihtxscfr <powers> <duration> <notrim?> <oldpitch?>` - Adds scfr render to each export."},{"name":"**Non-effect Command List**","value":"- `archive` - Shows the archive of the entire tagscript code.\n\n- `list <search>` - Shows a list of all of the effects."} ],
+})
+result = {'embeds': embeds}
+print(json.dumps(result))
+}|else:{set:ef|["normal","reversed","confusion","confusion hsv","custom","g major 591","g major","g major 1","g major 2","g major 5","g major 7","g major 16","luig group","mari group","split pitch","g major 25","split 2 pitches","haha major","haha major 3.0","confusion reversed","confusion reversed hsv","does respond","does not respond","g major 4","real g major 4","g minor 591","blue highers","green lowers","amtve major","g major 88","baarens g major 1","pitch","e major 16","x major 159","g major 302","g major 91","g major 74","g minor 91","crying x","sad x","low pinch","i killed x","getting faster","getting slower","low voice","low voice hsv","slow voice","g minor 4","g minor 2","g minor 5","g major 19","g major 134","g major 6","g major 8","g major 18","g major 15","91-dxi","g major 0","g major 9 v2","haha major 2.0","happy x","diamond major","not scary","pika major","g major 225","tacoma major","simulator v19","g major 20","chordeds g major 10","g major 90","multiplied effect","divided effect","baarens g major 2","g major 23","g minor","g major 64","g major 51","too ruins tree","rotation wave","wavy rotation","crazy slow killed","crazy slow killed no speed","ripple pitch","mirror twirls","cold major","lost effect","smurf effect","$ormulator","g major 77114","hollys g major 1","split opposite pitches","billy gardiners g major 1","g major 9","hollys g major","g major 74 hsv","cry x","opposite rotation wave","mirror and other","opposite crazy slow killed","opposite crazy slow killed no speed","opposite ripple pitch","opposite mirror twirls","opposite cold major","a major","lebs g major 17","g major 49","greeny confusion","purple blues custom major 75","split 3 pitches","g major 100","lebs g major 156","g major 17","g minor 17","g minor 1","g major 26","g major 445","add source","last export","pizza pizza effect","preview 1280","g major 10","g major 11","g major 12","g major 13","g major 14","old g major 100","g major 21","g major 42","bv pitch","ovb pitch","ccs hue","hsl hue","audio reverse","video reverse","invert hue","invert ccs hue","rgb to bgr","g major 305","custom major 3","klaskygunners x major 159","chippys lagging x major 159","hollys x major 159","chippys auuuuuh effect","braxtons g major 94","chippys g major 74","braxtons g major 28","half luig group","half mari group","high major","invert","invert luminosity","spinslide","g major 404","g major 3","theuser10s g major 5","g minor 25","devils blast","g major 44 v2","g major 45","g major 46","g major 47","g major 48","g major 50","g major 52","g major 136","conga busher","tstve2763s g major","g major 53","g major 54","g major 55","g major 200","mikes g major 36","169-dxi","heat overload","g major 300","are you sure x is in g major","respondview 2","g major 137","g major 400","g major 116","g major 634","g major 2763","chippy-dxi","boul123 major","22-dxi","g major 6644","g major 410"]} {set:res|{js:let args = JSON.stringify(discord.variables.__args[0])
+let effects = discord.variables.ef
+console.log(effects.includes(args))}} {if:{arg:0}|=|normal|then:{set:code|speed # 1}}
+{if:{arg:0}|=|reversed|then:{set:code|reverse #}}
+{if:{arg:0}|=|g major 591|then:{set:code|invert #
+swaprgba # bgr
+hueshifthsv # -145
+swirl # 100
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(2/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|confusion|then:{set:code|contrast # -1
+haah #
+audioreverse #}}
+{if:{arg:0}|=|confusion hsv|then:{set:code|invert #
+hueshifthsv # 180
+haah #
+audioreverse #}}
+{if:{arg:0}|=|g major|then:{set:code|invert #
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+copy #$ #$b
+copy #$ #$c
+copy #$ #$d
+copy #$ #$e
+audiopitch #$ 2**(12/12)
+audiopitch #$a 2**(7/12)
+audiopitch #$b 2**(4/12)
+audiopitch #$d 2**(-5/12)
+audiopitch #$e 2**(-12/12)
+audioputmix #$ #$a
+volume #$
+audioputmix #$ #$b
+volume #$
+audioputmix #$ #$c
+volume #$
+audioputmix #$ #$d
+volume #$
+audioputmix #$ #$e
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 1|then:{set:code|invert #
+hueshifthsv # 180
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(8/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 2|then:{set:code|invertrgba # 1 1 0
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$p 2**(4/12)
+audiopitch #$q 2**(-5/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 5|then:{set:code|invertrgba # 0 1 1
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(4/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 7|then:{set:code|invert #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(3/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 16|then:{set:code|invert #
+hueshifthsv # -140
+flop #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-3/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|luig group|then:{set:code|hueshifthsv # -50
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-1/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|mari group|then:{set:code|hueshifthsv # 50
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(1/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|custom|then:{set:code|{arg:1}{set:offset|{math:{get:offset}+1}}}}
+{if:{arg:0}|=|split pitch|then:{set:code|copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**({arg:1}/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}{set:offset|{math:{get:offset}+1}}}
+{if:{arg:0}|=|g major 25|then:{set:code|hueshifthsv # -50
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-1/12)
+audiopitch #$p 2**(-8/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|split 2 pitches|then:{set:code|copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**({arg:1}/12)
+audiopitch #$p 2**({arg:2}/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}{set:offset|{math:{get:offset}+2}}}
+{if:{arg:0}|=|haha major|then:{set:code|slide # 1 left
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-1.5/12)
+audiopitch #$p 2**(1.5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|haha major 3.0|then:{set:code|slide # 1 up
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-3.5/12)
+audiopitch #$p 2**(3.5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|confusion reversed|then:{set:code|contrast # -1
+haah #
+reverse # false}}
+{if:{arg:0}|=|confusion reversed hsv|then:{set:code|invert #
+hueshifthsv # 180
+haah #
+reverse # false}}
+{if:{arg:0}|=|does respond|then:{set:code|hueshifthsv # -50
+swirl # -90
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-12/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|does not respond|then:{set:code|hueshifthsv # 50
+swirl # 90
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(12/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 4|then:{set:code|create bg #w #h 0 0 0
+overlay bg # 0 0 white 0.1 0.5
+overlay # bg
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|real g major 4|then:{set:code|huecurvergba # all 0 1 0
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g minor 591|then:{set:code|invert #
+swaprgba # bgr
+hueshifthsv # 35
+swirl # -100
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-2/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|blue highers|then:{set:code|swaprgba # bgr
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(12/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|green lowers|then:{set:code|swaprgba # grb
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-12/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|amtve major|then:{set:code|hueshifthsv # 180
+hooh #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-5/12)
+audiopitch #$p 2**(5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 88|then:{set:code|grayscale #
+huecurvergba # red 1 0 0
+huecurvergba # green 0.29411764705882354 0.09803921568627451 0
+huecurvergba # blue 1 0.29411764705882354 0
+swirl # -50
+waaw #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(3/12)
+audiopitch #$p 2**(-4/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|baarens g major 1|then:{set:code|invert #
+hueshifthsv # 180
+swirl # -3
+haah #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(4/12)
+audiopitch #$p 2**(-3/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|pitch|then:{set:code|copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**({arg:1}/12)
+repeatduration #$ #d
+audioputreplace # #$}{set:offset|{math:{get:offset}+1}}}
+{if:{arg:0}|=|e major 16|then:{set:code|gold #
+invert #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-12/12)
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|x major 159|then:{set:code|grayscale #
+huecurvergba # red 1 1 0
+huecurvergba # green 1 0 0
+huecurvergba # blue 1 1 0
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-5/12)
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 302|then:{set:code|flip #
+flop #
+contrast # -1
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-20/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 91|then:{set:code|swaprgba # bgr
+hueshifthsv # 180
+haah #
+distort # resize 512 512
+rotate # -90
+distort # arc 30 90
+contain # 640 512
+distort # bilinear_forward 88 70 -116 -74 60 303 -48 395 550 30 642 -24 553 382 642 368
+distort # resize 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(1/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 74|then:{set:code|contrast # -1
+explode # 0.5
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(2/12)
+audiopitch #$p 2**(9/12)
+audiopitch #$q 2**(-10/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g minor 91|then:{set:code|swaprgba # bgr
+waaw #
+distort # resize 512 512
+rotate # -90
+distort # arc 30 90
+contain # 640 512
+distort # bilinear_forward 88 70 -116 -74 60 303 -48 395 550 30 642 -24 553 382 642 368
+distort # resize 0w 0h
+flop #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-1/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|crying x|then:{set:code|invert #
+hueshifthsv # -140
+wave # #h/18 #w/4.5
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|sad x|then:{set:code|invert #
+hueshifthsv # -140
+wave # -#h/12 #w/2.5
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|low pinch|then:{set:code|implode # 0.36
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-2/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|i killed x|then:{set:code|explode #
+hueshifthsv # -140
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-8/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|getting faster|then:{set:code|speed # 2
+repeat # 2}}
+{if:{arg:0}|=|getting slower|then:{set:code|speed # 0.5
+snip # 0 #d/2}}
+{if:{arg:0}|=|low voice|then:{set:code|hueshifthsvffmpeg # 180
+haah #
+speed # 0.75
+audiopitch # 0.75}}
+{if:{arg:0}|=|low voice hsv|then:{set:code|hueshifthsv # 180
+haah #
+speed # 0.75
+audiopitch # 0.75}}
+{if:{arg:0}|=|slow voice|then:{set:code|hueshifthsv # 120 100
+waaw #
+speed # 2**(-3/12)
+audiopitch # 2**(-3/12)}}
+{if:{arg:0}|=|g minor 4|then:{set:code|create bg #w #h 255 255 255
+overlay bg # 0 0 black 0.1 0.5
+overlay # bg
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g minor 2|then:{set:code|invertrgba # 0 0 1
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$p 2**(-4/12)
+audiopitch #$q 2**(5/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g minor 5|then:{set:code|invertrgba # 1 0 0
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-4/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 19|then:{set:code|swaprgba # bgr
+hueshifthsv # 180
+haah #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-1/12)
+audiopitch #$p 2**(2/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 134|then:{set:code|swaprgba # bgr
+haah #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(3/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 6|then:{set:code|huecurvergba # all 0,0 0.5,0 0.502,1 1,1
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-8/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 8|then:{set:code|huecurvergba # all 0,0 0.5,0 0.502,1 1,1
+invert #
+hueshifthsv # 180
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 18|then:{set:code|hueshifthsv # 0 100
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-8/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 15|then:{set:code|wave # #h/18 #w/4.5
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(5/12)
+audioputmix #$ #$p
+audiodestroy #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|91-dxi|then:{set:code|invert #
+hueshifthsv # 70 100
+shake # 0 10 true
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-3.5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 0|then:{set:code|hueshifthsv # 180
+invert #
+huecurvergba # all 0 1 0
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$p 2**(-10/12)
+audiopitch #$q 2**(10/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 9 v2|then:{set:code|invert #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-2/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|haha major 2.0|then:{set:code|slide # 1 left
+slide # 1 up
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-2.5/12)
+audiopitch #$p 2**(2.5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|happy x|then:{set:code|invert #
+hueshifthsv # 180
+wave # #h/18 #w/2.5
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(12/12)
+audiopitch #$p 2**(4/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|diamond major|then:{set:code|hueshifthsv # 25
+flop #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(2/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|not scary|then:{set:code|hueshifthsv # 180
+waaw #
+rotate # -90
+waves # 0w/60 0w/4 6
+flop #
+waves # 0w/70 0w/6 4
+flop #
+waves # 0w/110 0w/13 6
+rotate # 90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-2.5/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|pika major|then:{set:code|hueshifthsvffmpeg # 25
+hueshifthsv # 0 100
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$p 2**(-7/12)
+audiopitch #$q 2**(7/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 225|then:{set:code|hueshifthsv # 180
+swaprgba # bgr
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-4/12)
+audiopitch #$p 2**(5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|tacoma major|then:{set:code|contrast # -1
+swaprgba # bgr
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-24/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|simulator v19|then:{set:code|invert #
+hueshifthsv # -70
+rotate # 90
+wave # 0h/8 0w/3.6
+rotate # -90
+cover # 0w 0h
+wave # -0h/12 0w/2
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$2
+copy #$ #$3
+audiopitch #$2 2**(7/12)
+audiopitch #$3 2**(-12/12)
+audioputmix #$ #$2
+volume #$
+audioputmix #$ #$3
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 20|then:{set:code|copy # #2
+hueshifthsv #2 -50
+crop # 0w/2 0h
+crop #2 0w/2 0h 0w
+join # #2
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-1/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|chordeds g major 10|then:{set:code|waaw #
+swirl # -100
+hueshifthsv # 120 50
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$p 2**(3/12)
+audiopitch #$q 2**(-4/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 90|then:{set:code|hueshifthsv # -50
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-1/12)
+audiopitch #$p 2**(1/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|multiplied effect|then:{set:code|distort # resize 512 512
+rotate # -90
+distort # arc 30 90
+contain # 640 512
+distort # bilinear_forward 88 70 -116 -74 60 303 -48 395 550 30 642 -24 553 382 642 368
+distort # resize 0w 0h
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(12/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|divided effect|then:{set:code|swaprgba # bgr
+flop #
+distort # resize 512 512
+rotate # -90
+distort # arc 30 90
+contain # 640 512
+distort # bilinear_forward 88 70 -116 -74 60 303 -48 395 550 30 642 -24 553 382 642 368
+distort # resize 0w 0h
+flop #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-12/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|baarens g major 2|then:{set:code|invertrgba # 0 1 0
+swaprgba # gbr
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-5/12)
+audiopitch #$p 2**(2/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 23|then:{set:code|hueshifthsv # -140
+flop #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$p 2**(-3/12)
+audiopitch #$q 2**(3/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g minor|then:{set:code|hueshifthsv # 180
+contrast # -1
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+copy #$ #$b
+copy #$ #$c
+copy #$ #$d
+copy #$ #$e
+audiopitch #$ 2**(-12/12)
+audiopitch #$a 2**(-7/12)
+audiopitch #$b 2**(-4/12)
+audiopitch #$d 2**(5/12)
+audiopitch #$e 2**(12/12)
+audioputmix #$ #$a
+volume #$
+audioputmix #$ #$b
+volume #$
+audioputmix #$ #$c
+volume #$
+audioputmix #$ #$d
+volume #$
+audioputmix #$ #$e
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 64|then:{set:code|swaprgba # rbg
+flop #
+distort # resize 512 512
+rotate # -90
+distort # arc 30 90
+contain # 640 512
+distort # bilinear_forward 88 70 -116 -74 60 303 -48 395 550 30 642 -24 553 382 642 368
+distort # resize 0w 0h
+flop #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-9/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 51|then:{set:code|invert #
+hueshifthsv # 150
+flop #
+waves # 0h/28 0w/5 5
+cover # 0w 0h
+rotate # 90
+waves # 0h/28 0w/5 5
+rotate # -90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|too ruins tree|then:{set:code|explode #
+swaprgba # rbg
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(4/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|rotation wave|then:{set:code|foreachframe # 0 #fc "rotate #x (180*(idx/#fc)) none true"
+rotate # 90
+wave # -0h/9 0w/1.75
+rotate # -90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-4/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|wavy rotation|then:{set:code|hueshifthsvffmpeg # 152.2 1.5
+invert #
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+audiopitch #$ 2**(-9/12)
+audiopitch #$a 2**(-16/12)
+audioputmix #$ #$a
+volume #$
+foreachframe # 0 #fc "distort #x scale_rotate_translate (540*(idx/#fc))"
+rotate # 270
+wave # 0w/30 0w/4.5
+rotate # 90
+cover # 0w 0h
+repeatduration # #$d
+audioputreplace # #$}}
+{if:{arg:0}|=|crazy slow killed|then:{set:code|hueshifthsv # 65
+explode # 1.5
+rotate # 90
+wave # 0h/8 0w/3.6
+rotate # -90
+cover # 0w 0h
+wave # -0h/12 0w/2
+cover # 0w 0h
+speed # 0.5
+speed # 0.6
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(6/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|crazy slow killed no speed|then:{set:code|hueshifthsv # 65
+explode # 1.5
+rotate # 90
+wave # 0h/8 0w/3.6
+rotate # -90
+cover # 0w 0h
+wave # -0h/12 0w/2
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(6/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|ripple pitch|then:{set:code|hueshifthsv # -90
+detunnel #
+wiggle # right 30 4
+tunnel #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-6/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|mirror twirls|then:{set:code|haah #
+foreachframe # 0 #fc "swirl #x (-90*((idx-#fc)/#fc))"
+audiopitch # 2**(-8/12)
+bitrate # 0 32000}}
+{if:{arg:0}|=|cold major|then:{set:code|grayscale #
+huecurvergba # red 0 0 0 0
+huecurvergba # green 0.5 0 0 0
+huecurvergba # blue 0.5 0.2 0.7 1
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-2/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|lost effect|then:{set:code|hueshifthsv # 180
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-8/12)
+audiopitch #$p 2**(12/12)
+audiopitch #$p 2**(4/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|smurf effect|then:{set:code|hueshifthsv # 180
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-12/12)
+audiopitch #$p 2**(12/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|$ormulator|then:{set:code|hueshifthsv # 180
+contrast # -1
+invert #
+rotate # -90
+waves # 0w/60 0w/4 6
+flop #
+waves # 0w/70 0w/6 4
+flop #
+waves # 0w/110 0w/13 6
+rotate # 90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(4/12)
+audiopitch #$p 2**(7/12)
+audiopitch #$q 2**(-12/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 77114|then:{set:code|haah #
+reverse #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(3/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|hollys g major 1|then:{set:code|haah #
+contrast # -1
+hueshifthsvffmpeg # 90
+swaprgba # bgr
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-1/12)
+audiopitch #$p 2**(1/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|split opposite pitches|then:{set:code|copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-{arg:1}/12)
+audiopitch #$p 2**({arg:1}/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}{set:offset|{math:{get:offset}+1}}}
+{if:{arg:0}|=|billy gardiners g major 1|then:{set:code|invert #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 9|then:{set:code|grayscale #
+huecurvergba # red 0.5 0 0.9
+huecurvergba # green 1 0.2 0.95
+huecurvergba # blue 0 0.4 0.95
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+copy #$ #$r
+audiopitch #$ 2**(-12/12)
+audiopitch #$q 2**(5/12)
+audiopitch #$r 2**(7/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+audioputmix #$ #$r
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|hollys g major|then:{set:code|grayscale #
+huecurvergba # red 0 1 0 1
+huecurvergba # green 0.5 1 0.75 1
+huecurvergba # blue 1 1 1 1
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+copy #$ #$r
+copy #$ #$s
+audiopitch #$ 2**(-17/12)
+audiopitch #$p 2**(-5/12)
+audiopitch #$r 2**(2/12)
+audiopitch #$s 2**(5/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+audioputmix #$ #$r
+volume #$
+audioputmix #$ #$s
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 74 hsv|then:{set:code|invert #
+hueshifthsv # 180
+explode # 0.5
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(2/12)
+audiopitch #$p 2**(9/12)
+audiopitch #$q 2**(-10/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|cry x|then:{set:code|get # width w
+get # height h
+invert #
+hueshifthsv # 70
+wave # h/10 w/2
+cover # w h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-4.5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|opposite rotation wave|then:{set:code|foreachframe # 0 #fc "rotate #x (-180*(idx/#fc)) none true"
+rotate # 90
+wave # 0h/9 0w/1.75
+rotate # -90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(4/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|mirror and other|then:{set:code|copy # #c
+flop #c
+overlay # #c 0 0 none 0.01 0 true 50
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-8/12)
+audiopitch #$p 2**(-7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|opposite crazy slow killed|then:{set:code|hueshifthsv # -65
+implode # 0.5
+rotate # 90
+wave # -0h/8 0w/3.6
+rotate # -90
+cover # 0w 0h
+wave # 0h/12 0w/2
+cover # 0w 0h
+speed # 3.33333333333333333333
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-6/12)
+repeatduration #$ #d
+audioputreplace # #$}} 
+{if:{arg:0}|=|opposite crazy slow killed no speed|then:{set:code|hueshifthsv # -65
+implode # 0.5
+rotate # 90
+wave # -0h/8 0w/3.6
+rotate # -90
+cover # 0w 0h
+wave # 0h/12 0w/2
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-6/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|opposite ripple pitch|then:{set:code|hueshifthsv # 90
+detunnel #
+wiggle # left 30 4
+tunnel #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(6/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|opposite mirror twirls|then:{set:code|waaw #
+foreachframe # 0 #fc "swirl #x (-90*(idx/#fc))"
+audiopitch # 2**(8/12)
+bitrate # 0 32000}}
+{if:{arg:0}|=|opposite cold major|then:{set:code|grayscale #
+huecurvergba # red 0 0 0 0
+huecurvergba # green 0.5 0 0 0
+huecurvergba # blue 0.5 0.2 0.7 1
+invert #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(2/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|a major|then:{set:code|invert #
+hueshifthsv # 153
+waaw #
+swirl # 130
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(5.73/12)
+audiopitch #$p 2**(10.5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|lebs g major 17|then:{set:code|hueshifthsvffmpeg # 10 1.5
+swaprgba # bgr
+contrast # -1
+flop #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(3/12)
+audioputmix #$ #$p
+volume #$ 5
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 49|then:{set:code|haah #
+hooh #
+hueshifthsv # 126
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(0/12)
+copy #$ #$p
+audiopitch #$p 2**(-0.69/12)
+audioputmix #$ #$p
+volume #$
+repeatduration # #$d
+audioputreplace # #$}}
+{if:{arg:0}|=|greeny confusion|then:{set:code|waaw #
+swaprgba # bgr
+hueshifthsv # -136 100
+rotate # 90
+wave # 0h/15 0w/6
+rotate # -90
+cover # 0w 0h
+wave # -0h/18 0w/6
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+reverse #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|purple blues custom major 75|then:{set:code|invert #
+hueshifthsvffmpeg # -60
+swaprgba # bgr
+flop #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-0.2/12)
+copy #$ #$p
+copy #$ #$q
+audiopitch #$p 2**(0.1/12)
+audiopitch #$q 2**(0.2/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration # #$d
+audioputreplace # #$}}
+{if:{arg:0}|=|split 3 pitches|then:{set:code|copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**({arg:1}/12)
+audiopitch #$p 2**({arg:2}/12)
+audiopitch #$q 2**({arg:3}/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}{set:offset|{math:{get:offset}+3}}}
+{if:{arg:0}|=|g major 100|then:{set:code|haah #
+swaprgba # bgr
+hueshifthsvffmpeg # 84 2
+rotate # 90
+wave # 0h/16 0w/3.6
+rotate # -90
+cover # 0w 0h
+wave # -0h/24 0w/2
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$2
+audiopitch #$ 2**(-1/12)
+audiopitch #$2 2**(-5/12)
+audioputmix #$ #$2
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|lebs g major 156|then:{set:code|dobetween # 0 #d/2 "hueshifthsv #x 180\\nswaprgba #x bgr\\nsnip # #d/2\\nrepeat #\\nreverse #\\nhueshifthsv # 180\\ncopy #x #$x\\nconvert #$x audio/wav\\ncopy #$x #$$x\\naudiopitch #$x 2**(0.5/12)\\naudiopitch #$$x 2**(4.5/12)\\naudioputmix #$x #$$x\\nvolume #$x\\naudioputreplace #x #$x\\ncopy # #$\\nconvert #$ audio/wav\\ncopy #$ #$$\\naudiopitch #$ 2**(-0.5/12)\\naudiopitch #$$ 2**(-4.5/12)\\naudioputmix #$ #$$\\nvolume #$\\naudioputreplace # #$"}}
+{if:{arg:0}|=|g major 17|then:{set:code|hueshifthsv # -140
+haah #
+explode #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(3/12)
+audioputmix #$ #$p
+volume #$ 4
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g minor 17|then:{set:code|hueshifthsv # 140
+waaw #
+implode # 0.5
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-3/12)
+audioputmix #$ #$p
+volume #$ 4
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g minor 1|then:{set:code|contrast # -1
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-8/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 26|then:{set:code|huecurvergba # all 0 0.6 1
+huecurvergba # all 0,0 0.5,0 0.502,1 1,1
+hueshifthsv # 180
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(4/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 445|then:{set:code|invert #
+hueshifthsv # 180
+flop #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-12/12)
+audiopitch #$ 2**(-24/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|add source|then:{set:code|volume # 0
+load {arg:1} s
+repeatduration s 0d
+snip s 0 0d
+resize s 0w/{arg:2} 0h/{arg:2}
+overlay # s (0w/{arg:2})*{arg:3} (0h/{arg:2})*{arg:4}
+volume #}{set:offset|{math:{get:offset}+4}}}
+{if:{arg:0}|=|last export|then:{set:code|snip # 0d-{arg:1} 0d}{set:offset|{math:{get:offset}+1}}}
+{if:{arg:0}|=|pizza pizza effect|then:{set:code|huecurvergba # all 0,0 0.5,0 0.502,1 1,1
+invert #
+hueshifthsv # 60
+detunnel #
+wiggle # right 30 4
+tunnel #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-4.5/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|preview 1280|then:{set:code|set start {or:{arg:1}|1.85}
+set end {or:{arg:2}|0.85} 
+setfps # 30
+get # duration vidlen
+repeatduration # start+end
+copy # 1
+snip 1 start start+end
+copy 1 2
+hueshifthsv 2 50 
+audiopitch 2 1.059
+copy 1 3
+hueshifthsv 3 180
+waaw 3
+rotate 3 -90
+waves 3 0w/60 0w/4 6
+flop 3
+waves 3 0w/70 0w/6 4
+flop 3
+waves 3 0w/110 0w/13 6
+rotate 3 90
+cover 3 0w 0h
+audiopitch 3 2**(-2/12)
+snip 3 0 end
+copy 1 4
+hueshifthsv 4 50 
+audiopitch 4 2**(1/12)
+copy 1 5
+snip 5 0 end/2
+copy 5 8
+copy 5 9
+copy 5 6 
+hueshifthsv 6 25
+flop 6
+audiopitch 6 2**(2/12)
+concat 5 6
+snip 5 0 end
+copy 5 7
+hueshifthsv 7 50 
+audiopitch 7 2**(1/12)
+snip 7 0 end
+hueshifthsv 8 180
+audiopitch 8 2**(-2/12)
+snip 8 0 end/2
+flop 9
+concat 5 7
+concat 8 9
+concat 5 8
+concat 5 7
+concat 1 2
+concat 1 3
+concat 1 4
+concat 1 5}{set:offset|{math:{get:offset}+2}}}
+{if:{arg:0}|=|g major 10|then:{set:code|haah #
+invert #
+hueshifthsv # 180
+swaprgba # bgr
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+copy #$ #$b
+copy #$ #$c
+copy #$ #$d
+copy #$ #$e
+audiopitch #$ 2**(12/12)
+audiopitch #$a 2**(7/12)
+audiopitch #$b 2**(4/12)
+audiopitch #$d 2**(-5/12)
+audiopitch #$e 2**(-12/12)
+audioputmix #$ #$a
+volume #$
+audioputmix #$ #$b
+volume #$
+audioputmix #$ #$c
+volume #$
+audioputmix #$ #$d
+volume #$
+audioputmix #$ #$e
+volume #$
+copy #$ #$$
+audiopitch #$$ 2**(-1/12)
+audioputmix #$ #$$
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 11|then:{set:code|waaw #
+invert #
+grayscale #
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(2/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 12|then:{set:code|create bg #w #h 0 0 0
+overlay bg # 0 0 white 0.1 0.5
+overlay # bg
+hueshifthsv # -50 100
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+copy #$ #$b
+copy #$ #$c
+copy #$ #$d
+copy #$ #$e
+audiopitch #$ 2**(12/12)
+audiopitch #$a 2**(7/12)
+audiopitch #$b 2**(4/12)
+audiopitch #$d 2**(-5/12)
+audiopitch #$e 2**(-12/12)
+audioputmix #$ #$a
+volume #$
+audioputmix #$ #$b
+volume #$
+audioputmix #$ #$c
+volume #$
+audioputmix #$ #$d
+volume #$
+audioputmix #$ #$e
+volume #$
+audiopitch #$ 2**(3/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 13|then:{set:code|create bg #w #h 0 0 0
+overlay bg # 0 0 white 0.1 0.5
+overlay # bg
+swaprgba # bgr
+hueshifthsv # 0 100
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+copy #$ #$b
+copy #$ #$c
+copy #$ #$d
+audiopitch #$a 2**(3/12)
+audiopitch #$b 2**(6/12)
+audiopitch #$c 2**(9/12)
+audiopitch #$d 2**(12/12)
+audioputmix #$ #$a
+volume #$
+audioputmix #$ #$b
+volume #$
+audioputmix #$ #$c
+volume #$
+audioputmix #$ #$d
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 14|then:{set:code|haah #
+woow #
+invert #
+grayscale #
+swaprgba # 00b
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**(-12/12)
+audiopitch #$q 2**(12/12)
+audiopitch #$q 2**(4/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|old g major 100|then:{set:code|copy # #2
+hueshifthsv # -50
+hueshifthsv #2 180
+flop #2
+crop # 0w/2 0h
+crop #2 0w/2 0h 0w
+join # #2
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-1/12)
+audiopitch #$p 2**(-5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 21|then:{set:code|invert #
+hueshifthsv # 20 100
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+copy #$ #$b
+copy #$ #$c
+audiopitch #$ 2**(-3/12)
+audiopitch #$b 2**(2/12)
+audiopitch #$c 2**(4/12)
+audioputmix #$ #$a
+volume #$
+audioputmix #$ #$b
+volume #$
+audioputmix #$ #$c
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 42|then:{set:code|swaprgba # bgr
+contrast # -1
+hueshifthsv # 180
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+copy #$ #$b
+copy #$ #$c
+audiopitch #$ 2**(-3/12)
+audiopitch #$b 2**(4/12)
+audiopitch #$c 2**(7/12)
+audioputmix #$ #$a
+volume #$
+audioputmix #$ #$b
+volume #$
+audioputmix #$ #$c
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|bv pitch|then:{set:code|copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(({arg:1}/100)/12)
+repeatduration #$ #d
+audioputreplace # #$}{set:offset|{math:{get:offset}+1}}}
+{if:{arg:0}|=|ovb pitch|then:{set:code|copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(({arg:1}*0.12)/12)
+repeatduration #$ #d
+audioputreplace # #$}{set:offset|{math:{get:offset}+1}}}
+{if:{arg:0}|=|ccs hue|then:{set:code|hueshifthsvffmpeg # {arg:1}}{set:offset|{math:{get:offset}+1}}}
+{if:{arg:0}|=|hsl hue|then:{set:code|hueshifthsv # {arg:1}}{set:offset|{math:{get:offset}+1}}}
+{if:{arg:0}|=|audio reverse|then:{set:code|audioreverse #}}
+{if:{arg:0}|=|video reverse|then:{set:code|reverse # false}}
+{if:{arg:0}|=|invert hue|then:{set:code|hueshifthsv # 180}}
+{if:{arg:0}|=|invert ccs hue|then:{set:code|hueshifthsvffmpeg # 180}}
+{if:{arg:0}|=|rgb to bgr|then:{set:code|swaprgba # bgr}}
+{if:{arg:0}|=|g major 305|then:{set:code|hueshifthsv # -120
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-7/12)
+audiopitch #$p 2**(12/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|custom major 3|then:{set:code|hueshifthsv # 165
+haah #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(0.1/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|klaskygunners x major 159|then:{set:code|invert #
+hueshifthsvffmpeg # 120
+woow #
+rotate # 90
+waves # 0h/16 0w/3.6 4
+rotate # -90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-5/12)
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|chippys lagging x major 159|then:{set:code|waves # 0h/8 0w/2 5
+cover # 0w 0h
+distort # scale_rotate_translate -90
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-5/12)
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|hollys x major 159|then:{set:code|flop #
+hueshifthsvffmpeg # 180
+hueshifthsv # 180
+swaprgba # bgr
+slide # 1 up
+explode #
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-5/12)
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+copy #$ #$q
+audiopitch #$q 2**(0.05/12)
+audioputmix #$ #$q
+volume #$
+reverse #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|chippys auuuuuh effect|then:{set:code|spin # no no yes
+swirl # -120
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-5/12)
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+reverse #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|braxtons g major 94|then:{set:code|contrast # -1
+haah #
+swirl # 40
+explode # 0.5
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-4.5/12)
+audiopitch #$p 2**(5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|chippys g major 74|then:{set:code|explode #
+detunnel #
+wiggle # right 25 3
+tunnel #
+copy # #$
+convert #$ audio/wav
+copy #$ #$0
+copy #$ #$1
+audiopitch #$ 2**(2/12)
+audiopitch #$0 2**(-3/12)
+audiopitch #$1 2**(-22/12)
+audioputmix #$ #$0
+volume #$
+audioputmix #$ #$1
+volume #$
+repeatduration # #$d
+audioputreplace # #$}}
+{if:{arg:0}|=|braxtons g major 28|then:{set:code|hueshifthsv # 55
+flop #
+swirl # -70
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-7/12)
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|half luig group|then:{set:code|hueshifthsv # -25
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-0.5/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|half mari group|then:{set:code|hueshifthsv # 25
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(0.5/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|high major|then:{set:code|hueshifthsv # 120
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(3/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|invert|then:{set:code|invert #}}
+{if:{arg:0}|=|invert luminosity|then:{set:code|contrast # -1}}
+{if:{arg:0}|=|spinslide|then:{set:code|spin # yes no yes 
+slide # 1 left}}
+{if:{arg:0}|=|g major 404|then:{set:code|invert #
+create bg #w #h 0 0 0
+overlay bg # 0 0 white 0.1 0.5
+overlay # bg
+hueshifthsv # 150 100
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$p 2**(-4/12)
+audiopitch #$q 2**(4/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 3|then:{set:code|grayscale #
+lighten # 25
+swaprgba # r00
+rotate # -90
+waves # 0w/60 0w/4 6
+flop #
+waves # 0w/70 0w/6 4
+flop #
+waves # 0w/110 0w/13 6
+rotate # 90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-6/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|devils blast|then:{set:code|grayscale #
+lighten # 25
+swaprgba # r00
+rotate # -90
+waves # 0w/60 0w/4 6
+flop #
+waves # 0w/70 0w/6 4
+flop #
+waves # 0w/110 0w/13 6
+rotate # 90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-5/12)
+audiopitch #$p 2**(-12/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 44 v2|then:{set:code|swaprgba # bgr
+hueshifthsv # 90
+rotate # -90
+waves # 0w/30 0w/4 6
+flop #
+waves # 0w/35 0w/6 4
+flop #
+waves # 0w/55 0w/13 6
+rotate # 90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-12/12)
+audioputmix #$ #$p
+volume #$
+copy #$ #$q
+audiopitch #$q 2**(0.3/12)
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|theuser10s g major 5|then:{set:code|copy # #2
+if 0 == 0 "crop # 0w/2 0h 0 0\\nhueshifthsv #2 180\\nrotate #2 -90\\nwaves #2 0w/60 0w/4 6\\nflop #2\\nwaves #2 0w/70 0w/6 4\\nflop #2\\nwaves #2 0w/110 0w/13 6\\nrotate #2 90\\ncover #2 0w 0h\\ncrop #2 0w/2 0h 0w 0"
+join # #2
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-2.5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g minor 25|then:{set:code|hueshifthsv # 50
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(1/12)
+audiopitch #$p 2**(8/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 45|then:{set:code|hueshifthsv # -50
+invert #
+create bg #w #h 0 0 0
+overlay bg # 0 0 white 0.1 0.5
+overlay # bg
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(2/12)
+audiopitch #$p 2**(6/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 46|then:{set:code|invert #
+hueshifthsv # 72
+haah #
+waves # #h/18 #w/4.5 5
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(10/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 47|then:{set:code|haah #
+woow #
+invert #
+grayscale #
+swaprgba # rg0
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(-2/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 48|then:{set:code|hueshifthsv # -140
+swirl # -180
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(3/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 50|then:{set:code|contrast # -1
+swaprgba # bgr
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(6/12)
+audiopitch #$p 2**(9/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 52|then:{set:code|invert #
+hueshifthsv # 50
+explode # 0.5
+slide # 1 up
+rotate # -90
+waves # 0w/120 0w/4 6
+flop #
+waves # 0w/140 0w/6 4
+flop #
+waves # 0w/220 0w/13 6
+rotate # 90
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(0.39/12)
+audiopitch #$p 2**(7.49/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 136|then:{set:code|invert #
+hueshifthsv # -140
+swaprgba # bgr
+wave # -#h/12 #w/2.5
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|conga busher|then:{set:code|waaw #
+hueshifthsvffmpeg # -140
+copy # #$
+convert #$ audio/wav
+audiovibrato #$ 5000 0.08
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|tstve2763s g major|then:{set:code|copy # #2
+invert #2
+crop # 0w/2 0h
+crop #2 0w/2 0h 0w
+join # #2
+swirl # 100
+copy # #3
+invert #3
+crop # 0w/2 0h
+crop #3 0w/2 0h 0w
+join # #3
+hueshifthsv # -90
+flop #
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+copy #$ #$b
+copy #$ #$c
+audiopitch #$ 2**(-7.5/12)
+audiopitch #$a 2**(4.5/12)
+audiopitch #$b 2**(12/12)
+audiopitch #$b 2**(0.5/12)
+audiopitch #$c 2**(12/12)
+audiopitch #$c 2**(4.5/12)
+audioputmix #$ #$a
+volume #$
+audioputmix #$ #$b
+volume #$
+audioputmix #$ #$c
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 53|then:{set:code|hueshifthsv # 95.4
+swirl # -100
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(3.59/12)
+audiopitch #$p 2**(5.39/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 54|then:{set:code|grayscale #
+huecurvergba # red 1 1 0
+huecurvergba # green 1 0 0
+huecurvergba # blue 1 0 0
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**(5/12)
+audiopitch #$p 2**(10/12)
+audiopitch #$q 2**(12/12)
+audiopitch #$q 2**(2.19/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 55|then:{set:code|haah #
+swaprgba # bgr
+hueshifthsv # -97.2
+wave # -#h/12 #w/2.5
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(9/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 200|then:{set:code|haah #
+hueshifthsv # 60
+wave # #h/12 #w/2.1
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$p 2**(-3/12)
+audiopitch #$q 2**(-7/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|mikes g major 36|then:{set:code|haah #
+hueshifthsv # 40
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-5/12)
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|169-dxi|then:{set:code|hueshifthsv # 180
+invert #
+huecurvergba # all 0 0.2 0.8 1
+invert #
+create bg #w #h 255 183 0
+overlay bg # 0 0 black 0.1 0.3
+overlay # bg
+shake # 0 10 true
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-16.9/12)
+audiopitch #$p 2**(12/12)
+audiopitch #$p 2**(4.9/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|heat overload|then:{set:code|grayscale #
+huecurvergba # red 0.25 1 0 0 0 0.4
+huecurvergba # green 0 0 0 1 1 1 0.5
+huecurvergba # blue 0.2 0.85 1 1 0 0.1
+copy # #$
+convert #$ audio/wav
+audioboostbass #$
+audioboostbass #$
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 300|then:{set:code|flop #
+invertrgba # 1 1 0
+hueshifthsv # -50.4
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-2/12)
+audiopitch #$p 2**(2/12)
+audioputmix #$ #$p
+volume #$
+copy #$ #$q
+audiopitch #$q 2**(-12/12)
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|are you sure x is in g major|then:{set:code|hueshifthsv # -76
+flop #
+copy # #$
+convert #$ audio/wav
+copy #$ #$a
+copy #$ #$b
+copy #$ #$c
+copy #$ #$d
+copy #$ #$e
+audiopitch #$ 2**(12/12)
+audiopitch #$a 2**(7/12)
+audiopitch #$b 2**(4/12)
+audiopitch #$d 2**(-5/12)
+audiopitch #$e 2**(-12/12)
+audioputmix #$ #$a
+volume #$
+audioputmix #$ #$b
+volume #$
+audioputmix #$ #$c
+volume #$
+audioputmix #$ #$d
+volume #$
+audioputmix #$ #$e
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|respondview 2|then:{set:code|set start {or:{arg:1}|1}
+set end {or:{arg:2}|0.4}
+get # duration vidlen
+repeatduration # start+end
+snip # start start+end
+copy # #2
+hueshifthsv # -50
+swirl # 90
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-12/12)
+audiopitch #$p 2**(-24/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ 0d
+audioputreplace # #$
+hueshifthsv #2 -50
+swirl #2 -90
+copy #2 #2$
+convert #2$ audio/wav
+copy #2$ #2$p
+audiopitch #2$p 2**(-12/12)
+audioputmix #2$ #2$p
+volume #2$
+repeatduration #2$ 0d
+audioputreplace #2 #2$
+concat # #2
+copy # #+
+copy # #-
+audiopitch #+ 2**(1/12)
+audiopitch #- 2**(-2/12)
+copy #+ #++
+concatmultiple # #+ #- #++}{set:offset|{math:{get:offset}+2}}}
+{if:{arg:0}|=|g major 137|then:{set:code|contrast # -1
+swaprgba # bgr
+explode # 0.5
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(2/12)
+audiopitch #$p 2**(9/12)
+audiopitch #$q 2**(-10/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 400|then:{set:code|swaprgba # bgr
+hueshifthsv # 105.84
+waves # 0w/60 0w/4 6
+flop #
+waves # 0w/70 0w/6 4
+flop #
+waves # 0w/110 0w/13 6
+cover # 0w 0h
+zoom # 2
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(1/12)
+audiopitch #$p 2**(-5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 116|then:{set:code|create bg #w #h 0 0 255
+overlay bg # 0 0 white 0.1 0.5
+overlay # bg
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**(12/12)
+audiopitch #$p 2**(12/12)
+audiopitch #$p 2**(5/12)
+audiopitch #$q 2**(12/12)
+audiopitch #$q 2**(12/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 634|then:{set:code|contrast # -1
+hueshifthsv # 180
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(12/12)
+audiopitch #$ 2**(10/12)
+audiopitch #$p 2**(-16/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 2763|then:{set:code|grayscale #
+huecurvergba # red 0 1 1 1 0 0 
+huecurvergba # green 0 1 0 0 0 1 
+huecurvergba # blue 0 0 0 1 1 1
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**(0/12)
+audiopitch #$p 2**(-5/12)
+audiopitch #$q 2**(8/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|chippy-dxi|then:{set:code|swaprgba # bgr
+hueshifthsv # 155
+rotate # 90
+wave # 0h/15 0w/4
+rotate # -90
+foreachframe # 0 #fc "distort #x scale_rotate_translate 0 0 1 0 0 sin(idx*0.2)*10"
+cover # 0w 0h
+zoom # 1.04
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+copy #$ #$q
+audiopitch #$ 2**(-6/12)
+audiopitch #$p 2**(-6.7/12)
+audiopitch #$q 2**(-3/12)
+audioputmix #$ #$p
+volume #$
+audioputmix #$ #$q
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|boul123 major|then:{set:code|hueshifthsv # 120 50
+wave # -#h/25 #w/2
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+audiopitch #$ 2**(3/12)
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|22-dxi|then:{set:code|swaprgba # bgr
+contrast # 1.8
+huecurvergba # all 0 0.2 0.8 1
+create bg #w #h 60 0 0
+overlay bg # 0 0 black 0.1 0.3
+overlay # bg
+shake # 0 10 true
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(-12/12)
+audiopitch #$ 2**(-7/12)
+audiopitch #$p 2**(12/12)
+audiopitch #$p 2**(7/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 6644|then:{set:code|invert #
+hueshifthsv # -140
+swaprgba # bgr
+wave # #h/18 #w/4.5
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$p 2**(-5/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}}
+{if:{arg:0}|=|g major 410|then:{set:code|invert #
+hueshifthsv # 180
+swaprgba # bgr
+wave # #h/15 #w/3
+cover # 0w 0h
+copy # #$
+convert #$ audio/wav
+copy #$ #$p
+audiopitch #$ 2**(12/12)
+audiopitch #$p 2**(4/12)
+audioputmix #$ #$p
+volume #$
+repeatduration #$ #d
+audioputreplace # #$}} {set:old|{js:let code = `{get:code}`
+let a = code.replaceAll(`copy # #$\nconvert #$ audio/wav`,``)
+let b = a.replaceAll(`repeatduration #$ #d\naudioputreplace # #$`,``)
+let c = b.replaceAll(`#$`,`#`)
+console.log(c)}} {if:{arg:0}|=|archive|then:{attachtext:{text:https://pastebin.com/raw/XCDCud0L}}|else:{if:{arg:0}|=|list|then:{iferror:{py:import json as js
+import fnmatch
+pages = []
+searchval = "*{arg:1}*"
+effects = fnmatch.filter({get:ef},searchval)
+icon = "{avatar}"
+auth = "{usertag}"
+icon2 = "https://cdn.discordapp.com/attachments/1124758334805909509/1380887507264208896/hollyvideoicon.png?ex=68458335&is=684431b5&hm=daa5ab1e57e8fe4fca4d98088ddc2abb2491481560ab997b0348251faa852af9&"
+effnum = len(effects)
+content = ""
+modulocount = []
+for i, v in enumerate(effects):
+    if i % 20 == 0:
+        modulocount.append(True)
+
+modulocount.pop(0)
+modulocount.append(True)
+mcount = len(modulocount)
+pageidx = 0
+
+for i, v in enumerate(effects):
+    if i % 20 == 0:
+        pages.append({"embed":{"color":0x609cff,"title":f"{if:{arg:1}|=||then:**The Effects List**|else:**Showing effects matching '{arg:1}'**}","description":content,"footer":{"text":f"Page {pageidx} of {mcount} ({effnum} Total Effects)","icon_url":icon2}, "author": {"name":auth, "icon_url":icon}}})
+        pageidx += 1
+        content = ""
+        content += f"- {v} \n"
+    else:
+        content += f"- {v} \n"
+
+pages.append({"embed":{"color":0x609cff,"title":f"{if:{arg:1}|=||then:**The Effects List**|else:**Showing effects matching '{arg:1}'**}","description":content,"footer":{"text":f"Page {pageidx} of {mcount} ({effnum} Total Effects)","icon_url":icon2}, "author": {"name":auth, "icon_url":icon}}})
+pages.pop(0)
+print(js.dumps({"pages": pages}))}|No effects found} |else:{if:{get:res}|=|false|then:{js:console.error(`Unknown effect: {arg:0}\nContact DEB to add an effect.`)}|else:{choose:whar|bruh|steamed hams|💀|e|https://cdn.discordapp.com/attachments/1124758334805909509/1349230143738089532/audio.put.replace.mp4?ex=67d257fd&is=67d1067d&hm=67803df1f52b615c6fa692b8a20bd752ff8d09f451e2aca5758b74441dbd236a&|https://cdn.discordapp.com/attachments/1124758334805909509/1357322351943090338/now.gif?ex=67efc872&is=67ee76f2&hm=9e80624bac4086b9544d92a35eb6b6d5fcc4792192defca1c77cfd94779d593f&|🪿🪿🪿|Here's your video|Your video is ready!|YOU SHOULD USE `DEBVIDEO`{newline}# NOW!!!|have a boul mr squidward|hey i feel so sprunki|sprunki funky|CHICKEN JOCKEY|https://cdn.discordapp.com/attachments/1124758334805909509/1376739361818677248/distort.resize.gif?ex=68366bf2&is=68351a72&hm=54ed7743603881d74e11235b1ea935c8f9732aaff371174d5b30c0bce599e4cb&|what the actual pf|have this, yuh big hoe|Æ|are you purple|help im having trouble of what to write|Tag returned no content} {set:powers|{or:{arg:{math:{get:offset}+1}}|10}} {set:time|{or:{arg:{math:{get:offset}+2}}|0.5}} {if:{arg:{get:offset}}|=|raw|then:{py:import json
+icon = '{avatar}'
+icon2 = 'https://cdn.discordapp.com/attachments/1124758334805909509/1380887507264208896/hollyvideoicon.png?ex=68458335&is=684431b5&hm=daa5ab1e57e8fe4fca4d98088ddc2abb2491481560ab997b0348251faa852af9&,'
+authname = '{usertag}'
+content = {jsonify:{code:{replace:#|{or:{arg:{math:{get:offset}+1}}|#}|{if:{arg:{math:{get:offset}+2}}|=|true|then:{get:old}|else:{get:code}}}}}
+
+embeds = []
+embeds.append({
+'color': 0x609cff, 
+'title': "**Code**", 
+'description': content,
+'author': {'name': authname,'icon_url': icon},
+'footer': {'text': "DEBVideo",'icon_url': icon2},
+})
+result = {'embeds': embeds}
+print(json.dumps(result))
+}{attachtext:{replace:#|{or:{arg:{math:{get:offset}+1}}|#}|{if:{arg:{math:{get:offset}+2}}|=|true|then:{get:old}|else:{get:code}}}}|else:{if:{arg:{get:offset}}|=|ihtxscfr|then:{iscript:load {media} 0
+get 0 duration true
+snip 0 0 {get:time}
+{js:let action = `{arg:{math:{get:offset}+4}}` == `true` ? `{get:old}` : `{get:code}`+`\nif 0 == 0 "copy # #$\\nswaprgba #$ rrb\\nhueshifthsv #$ -28.5 50\\noverlay # #$ 0 0 none 0.01 0 true 25\\nhueshifthsv # 0 15"`;
+let arg = `{arg:{math:{get:offset}+3}}`;
+let powers = discord.variables.powers;
+for(let i = 0; i < powers; i++){
+ console.log(`copy ${i} ${i+1}
+${action.replaceAll(`#`,i+1)}
+${arg != `true` ? `repeatduration ${i+1} 0d` : ``}`)
+}}
+concatmultiple {js:const temp = [];
+let powers = discord.variables.powers;
+function* gen(powers) {
+   for(let i = 1; i <= powers; i++){
+      yield i
+    }
+}
+temp.push(...Array.from(gen(powers)))
+console.log(temp.join(` `))}
+render 1 default hollyvideo}|else:{if:{arg:{get:offset}}|=|ihtxpgrender|then:{iscript:load {media} 0
+get 0 duration true
+snip 0 0 {get:time}
+{js:let action = `{arg:{math:{get:offset}+4}}` == `true` ? `{get:old}` : `{get:code}`+`\nif 0 == 0 "copy # #$\\ncopy #$ #$$\\nswaprgba #$$ bgr\\noverlay #$ #$$ 0 0 none 0.01 0 true 25\\nhueshifthsvffmpeg #$ 120 1.5\\nhueshifthsv #$ -120 25\\noverlay # #$ 0 0 none 0.01 0 true 25"`;
+let arg = `{arg:{math:{get:offset}+3}}`;
+let powers = discord.variables.powers;
+for(let i = 0; i < powers; i++){
+ console.log(`copy ${i} ${i+1}
+${action.replaceAll(`#`,i+1)}
+${arg != `true` ? `repeatduration ${i+1} 0d` : ``}`)
+}}
+concatmultiple {js:const temp = [];
+let powers = discord.variables.powers;
+function* gen(powers) {
+   for(let i = 1; i <= powers; i++){
+      yield i
+    }
+}
+temp.push(...Array.from(gen(powers)))
+console.log(temp.join(` `))}
+render 1 default hollyvideo}|else:{if:{arg:{get:offset}}|=|ihtxrandom|then:{iscript:load {media} 0
+get 0 duration true
+snip 0 0 {get:time}
+{js:let action = `{arg:{math:{get:offset}+4}}` == `true` ? `{get:old}` : `{get:code}`;
+let arg = `{arg:{math:{get:offset}+3}}`;
+let powers = discord.variables.powers;
+for(let i = 0; i < powers; i++){
+ console.log(`copy ${i} ${i+1}
+${action.replaceAll(`#`,i+1)}
+${arg != `true` ? `repeatduration ${i+1} 0d` : ``}`)
+}}
+concatmultiple {js:const temp = [];
+let powers = discord.variables.powers;
+function* gen(powers) {
+   for(let i = 1; i <= powers; i++){
+      yield i
+    }
+}
+temp.push(...Array.from(gen(powers)))
+console.log(temp.join(` `))}
+shuffle 1 {get:time}
+render 1 default hollyvideo}|else:{if:{arg:{get:offset}}|=|ihtxkine|then:{iscript:load {media} 0
+get 0 duration true
+snip 0 0 {get:time}
+{js:let action = `{arg:{math:{get:offset}+4}}` == `true` ? `{get:old}` : `{get:code}`+`\ncopy # #$\nfadein #$ 0.16\nfadeout #$ 0.16\naudioputreplace # #$`;
+let arg = `{arg:{math:{get:offset}+3}}`;
+let powers = discord.variables.powers;
+for(let i = 0; i < powers; i++){
+ console.log(`copy ${i} ${i+1}
+${action.replaceAll(`#`,i+1)}
+${arg != `true` ? `repeatduration ${i+1} 0d` : ``}`)
+}}
+concatmultiple {js:const temp = [];
+let powers = discord.variables.powers;
+function* gen(powers) {
+   for(let i = 1; i <= powers; i++){
+      yield i
+    }
+}
+temp.push(...Array.from(gen(powers)))
+console.log(temp.join(` `))}
+render 1 default hollyvideo}|else:{if:{arg:{get:offset}}|=|ihtxbuggy|then:{iscript:load {media} 0
+get 0 duration true
+snip 0 0 {get:time}
+{js:let action = `{arg:{math:{get:offset}+4}}` == `true` ? `{get:old}` : `{get:code}`+`\nshuffle # 0.16`;
+let arg = `{arg:{math:{get:offset}+3}}`;
+let powers = discord.variables.powers;
+for(let i = 0; i < powers; i++){
+ console.log(`copy ${i} ${i+1}
+${action.replaceAll(`#`,i+1)}
+${arg != `true` ? `repeatduration ${i+1} 0d` : ``}`)
+}}
+concatmultiple {js:const temp = [];
+let powers = discord.variables.powers;
+function* gen(powers) {
+   for(let i = 1; i <= powers; i++){
+      yield i
+    }
+}
+temp.push(...Array.from(gen(powers)))
+console.log(temp.join(` `))}
+render 1 default hollyvideo}|else:{if:{arg:{get:offset}}|=|ihtxreverse|then:{iscript:load {media} 0
+get 0 duration true
+snip 0 0 {get:time}
+{js:let action = `{arg:{math:{get:offset}+4}}` == `true` ? `{get:old}` : `{get:code}`;
+let arg = `{arg:{math:{get:offset}+3}}`;
+let powers = discord.variables.powers;
+for(let i = 0; i < powers; i++){
+ console.log(`copy ${i} ${i+1}
+${action.replaceAll(`#`,i+1)}
+${arg != `true` ? `repeatduration ${i+1} 0d` : ``}`)
+}}
+concatmultiple {js:const temp = [];
+let powers = discord.variables.powers;
+function* gen(powers) {
+   for(let i = powers; i >= 1; i--){
+      yield i
+    }
+}
+temp.push(...Array.from(gen(powers)))
+console.log(temp.join(` `))}
+render {get:powers} default hollyvideo}|else:{if:{arg:{get:offset}}|=|multiplier|then:{iscript:load {media} 0
+{js:let action = `{arg:{math:{get:offset}+4}}` == `true` ? `{get:old}` : `{get:code}`;
+let powers = discord.variables.powers;
+for(let i = 0; i < powers; i++){
+ console.log(`copy ${i} ${i+1}
+${action.replaceAll(`#`,i+1)}`)
+}}
+render {get:powers} default hollyvideo}|else:{if:{arg:{get:offset}}|=|ihtx|then:{iscript:load {media} 0
+get 0 duration true
+snip 0 0 {get:time}
+{js:let action = `{arg:{math:{get:offset}+4}}` == `true` ? `{get:old}` : `{get:code}`;
+let arg = `{arg:{math:{get:offset}+3}}`;
+let powers = discord.variables.powers;
+for(let i = 0; i < powers; i++){
+ console.log(`copy ${i} ${i+1}
+${action.replaceAll(`#`,i+1)}
+${arg != `true` ? `repeatduration ${i+1} 0d` : ``}`)
+}}
+concatmultiple {js:const temp = [];
+let powers = discord.variables.powers;
+function* gen(powers) {
+   for(let i = 1; i <= powers; i++){
+      yield i
+    }
+}
+temp.push(...Array.from(gen(powers)))
+console.log(temp.join(` `))}
+render 1 default hollyvideo}|else:{iscript:load {if:{arg:0}|=|add source|then:{media:0}|else:{media}} 0
+copy 0 1
+{js:let action = `{arg:{get:offset}}` == `oldpitch` ? `{get:old}` : `{get:code}`;
+console.log(action.replaceAll(`#`,1))}
+render 1 default hollyvideo}}}}}}}}}}}}}}}}
